@@ -1,4 +1,4 @@
-package com.example.elog.ui.home;
+package com.example.elog.ui.oversigt;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.elog.databinding.FragmentHomeBinding;
+import com.example.elog.databinding.FragmentOversigtBinding;
 
-public class HomeFragment extends Fragment {
+public class OversigtFragment extends Fragment {
 
-    private FragmentHomeBinding binding;
+    private FragmentOversigtBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        HomeViewModel homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+        OversigtViewModel oversigtViewModel =
+                new ViewModelProvider(this).get(OversigtViewModel.class);
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentOversigtBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textOversigt;
+        oversigtViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

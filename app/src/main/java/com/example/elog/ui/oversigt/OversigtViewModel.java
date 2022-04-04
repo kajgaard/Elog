@@ -1,16 +1,16 @@
-package com.example.elog.ui.home;
+package com.example.elog.ui.oversigt;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class OversigtViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public OversigtViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("This is oversigt fragment");
     }
 
     public LiveData<String> getText() {

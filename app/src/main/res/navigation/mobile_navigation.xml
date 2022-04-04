@@ -3,13 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_oversigt">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.elog.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_oversigt"
+        android:name="com.example.elog.ui.oversigt.OversigtFragment"
+        android:label="@string/menu_oversigt"
+        tools:layout="@layout/fragment_oversigt" />
+
+    <fragment
+        android:id="@+id/nav_afrejse"
+        android:name="com.example.elog.ui.afrejse.AfrejseFragment"
+        android:label="@string/menu_afrejse"
+        tools:layout="@layout/fragment_afrejse" />
 
     <fragment
         android:id="@+id/nav_gallery"

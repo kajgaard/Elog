@@ -10,7 +10,7 @@ public class AfrejseViewModel extends ViewModel {
 
     public AfrejseViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("This is afrejse fragment");
     }
 
     public LiveData<String> getText() {
