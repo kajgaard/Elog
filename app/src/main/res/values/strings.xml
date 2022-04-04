@@ -12,4 +12,5 @@
     <string name="menu_afrejse">Afrejse</string>
     <string name="menu_fangst">Fangst</string>
     <string name="menu_melding">Melding</string>
+    <string name="menu_landing">Landing</string>
 </resources>

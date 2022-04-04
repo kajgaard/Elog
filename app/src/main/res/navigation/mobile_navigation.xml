@@ -28,4 +28,10 @@
         android:name="com.example.elog.ui.melding.MeldingFragment"
         android:label="@string/menu_melding"
         tools:layout="@layout/fragment_melding" />
+
+    <fragment
+        android:id="@+id/nav_landing"
+        android:name="com.example.elog.ui.landing.LandingFragment"
+        android:label="@string/menu_landing"
+        tools:layout="@layout/fragment_landing" />
 </navigation>

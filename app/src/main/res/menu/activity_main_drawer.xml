@@ -20,5 +20,9 @@
             android:id="@+id/nav_melding"
             android:icon="@drawable/commercial"
             android:title="@string/menu_melding" />
+        <item
+            android:id="@+id/nav_landing"
+            android:icon="@drawable/price"
+            android:title="@string/menu_landing" />
     </group>
 </menu>
