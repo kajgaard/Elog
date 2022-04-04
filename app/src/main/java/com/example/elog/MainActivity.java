@@ -1,6 +1,7 @@
 package com.example.elog;
 
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.Menu;
 
@@ -37,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         DrawerLayout drawer = binding.drawerLayout;
+        drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_OPEN);
+        drawer.setScrimColor(0x00000000);
         NavigationView navigationView = binding.navView;
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
@@ -62,4 +65,6 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
+    
 }
