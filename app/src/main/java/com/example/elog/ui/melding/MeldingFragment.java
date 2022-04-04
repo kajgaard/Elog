@@ -1,4 +1,4 @@
-package com.example.elog.ui.slideshow;
+package com.example.elog.ui.melding;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.elog.databinding.FragmentSlideshowBinding;
+import com.example.elog.databinding.FragmentMeldingBinding;
 
-public class SlideshowFragment extends Fragment {
+public class MeldingFragment extends Fragment {
 
-    private FragmentSlideshowBinding binding;
+    private FragmentMeldingBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        SlideshowViewModel slideshowViewModel =
-                new ViewModelProvider(this).get(SlideshowViewModel.class);
+        MeldingViewModel meldingViewModel =
+                new ViewModelProvider(this).get(MeldingViewModel.class);
 
-        binding = FragmentSlideshowBinding.inflate(inflater, container, false);
+        binding = FragmentMeldingBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textSlideshow;
-        slideshowViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textMelding;
+        meldingViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

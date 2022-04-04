@@ -1,4 +1,4 @@
-package com.example.elog.ui.gallery;
+package com.example.elog.ui.fangst;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.elog.databinding.FragmentGalleryBinding;
+import com.example.elog.databinding.FragmentFangstBinding;
 
-public class GalleryFragment extends Fragment {
+public class FangstFragment extends Fragment {
 
-    private FragmentGalleryBinding binding;
+    private FragmentFangstBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        GalleryViewModel galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+        FangstViewModel fangstViewModel =
+                new ViewModelProvider(this).get(FangstViewModel.class);
 
-        binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        binding = FragmentFangstBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textGallery;
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textFangst;
+        fangstViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

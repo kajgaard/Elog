@@ -13,12 +13,12 @@
             android:icon="@drawable/boat"
             android:title="@string/menu_afrejse"/>
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_fangst"
+            android:icon="@drawable/salmon"
+            android:title="@string/menu_fangst" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_melding"
+            android:icon="@drawable/commercial"
+            android:title="@string/menu_melding" />
     </group>
 </menu>

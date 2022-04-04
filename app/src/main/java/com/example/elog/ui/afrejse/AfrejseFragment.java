@@ -11,8 +11,6 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.elog.databinding.FragmentAfrejseBinding;
-import com.example.elog.databinding.FragmentGalleryBinding;
-import com.example.elog.ui.gallery.GalleryViewModel;
 
 public class AfrejseFragment extends Fragment {
 
