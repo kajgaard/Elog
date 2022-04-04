@@ -24,5 +24,17 @@
             android:id="@+id/nav_landing"
             android:icon="@drawable/price"
             android:title="@string/menu_landing" />
+        <item
+            android:id="@+id/nav_ankomst"
+            android:icon="@drawable/bouy"
+            android:title="@string/menu_ankomst" />
+        <item
+            android:id="@+id/nav_makkerskift"
+            android:icon="@drawable/group"
+            android:title="@string/menu_makkerskift" />
+        <item
+            android:id="@+id/nav_indstillinger"
+            android:icon="@drawable/services"
+            android:title="@string/menu_indstillinger" />
     </group>
 </menu>

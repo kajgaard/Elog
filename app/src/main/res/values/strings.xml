@@ -13,4 +13,7 @@
     <string name="menu_fangst">Fangst</string>
     <string name="menu_melding">Melding</string>
     <string name="menu_landing">Landing</string>
+    <string name="menu_makkerskift">Makkerskift</string>
+    <string name="menu_indstillinger">Indstillinger</string>
+    <string name="menu_ankomst">Ankomst</string>
 </resources>
