@@ -1,38 +1,36 @@
-package com.example.elog.ui.landing;
+package com.example.elog.ui.landing
 
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
+//import androidx.lifecycle.ViewModelProvider.get
+import android.view.LayoutInflater
+import android.view.ViewGroup
+import android.os.Bundle
+import android.view.View
+import com.example.elog.ui.oversigt.OversigtViewModel
+import androidx.lifecycle.ViewModelProvider
+import android.widget.TextView
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.LiveData
+import com.example.elog.databinding.FragmentLandingBinding
+import com.example.elog.ui.melding.MeldingViewModel
+import com.example.elog.ui.landing.LandingViewModel
+import com.example.elog.ui.fangst.FangstViewModel
 
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
-
-import com.example.elog.databinding.FragmentLandingBinding;
-import com.example.elog.ui.melding.MeldingViewModel;
-
-public class LandingFragment extends Fragment {
-
-    private FragmentLandingBinding binding;
-
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
-        LandingViewModel landingViewModel =
-                new ViewModelProvider(this).get(LandingViewModel.class);
-
-        binding = FragmentLandingBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
-
-        final TextView textView = binding.textLanding;
-        landingViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
-        return root;
+class LandingFragment : Fragment() {
+    private var binding: FragmentLandingBinding? = null
+    override fun onCreateView(inflater: LayoutInflater,
+                              container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        val landingViewModel = ViewModelProvider(this).get(LandingViewModel::class.java)
+        binding = FragmentLandingBinding.inflate(inflater, container, false)
+        val root: View = binding!!.root
+        val textView = binding!!.textLanding
+        landingViewModel.text.observe(viewLifecycleOwner) { text: String? -> textView.text = text }
+        return root
     }
 
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        binding = null;
+    override fun onDestroyView() {
+        super.onDestroyView()
+        binding = null
     }
 }

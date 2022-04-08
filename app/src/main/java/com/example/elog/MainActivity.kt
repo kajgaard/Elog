@@ -1,39 +1,26 @@
-package com.example.elog;
+package com.example.elog
 
-import android.os.Bundle;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.Menu;
-import android.widget.Button;
-import android.widget.ToggleButton;
+//import androidx.navigation.ui.AppBarConfiguration.Builder.build
+import androidx.navigation.Navigation.findNavController
+import androidx.navigation.ui.NavigationUI.setupActionBarWithNavController
+import androidx.navigation.ui.NavigationUI.setupWithNavController
+import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.ui.AppBarConfiguration
+import android.os.Bundle
+import androidx.drawerlayout.widget.DrawerLayout
+import com.google.android.material.navigation.NavigationView
+import com.example.elog.R
+import androidx.navigation.NavController
+import com.example.elog.databinding.ActivityMainBinding
 
-import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.navigation.NavigationView;
-
-import androidx.appcompat.app.ActionBar;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.elog.databinding.ActivityMainBinding;
-
-public class MainActivity extends AppCompatActivity {
-
-    private AppBarConfiguration mAppBarConfiguration;
-    private ActivityMainBinding binding;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
-
-        setSupportActionBar(binding.appBarMain.toolbar);
+class MainActivity : AppCompatActivity() {
+    private var mAppBarConfiguration: AppBarConfiguration? = null
+    private var binding: ActivityMainBinding? = null
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding!!.root)
+        setSupportActionBar(binding!!.appBarMain.toolbar)
 
 
         /*binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
@@ -44,28 +31,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         */
-
-        DrawerLayout drawer = binding.drawerLayout;
+        val drawer = binding!!.drawerLayout
         //mit
-        drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_OPEN);
-        drawer.setScrimColor(0x00000000);
-        NavigationView navigationView = binding.navView;
+        drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_OPEN)
+        drawer.setScrimColor(0x00000000)
+        val navigationView = binding!!.navView
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
-        mAppBarConfiguration = new AppBarConfiguration.Builder(
+        mAppBarConfiguration = AppBarConfiguration.Builder(
                 R.id.nav_oversigt, R.id.nav_afrejse, R.id.nav_fangst, R.id.nav_melding, R.id.nav_landing)
-                .build();
-
-
-
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
-        NavigationUI.setupWithNavController(navigationView, navController);
-
-
-    }
-
-    /*
+                .build()
+        val navController = findNavController(this, R.id.nav_host_fragment_content_main)
+        setupActionBarWithNavController(this, navController, mAppBarConfiguration!!)
+        setupWithNavController(navigationView, navController)
+    } /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -74,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
      */
-
     /*
     @Override
     public boolean onSupportNavigateUp() {
@@ -84,6 +62,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
      */
-
-
 }
