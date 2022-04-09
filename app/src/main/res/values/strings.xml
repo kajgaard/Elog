@@ -16,4 +16,600 @@
     <string name="menu_makkerskift">Makkerskift</string>
     <string name="menu_indstillinger">Indstillinger</string>
     <string name="menu_ankomst">Ankomst</string>
+
+    <string-array name="afrejsehavne">
+        <item>ÅBENRÅ (DKAAB)</item>
+        <item>ÅSTRUP (DKAAC)</item>
+        <item>ÅLBORG (DKAAL)</item>
+        <item>ÅRHUS (DKAAR)</item>
+        <item>AGERØ (DKAGA)</item>
+        <item>ALLINGE (DKAGE)</item>
+        <item>AGGER (DKAGH)</item>
+        <item>AGERNÆS (DKAGN)</item>
+        <item>AGERSØ (DKAGO)</item>
+        <item>ARRESKOV SØ (DKAKV)</item>
+        <item>ÅLBÆK (DKALA)</item>
+        <item>ALLESHAVE (DKALH)</item>
+        <item>ÅLBÆK (DKALK)</item>
+        <item>ALS ODDE (DKALO)</item>
+        <item>ALRØ (DKALR)</item>
+        <item>ÅLSGÅRDE (DKALS)</item>
+        <item>ALBUEN (DKALU)</item>
+        <item>ALS (DKALX)</item>
+        <item>AMTOFT (DKAMT)</item>
+        <item>ANHOLT (DKANH)</item>
+        <item>APPENÆS (DKAPN)</item>
+        <item>ÅRØSUND (DKARD)</item>
+        <item>ÅRGAB (DKARG)</item>
+        <item>ÆRØSKØBING (DKARK)</item>
+        <item>ARNAGER (DKARN)</item>
+        <item>ÅRØ (DKARO)</item>
+        <item>ÅRSDALE (DKARS)</item>
+        <item>ASÅ (DKASA)</item>
+        <item>ASSENS (FYN) (DKASF)</item>
+        <item>AGGERSUND (DKASH)</item>
+        <item>ASKØ (DKASK)</item>
+        <item>ASSENS (MARIAGER FJORD) (DKASM)</item>
+        <item>ARRESØ (DKASO)</item>
+        <item>ASNÆS (DKASS)</item>
+        <item>ATTRUP (DKATT)</item>
+        <item>AUGUSTENBORG (DKAUB)</item>
+        <item>AUNØ (DKAUN)</item>
+        <item>AVERNAKØ (DKAVA)</item>
+        <item>BALKA (DKBAA)</item>
+        <item>BAGENKOP (DKBAG)</item>
+        <item>BAVELSE SØ (DKBAO)</item>
+        <item>BASTRUP SØ (DKBAP)</item>
+        <item>BALLEN (SAMSØ) (DKBAQ)</item>
+        <item>BASNÆS (DKBAS)</item>
+        <item>BAUN (DKBAU)</item>
+        <item>BØVLINGBJERG (DKBBG)</item>
+        <item>BREDBALLE (DKBDL)</item>
+        <item>BANDHOLM (DKBDX)</item>
+        <item>BEGTRUP (DKBEG)</item>
+        <item>BØGESKOVEN (DKBGK)</item>
+        <item>BREGNØR (DKBGN)</item>
+        <item>BÅGØ (DKBGO)</item>
+        <item>BOGENSE (DKBGZ)</item>
+        <item>BIRKHOLM (DKBIH)</item>
+        <item>BIRKSØ (DKBIO)</item>
+        <item>BISSERUP (DKBIS)</item>
+        <item>BJERT STRAND (DKBJE)</item>
+        <item>BJERREGÅRD (DKBJG)</item>
+        <item>BJØRNØ (DKBJR)</item>
+        <item>BLOKHUS (DKBKH)</item>
+        <item>BLÅVAND (DKBLA)</item>
+        <item>BALLEBRO (DKBLB)</item>
+        <item>Balle (DKBLC)</item>
+        <item>BØLSHAVN (DKBLH)</item>
+        <item>BLANS (DKBLN)</item>
+        <item>BØNNERUP (DKBNP)</item>
+        <item>BOLLER SØ (DKBOC)</item>
+        <item>BODDUM (DKBOD)</item>
+        <item>BOGØ (DKBOG)</item>
+        <item>BOVENSE MOSE (ØSTFYN) (DKBOM)</item>
+        <item>BØJDEN (DKBOS)</item>
+        <item>BOTOFTE (DKBOT)</item>
+        <item>BORRE (DKBRC)</item>
+        <item>BALLEN (SVENDBORG SUND) (DKBRF)</item>
+        <item>BÅRING (DKBRI)</item>
+        <item>BREJNING (DKBRJ)</item>
+        <item>BRANDEN (DKBRK)</item>
+        <item>BRUNSHUSE (DKBSH)</item>
+        <item>BURESØ (DKBUR)</item>
+        <item>BØVLING HAVN = BØVLINGBJERG (DKBVH)</item>
+        <item>CHRISTIANSØ (DKCHR)</item>
+        <item>KØBENHAVN (DKCPH)</item>
+        <item>DAGELØKKE (DKDAG)</item>
+        <item>DAMHUS (DKDAM)</item>
+        <item>DEJRET (DKDEJ)</item>
+        <item>DOKKEDAL (DKDKD)</item>
+        <item>DOVERODDE (DKDOV)</item>
+        <item>DRAGØR (DKDRA)</item>
+        <item>DREJØ (DKDRE)</item>
+        <item>DREJENS (DKDRJ)</item>
+        <item>DALSGÅRD (DKDSG)</item>
+        <item>DYBVIGHOVED (DKDYH)</item>
+        <item>DYBSØ (DKDYO)</item>
+        <item>DYREBORG (DKDYR)</item>
+        <item>DYVIG (DKDYV)</item>
+        <item>ESBJERG (DKEBJ)</item>
+        <item>EBELTOFT (DKEBT)</item>
+        <item>EGHOLM (DKEGH)</item>
+        <item>EGSMARK STRAND (DKEGK)</item>
+        <item>EGENSE (DKEGN)</item>
+        <item>EGENS (DKEGS)</item>
+        <item>EG (DKEGX)</item>
+        <item>EJBY BRO (DKEJB)</item>
+        <item>EJERSLEV (DKEJE)</item>
+        <item>EJSTRUP STRAND (DKEJS)</item>
+        <item>EJBY HAVN (DKEJY)</item>
+        <item>EGERNSUND (DKEND)</item>
+        <item>ENGHOLM (DKENG)</item>
+        <item>ERRINDLEV HAVN (DKERR)</item>
+        <item>ESPERGÆRDE (DKESP)</item>
+        <item>ESRUM SØ (DKESR)</item>
+        <item>FÅBORG (DKFAB)</item>
+        <item>FÆNØ (DKFAE)</item>
+        <item>FAKSE LADEPLADS (DKFAK)</item>
+        <item>FALSLED (DKFAL)</item>
+        <item>FALEN (DKFAN)</item>
+        <item>FREDERIKSHAVN (DKFDH)</item>
+        <item>FREDERIKSSUND (DKFDS)</item>
+        <item>FREDERIKSVÆRK (DKFDV)</item>
+        <item>FEJØ (DKFEJ)</item>
+        <item>FELSTED HUSE (DKFEL)</item>
+        <item>FISKOPHUSE (DKFIH)</item>
+        <item>FISKERIHAVNEN/KØBENHAVN (DKFIS)</item>
+        <item>FJAND (DKFJA)</item>
+        <item>FJANDØ HAVN (DKFJH)</item>
+        <item>FJÆLLEBROEN (DKFJL)</item>
+        <item>FJELLERUP STRAND (DKFJP)</item>
+        <item>FLADE SØ (DKFLA)</item>
+        <item>FLYNDERSØ (DKFLO)</item>
+        <item>FEMØ (DKFMO)</item>
+        <item>FØNS VIG (DKFNV)</item>
+        <item>FØRBY SØ (DKFOO)</item>
+        <item>FREDERICIA (DKFRC)</item>
+        <item>FRIHAVNEN (DKFRI)</item>
+        <item>FREJLEV (DKFRL)</item>
+        <item>FRYDENBORG (DKFRY)</item>
+        <item>FØNSSKOV (DKFSK)</item>
+        <item>FUR (DKFUH)</item>
+        <item>FURESØ (DKFUS)</item>
+        <item>FYNSHAV (DKFYH)</item>
+        <item>FYN, USPECIFICEREDE FERSKE VANDE (DKFYN)</item>
+        <item>GABET (DKGAB)</item>
+        <item>GÅBENSE (DKGBS)</item>
+        <item>GULDBORG (DKGDB)</item>
+        <item>GUDHJEM (DKGDM)</item>
+        <item>GEDSER (DKGED)</item>
+        <item>GERSØ HUSE (DKGEH)</item>
+        <item>GENNER STRAND (DKGEN)</item>
+        <item>GERSHØJ (DKGER)</item>
+        <item>GERLEV (DKGEV)</item>
+        <item>GJØL (DKGJL)</item>
+        <item>GAMMEL ÅLBO (DKGLA)</item>
+        <item>GILLELEJE (DKGLE)</item>
+        <item>GLÆNØ (DKGLN)</item>
+        <item>GLENSTRUP SØ (DKGLP)</item>
+        <item>GLYNGØRE (DKGLY)</item>
+        <item>GRÅSTEN (DKGRA)</item>
+        <item>GRENÅ (DKGRE)</item>
+        <item>GØRDING KIRKE (DKGRK)</item>
+        <item>GRØNSUND (DKGRO)</item>
+        <item>GRAUGÅRD (DKGRU)</item>
+        <item>GUDSØ (DKGSO)</item>
+        <item>GUNDSØMAGLE SØ (DKGUN)</item>
+        <item>GURRE SØ (DKGUR)</item>
+        <item>GUNDESTRUP (DKGUS)</item>
+        <item>GREVE STRAND (DKGVD)</item>
+        <item>GYLDENDAL (DKGYL)</item>
+        <item>GYRSTINGE SØ (DKGYR)</item>
+        <item>HADERSLEV (DKHAD)</item>
+        <item>HANDERMELLE (DKHAE)</item>
+        <item>HARRE VIG (DKHAI)</item>
+        <item>HALK (DKHAK)</item>
+        <item>HARBØTH (DKHAL)</item>
+        <item>HANSTHOLM (DKHAN)</item>
+        <item>HALS (DKHAS)</item>
+        <item>HUMLEBÆK (DKHBA)</item>
+        <item>HÅRBØLLEBRO (DKHBB)</item>
+        <item>HOLBÆK (DKHBK)</item>
+        <item>HOBRO (DKHBO)</item>
+        <item>HINDSGAVL (DKHDG)</item>
+        <item>HARDESHØJ (DKHDH)</item>
+        <item>HEE (DKHEE)</item>
+        <item>HELLEHOLM (DKHEH)</item>
+        <item>HEMMET (DKHEM)</item>
+        <item>HENNE STRAND (DKHEN)</item>
+        <item>HESNÆS (DKHES)</item>
+        <item>HAMMERHAVN (DKHHV)</item>
+        <item>HIRTSHALS (DKHIR)</item>
+        <item>HØJER (DKHJE)</item>
+        <item>HJARBÆK (DKHJK)</item>
+        <item>HEJLSMINDE (DKHJL)</item>
+        <item>HJORTØ (DKHJO)</item>
+        <item>HJORTHOLM (DKHJS)</item>
+        <item>HELMKLIT (DKHLK)</item>
+        <item>HELLINGSØ (DKHLL)</item>
+        <item>HELNÆS (DKHLN)</item>
+        <item>HELLIGPEDER (DKHLP)</item>
+        <item>HELSINGØR (DKHLS)</item>
+        <item>HUMLUM (DKHMM)</item>
+        <item>HAVNEBY (DKHNB)</item>
+        <item>HORNE (DKHNE)</item>
+        <item>HOU (NORDJYLLAND) (DKHOH)</item>
+        <item>HORNBÆK (DKHON)</item>
+        <item>HORSENS (DKHOR)</item>
+        <item>HOLMTANGE (DKHOT)</item>
+        <item>HOVVIG (DKHOW)</item>
+        <item>HO (DKHOX)</item>
+        <item>HØLKERUP (DKHQL)</item>
+        <item>HARBOØRE (DKHRB)</item>
+        <item>HAURVIG (DKHRG)</item>
+        <item>HØRUPHAV (DKHRH)</item>
+        <item>HØRBY (DKHRY)</item>
+        <item>HUSBY SØ (DKHSC)</item>
+        <item>HASLE (DKHSL)</item>
+        <item>HASSELØ (DKHSO)</item>
+        <item>HADSUND (DKHSU)</item>
+        <item>HUNDESTED (DKHUN)</item>
+        <item>HUSBY (DKHUS)</item>
+        <item>HVALPSUND (DKHVA)</item>
+        <item>HVIDBJERG (DKHVD)</item>
+        <item>HØVÆNGE (DKHVE)</item>
+        <item>HOV (ØSTJYLLAND) (DKHVJ)</item>
+        <item>HAVNSØ (DKHVN)</item>
+        <item>HVIDKILDE SØ (V. SVENDBORG) (DKHVO)</item>
+        <item>HOVSØR (DKHVR)</item>
+        <item>HVIDE SANDE (DKHVS)</item>
+        <item>HOV (LANGELAND) (DKHWA)</item>
+        <item>ILLEBØLLE (DKILL)</item>
+        <item>ILLER STRAND (DKILS)</item>
+        <item>JEGINDØ (DKJEG)</item>
+        <item>JÆGERSPRIS (DKJGP)</item>
+        <item>JUNGSHOVED KIRKEHAVN (DKJNK)</item>
+        <item>JYLLAND S F LIMFJORD, USPEC FERSKV (DKJSF)</item>
+        <item>JUELSMINDE (DKJUE)</item>
+        <item>JULSØ (DKJUL)</item>
+        <item>JUNGET (DKJUN)</item>
+        <item>JYLLINGE (DKJYL)</item>
+        <item>KÅS (DKKAA)</item>
+        <item>KALUNDBORG (DKKAL)</item>
+        <item>KARLSLUNDE (DKKAR)</item>
+        <item>KALVEHAVE (DKKAV)</item>
+        <item>KLINTEBJERG (DKKBG)</item>
+        <item>KARREBÆKSMINDE (DKKBK)</item>
+        <item>KELSTRUP STRAND (DKKEL)</item>
+        <item>KETTING NOR (DKKET)</item>
+        <item>KØGE SØNAKKE (DKKGS)</item>
+        <item>KORSHAVN (V. AVERNAKØ) (DKKHA)</item>
+        <item>KORSHAVN (V. FYNS HOVED) (DKKHF)</item>
+        <item>KINDVIG (DKKIN)</item>
+        <item>KLITGÅRDS FISKERLEJE (DKKLF)</item>
+        <item>KLEGOD (DKKLG)</item>
+        <item>KLINTHOLM HAVN (DKKLH)</item>
+        <item>KLITMØLLER (DKKLM)</item>
+        <item>KLOSTER (DKKLO)</item>
+        <item>KLIM STRAND (DKKLS)</item>
+        <item>KLINT (DKKLT)</item>
+        <item>KLODSKOV (DKKLV)</item>
+        <item>KNEBEL (DKKNB)</item>
+        <item>KONGSGÅRDE (DKKNG)</item>
+        <item>KNUDSØ (DKKNO)</item>
+        <item>KNUD (DKKNU)</item>
+        <item>KØGE (DKKOG)</item>
+        <item>KOLBY KÅS (DKKOK)</item>
+        <item>KOLDING (DKKOL)</item>
+        <item>KOLLERUPSTRAND (DKKOS)</item>
+        <item>KRAGENÆS (DKKRA)</item>
+        <item>KRIK (DKKRI)</item>
+        <item>KORSØR (DKKRR)</item>
+        <item>KRAMNITZE (DKKRZ)</item>
+        <item>KARLSMINDE (DKKSM)</item>
+        <item>KLOSTER  (DKKSO)</item>
+        <item>KERTEMINDE (DKKTD)</item>
+        <item>KASTRUP (DKKTP)</item>
+        <item>KULHUSE (DKKUL)</item>
+        <item>KVÆSTHUSBROEN (DKKVN)</item>
+        <item>KALVØ (DKKVO)</item>
+        <item>KYTTRUP (DKKYT)</item>
+        <item>KARBY VIG (DKKYV)</item>
+        <item>KALØ (DKLAK)</item>
+        <item>LINDELSE (DKLDL)</item>
+        <item>LUNDØ (DKLDO)</item>
+        <item>LENDEMARKE (DKLEN)</item>
+        <item>LEVKA (DKLEV)</item>
+        <item>LØGSTØR (DKLGR)</item>
+        <item>LISTED (DKLID)</item>
+        <item>LILD STRAND (DKLIL)</item>
+        <item>LISELEJE (DKLIS)</item>
+        <item>LØKKEN (DKLKK)</item>
+        <item>LILLE DAMME (DKLLM)</item>
+        <item>LANGØ (DKLNG)</item>
+        <item>LUNDEHØJE (DKLNH)</item>
+        <item>LANGØR (DKLNR)</item>
+        <item>LØNSTRUP (DKLNS)</item>
+        <item>LOHALS (DKLOH)</item>
+        <item>LOVNS (DKLOV)</item>
+        <item>LUND (DKLUD)</item>
+        <item>LUMSÅS (DKLUM)</item>
+        <item>LUNDEBORG (DKLUN)</item>
+        <item>LEMVIG (DKLVG)</item>
+        <item>LYØ (DKLYQ)</item>
+        <item>LYNÆS (DKLYS)</item>
+        <item>LYNDBY (DKLYY)</item>
+        <item>MARSELISBORG (DKMAB)</item>
+        <item>MADESØ (DKMAO)</item>
+        <item>MASNEDØ (DKMAS)</item>
+        <item>MELSTED (DKMEL)</item>
+        <item>MELLERUP (DKMEP)</item>
+        <item>MIDDELFART (DKMID)</item>
+        <item>MIDSKOV (DKMIV)</item>
+        <item>MUNKEBO (DKMNK)</item>
+        <item>MOMMARK (DKMOM)</item>
+        <item>MOSSØ (DKMOO)</item>
+        <item>MOSEDE (DKMOS)</item>
+        <item>MOU BRO (DKMOU)</item>
+        <item>MØRKHOLT (DKMQR)</item>
+        <item>MARBÆK (DKMRB)</item>
+        <item>MÅRUP HAVN (DKMRH)</item>
+        <item>MARIAGER (DKMRR)</item>
+        <item>MARSTAL (DKMRS)</item>
+        <item>MASNEDSUND (DKMSN)</item>
+        <item>MUNKHOLM (DKMUH)</item>
+        <item>MULLERUP HAVN (DKMUL)</item>
+        <item>MYRTHUE (DKMYR)</item>
+        <item>NABBE (DKNAB)</item>
+        <item>NAKSKOV (DKNAK)</item>
+        <item>NAPPEDAM (DKNAM)</item>
+        <item>NYBORG (DKNBG)</item>
+        <item>NORDBY (DKNDB)</item>
+        <item>NEDER DRÅBY (DKNED)</item>
+        <item>NEES (DKNEE)</item>
+        <item>NEKSELØ (DKNEO)</item>
+        <item>NEXØ (DKNEX)</item>
+        <item>NIBE (DKNIB)</item>
+        <item>NISSUM (SE SDR./NR. NISSUM) (DKNIS)</item>
+        <item>NIVÅ (DKNIV)</item>
+        <item>NAKKE (DKNKE)</item>
+        <item>NØRRE NISSUM (LIMFJORD) (DKNNI)</item>
+        <item>NORDHAMMER (DKNOH)</item>
+        <item>NORS SØ (DKNOO)</item>
+        <item>NORSMINDE (DKNOR)</item>
+        <item>NØRREBY (DKNQR)</item>
+        <item>NØRRE BORK (BORK HAVN) (DKNRB)</item>
+        <item>NØRRE LYNGVIG (DKNRL)</item>
+        <item>NØRRE VORUPØR (DKNRR)</item>
+        <item>NØRRESUNDBY (DKNRS)</item>
+        <item>NØRRE LYNGBY (DKNRY)</item>
+        <item>NYSTED (DKNTD)</item>
+        <item>NÆSTVED (DKNVD)</item>
+        <item>NØRRE VEDBY (DKNVY)</item>
+        <item>NYKØBING F (DKNYF)</item>
+        <item>NYMINDEGAB (DKNYG)</item>
+        <item>NYBØL (DKNYL)</item>
+        <item>NYKØBING M (DKNYM)</item>
+        <item>NYORD (DKNYO)</item>
+        <item>NYKØBING S (DKNYS)</item>
+        <item>NYBY STRANDHUSE (DKNYT)</item>
+        <item>NYBY (DKNYY)</item>
+        <item>ODENSE (DKODE)</item>
+        <item>ODDEN (DKODN)</item>
+        <item>ODDESUND NORD (DKODO)</item>
+        <item>ODDESUND SYD (DKODS)</item>
+        <item>ØSTERHUSE (LANGELAND) (DKOES)</item>
+        <item>OMMEL (DKOMM)</item>
+        <item>OMØ (DKOMO)</item>
+        <item>ONSEVIG (DKONS)</item>
+        <item>OREBY (DKORB)</item>
+        <item>OREHOVED (DKORE)</item>
+        <item>ORØ HAVN (DKORQ)</item>
+        <item>ØSTERSKOV STRAND (SYDLANGELAND) (DKOSS)</item>
+        <item>OVESØ (DKOVE)</item>
+        <item>PEDERSKER (DKPED)</item>
+        <item>PETERVÆRFT (DKPET)</item>
+        <item>PAMHULE SØ (DKPHO)</item>
+        <item>PRÆSTØ (DKPRS)</item>
+        <item>ØLSTED (DKQLS)</item>
+        <item>ØRBYHAGE (DKQRH)</item>
+        <item>ØRODDE (DKQRO)</item>
+        <item>ØRSLEVKLOSTER SØ (DKQRS)</item>
+        <item>ØRUM SØ (DKQRU)</item>
+        <item>ØSTERBY (DKQSB)</item>
+        <item>ØSTER HURUP (DKQSH)</item>
+        <item>ØSTSKOV (DKQSV)</item>
+        <item>ØSTERBY (DKQSY)</item>
+        <item>RANDS FJORD (DKRAF)</item>
+        <item>RANDERS (DKRAN)</item>
+        <item>RANTZAUSMINDE (DKRAZ)</item>
+        <item>RODDENBJERG SØ (DKRDN)</item>
+        <item>RØDSØ (DKRDO)</item>
+        <item>RØDHUS (DKRDS)</item>
+        <item>REBÆK (DKREB)</item>
+        <item>REERSØ (DKREE)</item>
+        <item>REFSØRE (DKREF)</item>
+        <item>REJSBY Å (DKREJ)</item>
+        <item>REMMER STRAND (DKREM)</item>
+        <item>RY (DKREY)</item>
+        <item>RIBE (DKRIB)</item>
+        <item>RISTINGE (DKRIS)</item>
+        <item>RUDKØBING (DKRKB)</item>
+        <item>ROSKILDE (DKRKE)</item>
+        <item>RINGKØBING (DKRKG)</item>
+        <item>RØNBJERG (DKRNB)</item>
+        <item>RØNNERHAVN (DKRNH)</item>
+        <item>RØNNE (DKRNN)</item>
+        <item>RØSNÆS (DKRNS)</item>
+        <item>RØDBY HAVN (DKROD)</item>
+        <item>RØDVIG (DKRQD)</item>
+        <item>RØRVIG (DKRRV)</item>
+        <item>RUNGSTED (DKRUG)</item>
+        <item>RYDSBÆK (DKRYD)</item>
+        <item>STADIL (DKSAD)</item>
+        <item>SÆBY (DKSAE)</item>
+        <item>SANDAGER (FYN) (DKSAG)</item>
+        <item>SÆNE (DKSAN)</item>
+        <item>SALTEN LANGSØ (DKSAO)</item>
+        <item>SKAVERUP (DKSAR)</item>
+        <item>STAUN (DKSAU)</item>
+        <item>SALTBÆK VIG (DKSAV)</item>
+        <item>SAKSKØBING (DKSAX)</item>
+        <item>STUBBERUP (DKSBB)</item>
+        <item>STUBBEKØBING (DKSBK)</item>
+        <item>SKOVBALLE (DKSBL)</item>
+        <item>SEBBELEV NOR (DKSBN)</item>
+        <item>SKANDERBORG SØ (DKSBO)</item>
+        <item>STUBBERGÅRD SØ (DKSBS)</item>
+        <item>SUNDBY (DKSDB)</item>
+        <item>SANDHOLM (DKSDH)</item>
+        <item>SØNDERJYLLAND, USPECIFICEREDE FERSKE VANDE (DKSDJ)</item>
+        <item>SANDAGER (NYSTED) (DKSDL)</item>
+        <item>SKULDELEV STRAND (DKSDV)</item>
+        <item>SEBBERSUND (DKSEB)</item>
+        <item>SKELLET (DKSEL)</item>
+        <item>SENNELS (DKSEN)</item>
+        <item>SEJERØ (DKSEO)</item>
+        <item>SØNDERBORG (DKSGD)</item>
+        <item>SNØDE HESSELBJERG (DKSHG)</item>
+        <item>SIDINGE (DKSID)</item>
+        <item>SILLERSLEV (DKSIL)</item>
+        <item>SKIVEREN STRAND (DKSIS)</item>
+        <item>SJÆLSØ (DKSJA)</item>
+        <item>SJÆLLAND OG ØER, USPEC FERSKV. (DKSJD)</item>
+        <item>SANDVIG (SYDSJÆLLAND) (DKSJG)</item>
+        <item>SKAGEN (DKSKA)</item>
+        <item>SKÆRBÆK (DKSKB)</item>
+        <item>STORE KATTINGE SØ (DKSKC)</item>
+        <item>SKELDEVIG (DKSKF)</item>
+        <item>SKAVEN HUSE (DKSKH)</item>
+        <item>SKJERN (DKSKJ)</item>
+        <item>SKIBSTED STRAND V. FLADE (MORS) (DKSKK)</item>
+        <item>SKÆRING (DKSKN)</item>
+        <item>SKARØ (DKSKQ)</item>
+        <item>SKUDEHAVNEN/KØBENHAVN (DKSKU)</item>
+        <item>SKIVE (DKSKV)</item>
+        <item>SKÅRUPØRE (DKSKX)</item>
+        <item>SKIBBY (DKSKY)</item>
+        <item>SKALØ (DKSKZ)</item>
+        <item>SILKEBORG LANGSØ (DKSLL)</item>
+        <item>SLETNÆS (DKSLN)</item>
+        <item>SALLERUP (DKSLP)</item>
+        <item>SLETTESTRAND (DKSLS)</item>
+        <item>SLETTEN (DKSLT)</item>
+        <item>SNAPTUN (DKSNA)</item>
+        <item>SNÆBUM SØ (DKSNB)</item>
+        <item>SNEKKERSTEN (DKSNE)</item>
+        <item>SNOGEBÆK (DKSNG)</item>
+        <item>SNOGHØJ (DKSNH)</item>
+        <item>SØNDER NISSUM (NISSUM FJORD) (DKSNI)</item>
+        <item>SØNDERSKOV (ØST FOR SKÆRBÆK) (DKSNK)</item>
+        <item>STRYNØ (DKSNO)</item>
+        <item>SNEUM SLUSE (DKSNU)</item>
+        <item>SØBY (DKSOB)</item>
+        <item>STORE SNØDE (DKSOE)</item>
+        <item>SONDRUP STRAND (DKSON)</item>
+        <item>SORØ SØ (DKSOO)</item>
+        <item>SORTSØ (DKSOR)</item>
+        <item>SOTTRUPSKOV (DKSOT)</item>
+        <item>SPODSBJERG (DKSPB)</item>
+        <item>SØNDER ÅBY (DKSQA)</item>
+        <item>SØLAGER (DKSQG)</item>
+        <item>SØNDERSKOV HUSE (DKSQH)</item>
+        <item>SØNDER LYNGVIG (DKSQL)</item>
+        <item>SØMARKEN (DKSQM)</item>
+        <item>SØNDERHAV (DKSQN)</item>
+        <item>SØNDERBALLE STRAND (DKSQS)</item>
+        <item>SØNDER THISE (DKSQT)</item>
+        <item>SØNDERVIG (DKSQV)</item>
+        <item>SOLRØD (DKSRD)</item>
+        <item>STENBJERG (DKSRG)</item>
+        <item>SKARRESØ (DKSRR)</item>
+        <item>SØNDERSØ (VED MARIBO) (DKSRS)</item>
+        <item>SKODSBORG (DKSSB)</item>
+        <item>SKØDSHOVED STRAND (DKSSD)</item>
+        <item>SKÆLSKØR (DKSSK)</item>
+        <item>STILLING SOLBJERG SØ (DKSSS)</item>
+        <item>SKRILLINGE STRAND (DKSST)</item>
+        <item>STRIB (DKSTB)</item>
+        <item>STAVREBY (SYDSJÆLLAND) (DKSTC)</item>
+        <item>STRANDBY (NORDJYLLAND) (DKSTD)</item>
+        <item>STEGE (DKSTE)</item>
+        <item>STAVREBY (SYDFALSTER) (DKSTF)</item>
+        <item>STORE HEDDINGE (DKSTH)</item>
+        <item>STIGE (DKSTI)</item>
+        <item>STJOVL (DKSTJ)</item>
+        <item>STABY = KLOSTER (DKSTK)</item>
+        <item>STINESMINDE (DKSTM)</item>
+        <item>STIGSNÆS (DKSTN)</item>
+        <item>STRUER (DKSTR)</item>
+        <item>STAUNING (DKSTU)</item>
+        <item>STRANDHUSE (DKSTW)</item>
+        <item>STRANDBY (LANGELAND) (DKSTY)</item>
+        <item>STOUBY (DKSUB)</item>
+        <item>SUNDSØRE (DKSUE)</item>
+        <item>SUNDSTRUP (DKSUN)</item>
+        <item>STUBBE SØ (DKSUO)</item>
+        <item>STUDSTRUP (DKSUP)</item>
+        <item>SVANEKE (DKSVA)</item>
+        <item>SEVEDØ (DKSVD)</item>
+        <item>SVENDBORG (DKSVE)</item>
+        <item>SANDVIG (DKSVG)</item>
+        <item>SKOVSHOVED (DKSVH)</item>
+        <item>SVINØ (DKSVI)</item>
+        <item>SVOGERSLEV SØ (DKSVO)</item>
+        <item>SVENSTRUP (DKSVP)</item>
+        <item>SVALLERUP STRAND (DKSVS)</item>
+        <item>STRØBY LADEPLADS (DKSYL)</item>
+        <item>TAMBOHUSE (DKTAM)</item>
+        <item>TANGE SØ (DKTAN)</item>
+        <item>TÅRBÆK (DKTAR)</item>
+        <item>TÅRS VIG (VED SAKSKØBING) (DKTAS)</item>
+        <item>THISTED (DKTED)</item>
+        <item>TEGLKÅS (DKTEG)</item>
+        <item>TEJN (DKTEJ)</item>
+        <item>TÅGENSE (DKTGS)</item>
+        <item>THYBORØN (DKTHN)</item>
+        <item>THURØ (DKTHO)</item>
+        <item>THORUP STRAND (DKTHP)</item>
+        <item>TISSINGHUSE (DKTIH)</item>
+        <item>TISSØ (DKTIO)</item>
+        <item>TISVILDELEJE (DKTIV)</item>
+        <item>TJELE LANGSØ (DKTJE)</item>
+        <item>THORSMINDE (DKTMD)</item>
+        <item>TUNØ (DKTNO)</item>
+        <item>TØMMERBY FJORD (DKTQF)</item>
+        <item>TRELDE (DKTRE)</item>
+        <item>TORØ HUSE (DKTRH)</item>
+        <item>TROENSE (DKTRO)</item>
+        <item>TÅRS (DKTRS)</item>
+        <item>TUBORG HAVN/HELLERUP (DKTUH)</item>
+        <item>TVEDE SKOV (DKTVS)</item>
+        <item>TYSTRUP SØ (DKTYO)</item>
+        <item>UDBYHØJ NORD (DKUDN)</item>
+        <item>UDBYHØJ SYD (DKUDS)</item>
+        <item>UGGELHUSE (DKUGG)</item>
+        <item>ULSE SØ (DKULO)</item>
+        <item>ULVSHALE (DKULV)</item>
+        <item>UNGERSBJERG (DKUNB)</item>
+        <item>URNE (DKURN)</item>
+        <item>VÅLSE (DKVAA)</item>
+        <item>VANDET SØ (DKVAO)</item>
+        <item>VARBJERG (DKVAR)</item>
+        <item>VALSTED (DKVAT)</item>
+        <item>VEDBÆK (DKVBK)</item>
+        <item>VARDE Å (DKVDA)</item>
+        <item>VEDERSØ (DKVDR)</item>
+        <item>VEMMINGBUND (DKVEB)</item>
+        <item>VEDELSHAVE (DKVEH)</item>
+        <item>VEJLE (DKVEJ)</item>
+        <item>VESTER KIPPINGE (DKVEK)</item>
+        <item>VELLING (DKVEL)</item>
+        <item>VEMMENÆS (DKVEM)</item>
+        <item>VENØ (DKVEN)</item>
+        <item>VOER (DKVEO)</item>
+        <item>VESTERØ (DKVES)</item>
+        <item>VESTERVIG (DKVEV)</item>
+        <item>VESTERBY (DKVEY)</item>
+        <item>VIBORG SØ (DKVIB)</item>
+        <item>VINDEBY (DKVIN)</item>
+        <item>VILSUND ØST (DKVIQ)</item>
+        <item>VILSTRUP STRAND (DKVIS)</item>
+        <item>VILSUND VEST (DKVIV)</item>
+        <item>VANG (DKVNG)</item>
+        <item>VONÅ (DKVOA)</item>
+        <item>VOERSÅ (DKVOE)</item>
+        <item>VOGNSBJERG (DKVOG)</item>
+        <item>VORDINGBORG (DKVOR)</item>
+        <item>VIRKSUND (DKVRK)</item>
+        <item>VESTERBORG SØ (DKVST)</item>
+        <item>YPNESTED (DKYPN)</item>
+        <item>BALLE (DKBLC)</item>
+        <item>ØSTERBY (LÆSØ) (DKQSB)</item>
+        <item>ØSTERBY (FEJØ) (DKQSY)</item>
+        <item>HANDBJERG MARINA (DKHBM)</item>
+        <item>HAVERSLEV HAVN (DKHVH)</item>
+
+    </string-array>
 </resources>
