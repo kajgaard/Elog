@@ -12,12 +12,12 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.LiveData
 
 class AfrejseViewModel : ViewModel() {
-    private val mText: MutableLiveData<String?>
-    val text: LiveData<String?>
-        get() = mText
+   // private val mText: MutableLiveData<String?>
+    //val text: LiveData<String?>
+     //   get() = mText
 
     init {
-        mText = MutableLiveData()
-        mText.value = "This is afrejse fragment"
+      //  mText = MutableLiveData()
+      //  mText.value = "This is afrejse fragment"
     }
 }
