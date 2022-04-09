@@ -6,38 +6,38 @@
     android:layout_height="wrap_content"
     android:layout_marginHorizontal="10dp"
     android:layout_marginTop="10dp"
+    android:padding="10dp"
     android:background="@drawable/card_background">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/afrejseoplysninger_overskrift"
+        android:theme="@style/overskrift_formular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
         android:text="Afrejseoplysninger"
-        android:textSize="@dimen/overskrift_i_formular"
-        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:focusable="true"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/afrejseoplysninger_dato"
+        android:theme="@style/brodtekst_formular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Dato"
-        android:textSize="@dimen/brodtekst_i_formular"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="@+id/afrejseoplysninger_overskrift"
+        app:layout_constraintTop_toBottomOf="@+id/afrejseoplysninger_overskrift" />
 
     <TextView
         android:id="@+id/afrejseoplysninger_afrejsetid"
+        android:theme="@style/brodtekst_formular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:text="Afrejsetidspunkt"
-        android:textSize="@dimen/brodtekst_i_formular"
         app:layout_constraintStart_toEndOf="@+id/afrejseoplysninger_aar"
         app:layout_constraintTop_toTopOf="@+id/afrejseoplysninger_dato" />
 
@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:text="Afrejsehavn"
-        android:textSize="@dimen/brodtekst_i_formular"
+        android:theme="@style/brodtekst_formular"
         app:layout_constraintBottom_toBottomOf="@+id/afrejseoplysninger_afrejsetid"
         app:layout_constraintStart_toEndOf="@+id/afrejseoplysninger_minut"
         app:layout_constraintTop_toTopOf="@+id/afrejseoplysninger_afrejsetid" />
@@ -58,7 +58,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:text="/"
-        android:textSize="24sp"
+        android:theme="@style/brodtekst_formular"
+        android:textSize="@dimen/seperators"
         app:layout_constraintBottom_toBottomOf="@+id/afrejseoplysninger_dato"
         app:layout_constraintStart_toEndOf="@+id/afrejseoplysninger_dagDato"
         app:layout_constraintTop_toTopOf="@+id/afrejseoplysninger_dato" />
@@ -69,7 +70,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:text="-"
-        android:textSize="24sp"
+        android:textSize="@dimen/seperators"
+        android:theme="@style/brodtekst_formular"
         app:layout_constraintBottom_toBottomOf="@+id/afrejseoplysninger_dato"
         app:layout_constraintStart_toEndOf="@+id/afrejseoplysninger_dagDato2"
         app:layout_constraintTop_toTopOf="@+id/afrejseoplysninger_dato" />
@@ -80,12 +82,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:text=":"
-        android:textSize="24sp"
+        android:theme="@style/brodtekst_formular"
+        android:textSize="@dimen/seperators"
         app:layout_constraintBottom_toBottomOf="@+id/afrejseoplysninger_time"
         app:layout_constraintStart_toEndOf="@+id/afrejseoplysninger_time" />
 
     <EditText
         android:id="@+id/afrejseoplysninger_dagDato"
+        android:theme="@style/brodtekst_formular"
         android:layout_width="30dp"
         android:layout_height="@dimen/hojde_tekstfelter"
         android:layout_marginStart="10dp"
@@ -99,6 +103,7 @@
 
     <EditText
         android:id="@+id/afrejseoplysninger_time"
+        android:theme="@style/brodtekst_formular"
         android:layout_width="30dp"
         android:layout_height="@dimen/hojde_tekstfelter"
         android:layout_marginStart="10dp"
@@ -112,6 +117,7 @@
 
     <EditText
         android:id="@+id/afrejseoplysninger_minut"
+        android:theme="@style/brodtekst_formular"
         android:layout_width="30dp"
         android:layout_height="@dimen/hojde_tekstfelter"
         android:layout_marginStart="5dp"
@@ -125,6 +131,7 @@
 
     <EditText
         android:id="@+id/afrejseoplysninger_dagDato2"
+        android:theme="@style/brodtekst_formular"
         android:layout_width="30dp"
         android:layout_height="@dimen/hojde_tekstfelter"
         android:layout_marginStart="5dp"
@@ -137,6 +144,7 @@
 
     <EditText
         android:id="@+id/afrejseoplysninger_aar"
+        android:theme="@style/brodtekst_formular"
         android:layout_width="50dp"
         android:layout_height="@dimen/hojde_tekstfelter"
         android:layout_marginStart="5dp"
@@ -147,15 +155,47 @@
         app:layout_constraintStart_toEndOf="@+id/afrejseoplysninger_binde"
         app:layout_constraintTop_toTopOf="@+id/afrejseoplysninger_dagDato2" />
 
+    <!--
     <Spinner
         android:id="@+id/afrejseoplysninger_dropdown"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="5dp"
         android:spinnerMode="dropdown"
         app:layout_constraintBottom_toBottomOf="@+id/afrejseoplysninger_afrejsehavn"
         app:layout_constraintStart_toEndOf="@+id/afrejseoplysninger_afrejsehavn"
         app:layout_constraintTop_toTopOf="@+id/afrejseoplysninger_afrejsehavn"
         app:layout_constraintVertical_bias="0.44" />
+        -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/afrejseoplysninger_textInputLayout"
+        android:theme="@style/brodtekst_formular"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginStart="5dp"
+        android:paddingStart="5dp"
+        app:hintEnabled="false"
+        app:endIconMode="dropdown_menu"
+        app:layout_constraintBottom_toBottomOf="@+id/afrejseoplysninger_afrejsehavn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:boxStrokeWidth="0dp"
+        android:backgroundTint="@color/transparent"
+        app:boxBackgroundColor="@color/transparent"
+        android:background="@null"
+        app:layout_constraintStart_toEndOf="@+id/afrejseoplysninger_afrejsehavn"
+        app:layout_constraintTop_toTopOf="@+id/afrejseoplysninger_afrejsehavn">
+
+        <AutoCompleteTextView
+            android:id="@+id/afrejseoplysninger_autoCompleteTextView"
+            android:theme="@style/brodtekst_formular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:padding="5dp"
+            android:maxLines="1"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

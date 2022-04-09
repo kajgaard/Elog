@@ -38,6 +38,29 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="dropDown">
+        <item name="colorControlActivated">@color/white</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="EditTextThemeOverlay" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="overskrift_formular">
+        <item name="android:textSize">@dimen/brodtekst_i_formular</item>
+        <item name="fontFamily">@font/robotomedium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="brodtekst_formular">
+        <item name="android:textSize">@dimen/brodtekst_i_formular</item>
+        <item name="fontFamily">@font/robotolight</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
     <style name="Theme.Elog.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Elog.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>

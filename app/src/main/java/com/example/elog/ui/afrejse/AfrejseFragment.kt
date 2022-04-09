@@ -16,6 +16,7 @@ import androidx.lifecycle.LiveData
 import com.example.elog.R
 import com.example.elog.databinding.FragmentAfrejseBinding
 import kotlinx.android.synthetic.main.afrejse_afrejseoplysninger.*
+import kotlinx.android.synthetic.main.afrejse_afrejseoplysninger.view.*
 
 class AfrejseFragment : Fragment() {
     private var binding: FragmentAfrejseBinding? = null
@@ -33,8 +34,12 @@ class AfrejseFragment : Fragment() {
 
         val afrejsehavne = resources.getStringArray(R.array.afrejsehavne)
 
+        val adapter = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item,afrejsehavne)
+        //afrejseoplysninger_textInputLayout.afrejseoplysninger_textInputEdittext.setAdapter(adapter)
+        afrejseoplysninger_autoCompleteTextView.setAdapter(adapter)
         // access the spinner
 
+        /*
         if(afrejseoplysninger_dropdown!= null){
             val adapter = activity?.let {
                 ArrayAdapter<String>(
@@ -45,6 +50,8 @@ class AfrejseFragment : Fragment() {
             }
             afrejseoplysninger_dropdown.adapter=adapter
         }
+
+         */
 
         super.onViewCreated(view, savedInstanceState)
     }

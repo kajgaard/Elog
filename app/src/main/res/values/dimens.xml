@@ -6,6 +6,7 @@
     <dimen name="nav_header_height">176dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="overskrift_i_formular">24sp</dimen>
+    <dimen name="seperators">24sp</dimen>
     <dimen name="brodtekst_i_formular">18sp</dimen>
     <dimen name="margin_tekst_i_formular">5dp</dimen>
     <dimen name="hojde_tekstfelter">30dp</dimen>
