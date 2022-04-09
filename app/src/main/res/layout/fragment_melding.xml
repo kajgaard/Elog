@@ -7,9 +7,6 @@
     tools:context=".ui.melding.MeldingFragment"
     android:orientation="vertical"
     android:background="@color/bgformular">
-
-    <include layout="@layout/afrejse_afrejseoplysninger"/>
-    <include layout="@layout/afrejse_afrejseoplysninger"/>
     <TextView
         android:id="@+id/text_melding"
         android:layout_width="match_parent"
