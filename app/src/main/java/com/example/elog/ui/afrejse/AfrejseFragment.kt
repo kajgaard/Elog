@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter
 import com.example.elog.ui.afrejse.AfrejseViewModel
 import androidx.lifecycle.ViewModelProvider
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.MutableLiveData
@@ -53,8 +54,13 @@ class AfrejseFragment : Fragment() {
 
          */
 
+        afrejseoplysninger_help.setOnClickListener{
+            Toast.makeText(requireContext(), "Forudfyldt med den havn du sidst er ankommet til, hvis det ikke er korrekt kan du vælge fra listen", Toast.LENGTH_LONG).show();
+        }
+
         super.onViewCreated(view, savedInstanceState)
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()
