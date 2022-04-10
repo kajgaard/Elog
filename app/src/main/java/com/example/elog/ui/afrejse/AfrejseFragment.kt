@@ -18,6 +18,7 @@ import com.example.elog.R
 import com.example.elog.databinding.FragmentAfrejseBinding
 import kotlinx.android.synthetic.main.afrejse_afrejseoplysninger.*
 import kotlinx.android.synthetic.main.afrejse_afrejseoplysninger.view.*
+import kotlinx.android.synthetic.main.afrejse_fartojsidentifikation.*
 
 class AfrejseFragment : Fragment() {
     private var binding: FragmentAfrejseBinding? = null
@@ -35,24 +36,14 @@ class AfrejseFragment : Fragment() {
 
         val afrejsehavne = resources.getStringArray(R.array.afrejsehavne)
 
-        val adapter = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item,afrejsehavne)
-        //afrejseoplysninger_textInputLayout.afrejseoplysninger_textInputEdittext.setAdapter(adapter)
-        afrejseoplysninger_autoCompleteTextView.setAdapter(adapter)
-        // access the spinner
+        val adapterHavne = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item,afrejsehavne)
+        afrejseoplysninger_autoCompleteTextView.setAdapter(adapterHavne)
 
-        /*
-        if(afrejseoplysninger_dropdown!= null){
-            val adapter = activity?.let {
-                ArrayAdapter<String>(
-                    it,
-                    android.R.layout.simple_spinner_item,
-                    afrejsehavne
-                )
-            }
-            afrejseoplysninger_dropdown.adapter=adapter
-        }
 
-         */
+        val forerliste = resources.getStringArray(R.array.fartojsforer)
+        val adapterSkipper = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, forerliste)
+        fartoj_autoCompleteTextView.setAdapter(adapterSkipper)
+
 
         afrejseoplysninger_help.setOnClickListener{
             Toast.makeText(requireContext(), "Forudfyldt med den havn du sidst er ankommet til, hvis det ikke er korrekt kan du vælge fra listen", Toast.LENGTH_LONG).show();

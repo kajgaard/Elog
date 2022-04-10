@@ -60,6 +60,12 @@
         <item name="android:textColor">@color/black</item>
     </style>
 
+    <style name="brodtekst_formular_regular">
+        <item name="android:textSize">@dimen/brodtekst_i_formular</item>
+        <item name="fontFamily">@font/robotoregular</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
 
     <style name="Theme.Elog.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 

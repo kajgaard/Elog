@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:background="@drawable/card_background">
+
+    <TextView
+        android:id="@+id/fartojs_overskrift"
+        android:theme="@style/overskrift_formular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:text="Fartøjsidentifikation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fartojs_emner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/robotoregular"
+        android:lineSpacingExtra="8sp"
+        android:theme="@style/brodtekst_formular_regular"
+        android:text="Nation\nHavnekendingsnummer\nEU identifikation\nFartøjsfører"
+        app:layout_constraintStart_toStartOf="@+id/fartojs_overskrift"
+        app:layout_constraintTop_toBottomOf="@+id/fartojs_overskrift" />
+
+    <TextView
+        android:id="@+id/fartojs_emner1_svar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="8sp"
+        android:text="DANMARK\nFN123\nABCDEFG"
+        android:textAlignment="textEnd"
+        android:theme="@style/brodtekst_formular"
+        android:layout_marginStart="50dp"
+        app:layout_constraintStart_toEndOf="@+id/fartojs_emner1"
+        app:layout_constraintTop_toTopOf="@+id/fartojs_emner1" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fartojs_forerLayout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:backgroundTint="@color/transparent"
+        android:paddingStart="5dp"
+        android:theme="@style/brodtekst_formular"
+        app:boxBackgroundColor="@color/transparent"
+        app:boxStrokeWidth="0dp"
+        app:endIconMode="dropdown_menu"
+        app:helperText="Den havn du ankom til sidst"
+        app:helperTextEnabled="true"
+        app:hintEnabled="false"
+        app:layout_constraintEnd_toEndOf="@+id/fartojs_emner1_svar"
+        app:layout_constraintTop_toBottomOf="@+id/fartojs_emner1_svar">
+
+        <AutoCompleteTextView
+            android:id="@+id/fartoj_autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:theme="@style/brodtekst_formular" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
