@@ -5,7 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".ui.afrejse.AfrejseFragment"
     android:background="@color/bgformular"
->
+    android:orientation="vertical">
 
     <include layout="@layout/afrejse_afrejseoplysninger"/>
+    <include layout="@layout/afrejse_fartojsidentifikation"/>
+
 </LinearLayout>
