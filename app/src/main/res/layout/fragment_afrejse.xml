@@ -9,5 +9,6 @@
 
     <include layout="@layout/afrejse_afrejseoplysninger"/>
     <include layout="@layout/afrejse_fartojsidentifikation"/>
+    <include layout="@layout/afrejse_forventetaktivitet"/>
 
 </LinearLayout>

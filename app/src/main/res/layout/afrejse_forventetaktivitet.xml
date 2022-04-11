@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/card_background"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/fartojs_overskrift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:text="Forventet aktivitet"
+        android:theme="@style/overskrift_formular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/fiskeriAktivitet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fiskeri"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintStart_toStartOf="@+id/fartojs_overskrift"
+        app:layout_constraintTop_toBottomOf="@+id/fartojs_overskrift" />
+
+    <CheckBox
+        android:id="@+id/forlaegningAktivitet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forlægning"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintEnd_toStartOf="@+id/forsoegsfiskeriAktivitet"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fiskeriAktivitet"
+        app:layout_constraintTop_toTopOf="@+id/fiskeriAktivitet" />
+
+    <CheckBox
+        android:id="@+id/forsoegsfiskeriAktivitet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forsøgsfiskeri"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintEnd_toStartOf="@+id/vagtskibAktivitet"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/forlaegningAktivitet"
+        app:layout_constraintTop_toTopOf="@+id/fiskeriAktivitet" />
+
+    <CheckBox
+        android:id="@+id/vagtskibAktivitet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vagtskib eller anden ikke-fiskerimæssig aktivitet"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fiskeriAktivitet" />
+
+    <TextView
+        android:id="@+id/forventet_redskaber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:focusable="true"
+        android:text="Redskaber ombord:"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintStart_toStartOf="@+id/fiskeriAktivitet"
+        app:layout_constraintTop_toBottomOf="@+id/fiskeriAktivitet" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/redskaber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/edittext_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/forventet_redskaber"
+        app:layout_constraintTop_toBottomOf="@+id/vagtskibAktivitet">
+
+        <CheckBox
+            android:id="@+id/trawlCB"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Trawl"
+            android:theme="@style/brodtekst_formular"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/torskenetCB"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:text="Torskenet"
+            android:theme="@style/brodtekst_formular"
+            app:layout_constraintStart_toEndOf="@id/trawlCB"
+            app:layout_constraintTop_toTopOf="@id/trawlCB" />
+
+        <CheckBox
+            android:id="@+id/AaleruserCB"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:text="Store Åleruser"
+            android:theme="@style/brodtekst_formular"
+            app:layout_constraintStart_toEndOf="@id/torskenetCB"
+            app:layout_constraintTop_toTopOf="@id/trawlCB" />
+
+        <CheckBox
+            android:id="@+id/KrabbetejnerCB"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:text="Små krabbetejner"
+            android:theme="@style/brodtekst_formular"
+            app:layout_constraintStart_toEndOf="@id/AaleruserCB"
+            app:layout_constraintTop_toTopOf="@id/trawlCB" />
+
+        <CheckBox
+            android:id="@+id/NetCB"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Net"
+            android:theme="@style/brodtekst_formular"
+            app:layout_constraintStart_toStartOf="@id/trawlCB"
+            app:layout_constraintTop_toBottomOf="@id/trawlCB" />
+
+        <CheckBox
+            android:id="@+id/HummerCB"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:text="Hummertejner"
+            android:theme="@style/brodtekst_formular"
+            app:layout_constraintStart_toEndOf="@id/NetCB"
+            app:layout_constraintTop_toTopOf="@id/NetCB" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

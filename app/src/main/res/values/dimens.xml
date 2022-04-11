@@ -10,4 +10,5 @@
     <dimen name="brodtekst_i_formular">18sp</dimen>
     <dimen name="margin_tekst_i_formular">5dp</dimen>
     <dimen name="hojde_tekstfelter">30dp</dimen>
+    <dimen name="checkbox">15dp</dimen>
 </resources>
