@@ -38,6 +38,14 @@
         <item>Andet</item>
     </string-array>
 
+    <string-array name="standardbeskeder">
+        <item>Dårligt vejr</item>
+        <item>Inspektion foretaget</item>
+        <item>Sejler mod fangstplads</item>
+        <item>Sejler mod landingsplads</item>
+
+    </string-array>
+
 
 
     <string-array name="fartojsforer">

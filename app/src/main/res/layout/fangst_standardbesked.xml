@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:background="@drawable/card_background">
+
+
+    <TextView
+        android:id="@+id/standardbesked_overskrift"
+        android:theme="@style/overskrift_formular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:text="Standardbesked"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/beskedTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintStart_toStartOf="@id/standardbesked_overskrift"
+        app:layout_constraintTop_toBottomOf="@id/standardbesked_overskrift"
+        android:text="Besked"
+        android:layout_marginTop="15dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/beskeder_textInputLayout"
+        android:theme="@style/brodtekst_formular"
+        android:layout_width="300dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginStart="5dp"
+        android:paddingStart="5dp"
+        app:hintEnabled="false"
+        app:endIconMode="dropdown_menu"
+        app:layout_constraintTop_toTopOf="@id/beskedTV"
+        app:layout_constraintBottom_toBottomOf="@id/beskedTV"
+        app:layout_constraintStart_toEndOf="@id/beskedTV"
+        app:boxStrokeWidth="0dp"
+        android:backgroundTint="@color/transparent"
+        app:boxBackgroundColor="@color/transparent"
+        android:background="@null">
+
+        <AutoCompleteTextView
+            android:id="@+id/beskeder_autoCompleteTextView"
+            android:theme="@style/brodtekst_formular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:padding="5dp"
+            android:maxLines="1"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/standardbesked_dato_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="Dato"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintStart_toEndOf="@+id/beskeder_textInputLayout"
+        app:layout_constraintTop_toTopOf="@+id/beskedTV" />
+
+    <EditText
+        android:id="@+id/standardbesked_dagDatoET"
+        android:layout_width="30dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/edittext_border"
+        android:minWidth="48dp"
+        android:maxLength="2"
+        android:textAlignment="center"
+        android:theme="@style/edittext_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_dato_tv"
+        app:layout_constraintStart_toEndOf="@+id/standardbesked_dato_tv"
+        app:layout_constraintTop_toTopOf="@+id/standardbesked_dato_tv"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/standardbesked_slash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="/"
+        android:textSize="@dimen/seperators"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_dagDatoET"
+        app:layout_constraintStart_toEndOf="@+id/standardbesked_dagDatoET"
+        app:layout_constraintTop_toTopOf="@+id/standardbesked_dagDatoET"/>
+
+    <EditText
+        android:id="@+id/standardbesked_monedDato"
+        android:layout_width="30dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/edittext_border"
+        android:minWidth="48dp"
+        android:maxLength="2"
+        android:textAlignment="center"
+        android:theme="@style/edittext_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_dato_tv"
+        app:layout_constraintStart_toEndOf="@+id/standardbesked_slash"
+        app:layout_constraintTop_toTopOf="@+id/standardbesked_dato_tv" />
+
+    <TextView
+        android:id="@+id/standardbesked_binde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="-"
+        android:textSize="@dimen/seperators"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_dato_tv"
+        app:layout_constraintStart_toEndOf="@+id/standardbesked_monedDato"
+        app:layout_constraintTop_toTopOf="@+id/standardbesked_dato_tv" />
+
+    <EditText
+        android:id="@+id/standardbesked_aar"
+        android:layout_width="50dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/edittext_border"
+        android:minWidth="48dp"
+        android:maxLength="4"
+        android:textAlignment="center"
+        android:theme="@style/edittext_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_monedDato"
+        app:layout_constraintStart_toEndOf="@+id/standardbesked_binde"
+        app:layout_constraintTop_toTopOf="@+id/standardbesked_monedDato" />
+
+    <TextView
+        android:id="@+id/standardbesked_tidTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="Tid"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintStart_toEndOf="@+id/standardbesked_aar"
+        app:layout_constraintTop_toTopOf="@+id/standardbesked_dato_tv" />
+
+    <EditText
+        android:id="@+id/standardbesked_timeET"
+        android:layout_width="30dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/edittext_border"
+        android:minWidth="48dp"
+        android:maxLength="2"
+        android:textAlignment="center"
+        android:theme="@style/edittext_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_tidTV"
+        app:layout_constraintStart_toEndOf="@+id/standardbesked_tidTV"
+        app:layout_constraintTop_toTopOf="@+id/standardbesked_tidTV"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/standardbesked_semikolon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text=":"
+        android:textSize="@dimen/seperators"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_timeET"
+        app:layout_constraintStart_toEndOf="@+id/standardbesked_timeET" />
+
+    <EditText
+        android:id="@+id/standardbesked_minutET"
+        android:layout_width="30dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/edittext_border"
+        android:minWidth="48dp"
+        android:maxLength="2"
+        android:textAlignment="center"
+        android:theme="@style/edittext_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_tidTV"
+        app:layout_constraintStart_toEndOf="@+id/standardbesked_semikolon"
+        app:layout_constraintTop_toTopOf="@+id/standardbesked_tidTV"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

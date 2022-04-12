@@ -8,5 +8,6 @@
     android:orientation="vertical">
 
     <include layout="@layout/fangst_redskaber"/>
+    <include layout="@layout/fangst_standardbesked"/>
 
 </LinearLayout>

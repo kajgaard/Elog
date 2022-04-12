@@ -20,6 +20,7 @@ import com.example.elog.ui.landing.LandingViewModel
 import com.example.elog.ui.fangst.FangstViewModel
 import kotlinx.android.synthetic.main.afrejse_fartojsidentifikation.*
 import kotlinx.android.synthetic.main.fangst_redskaber.*
+import kotlinx.android.synthetic.main.fangst_standardbesked.*
 
 class FangstFragment : Fragment() {
     private var binding: FragmentFangstBinding? = null
@@ -40,6 +41,10 @@ class FangstFragment : Fragment() {
         val redskabsFejlListe = resources.getStringArray(R.array.redskabsFejl)
         val adapterRedskabsFejl = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, redskabsFejlListe)
         redskabfejl_autoCompleteTextView.setAdapter(adapterRedskabsFejl)
+
+        val beskedListe = resources.getStringArray(R.array.standardbeskeder)
+        val adapterBeskeder = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, beskedListe)
+        beskeder_autoCompleteTextView.setAdapter(adapterBeskeder)
 
 
 
