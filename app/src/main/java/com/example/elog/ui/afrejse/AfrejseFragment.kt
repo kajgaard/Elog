@@ -1,6 +1,7 @@
 package com.example.elog.ui.afrejse
 
 //import androidx.lifecycle.ViewModelProvider.get
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.os.Bundle
@@ -9,12 +10,21 @@ import android.widget.ArrayAdapter
 import androidx.lifecycle.ViewModelProvider
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation.createNavigateOnClickListener
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.findNavController
+import com.example.elog.MainActivity
 import com.example.elog.R
 import com.example.elog.databinding.FragmentAfrejseBinding
+import com.example.elog.ui.oversigt.OversigtFragment
+import com.google.android.material.navigation.NavigationView
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.afrejse_afrejseoplysninger.*
 import kotlinx.android.synthetic.main.afrejse_afrejseoplysninger.view.*
 import kotlinx.android.synthetic.main.afrejse_fartojsidentifikation.*
 import kotlinx.android.synthetic.main.afrejse_makkerfiskeri.*
+import kotlinx.android.synthetic.main.content_main.*
+import kotlinx.android.synthetic.main.fragment_afrejse.*
 
 class AfrejseFragment : Fragment() {
     private var binding: FragmentAfrejseBinding? = null
@@ -25,9 +35,12 @@ class AfrejseFragment : Fragment() {
         val root: View = binding!!.root
         //val textView = binding!!.textAfrejse
        // afrejseViewModel.text.observe(viewLifecycleOwner) { text: String? -> textView.text = text }
+
+
         return root
     }
 
+    @SuppressLint("ResourceType")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
         val afrejsehavne = resources.getStringArray(R.array.afrejsehavne)
@@ -64,6 +77,15 @@ class AfrejseFragment : Fragment() {
                 makker_tv.setTextColor(resources.getColor(R.color.inaktiv_tekst_grey))
             }
         }
+
+
+        afrejseAnullerBtn.setOnClickListener{
+            findNavController().navigate(R.id.nav_oversigt)
+        }
+
+        afrejseSendBtn.setOnClickListener{
+               findNavController().navigate(R.id.nav_oversigt)
+       }
 
         super.onViewCreated(view, savedInstanceState)
     }
