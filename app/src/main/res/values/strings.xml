@@ -617,6 +617,15 @@
         <item>Maria</item>
         <item>Alfred</item>
         <item>Erik</item>
+        <item>Christina</item>
+    </string-array>
+
+    <string-array name="makkerliste">
+        <item>HM96 - JANNI</item>
+        <item>L549 – FRIDA AMALIE</item>
+        <item>E100 – ELLA SOFIE</item>
+        <item>HM64 – WALTER</item>
+        <item>FN 156 – BITTEN</item>
     </string-array>
 
 

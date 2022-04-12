@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/card_background"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/makker_overskrift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:text="Makkerfiskeri"
+        android:theme="@style/overskrift_formular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/makkerCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makkeropslysninger"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintTop_toBottomOf="@id/makker_overskrift"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/makker_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:clickable="false"
+        android:enabled="false"
+        android:textColor="@color/inaktiv_tekst_grey"
+        android:focusable="false"
+        android:text="Makker"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/makkerfiskeri_textInputLayout"
+        app:layout_constraintStart_toEndOf="@id/makkerCB"
+        app:layout_constraintTop_toTopOf="@+id/makkerfiskeri_textInputLayout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/makkerfiskeri_textInputLayout"
+        android:layout_width="300dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginStart="@dimen/margin_for_dropdown"
+        android:background="@null"
+        android:backgroundTint="@color/transparent"
+        android:enabled="false"
+        android:paddingStart="5dp"
+        android:theme="@style/brodtekst_formular"
+        app:boxStrokeWidth="0dp"
+        app:endIconMode="dropdown_menu"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/makkerCB"
+        app:layout_constraintStart_toEndOf="@+id/makker_tv"
+        app:layout_constraintTop_toTopOf="@id/makkerCB">
+
+        <AutoCompleteTextView
+            android:id="@+id/makkerfiskeri_autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_inactive_border"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:theme="@style/brodtekst_formular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
