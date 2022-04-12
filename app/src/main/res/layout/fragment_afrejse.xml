@@ -13,4 +13,40 @@
     <include layout="@layout/afrejse_makkerfiskeri"/>
     <include layout="@layout/afrejse_ombordvaerende_fangst"/>
 
+    <RelativeLayout
+        android:id="@+id/bunden"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical|end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/afrejseAnullerBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_marginEnd="30dp"
+            android:layout_toLeftOf="@id/afrejseSendBtn"
+            android:backgroundTint="@color/white"
+            android:text="ANULLER"
+            android:textColor="@color/moerkblaa"
+            android:theme="@style/brodtekst_formular" />
+
+        <Button
+            android:id="@+id/afrejseSendBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/btnColor"
+            android:gravity="center|clip_vertical|center_vertical"
+            android:text="GEM"
+            android:theme="@style/overskrift_formular" />
+
+
+    </RelativeLayout>
+
+
 </LinearLayout>
