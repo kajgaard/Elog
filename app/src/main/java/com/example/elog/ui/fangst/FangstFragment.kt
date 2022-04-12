@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.os.Bundle
 import android.view.View
+import android.widget.ArrayAdapter
 import com.example.elog.ui.oversigt.OversigtViewModel
 import androidx.lifecycle.ViewModelProvider
 import android.widget.TextView
@@ -12,10 +13,13 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.LiveData
+import com.example.elog.R
 import com.example.elog.databinding.FragmentFangstBinding
 import com.example.elog.ui.melding.MeldingViewModel
 import com.example.elog.ui.landing.LandingViewModel
 import com.example.elog.ui.fangst.FangstViewModel
+import kotlinx.android.synthetic.main.afrejse_fartojsidentifikation.*
+import kotlinx.android.synthetic.main.fangst_redskaber.*
 
 class FangstFragment : Fragment() {
     private var binding: FragmentFangstBinding? = null
@@ -24,11 +28,24 @@ class FangstFragment : Fragment() {
         val fangstViewModel = ViewModelProvider(this).get(FangstViewModel::class.java)
         binding = FragmentFangstBinding.inflate(inflater, container, false)
         val root: View = binding!!.root
-        val textView = binding!!.textFangst
-        fangstViewModel.text.observe(viewLifecycleOwner) { text: String? -> textView.text = text }
         return root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+
+        val redskaberliste = resources.getStringArray(R.array.redskaber)
+        val adapterRedskaber = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, redskaberliste)
+        redskaboplysninger_autoCompleteTextView.setAdapter(adapterRedskaber)
+
+        val redskabsFejlListe = resources.getStringArray(R.array.redskabsFejl)
+        val adapterRedskabsFejl = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, redskabsFejlListe)
+        redskabfejl_autoCompleteTextView.setAdapter(adapterRedskabsFejl)
+
+
+
+
+        super.onViewCreated(view, savedInstanceState)
+    }
     override fun onDestroyView() {
         super.onDestroyView()
         binding = null

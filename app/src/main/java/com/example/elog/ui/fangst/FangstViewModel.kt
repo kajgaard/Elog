@@ -15,12 +15,6 @@ import com.example.elog.ui.landing.LandingViewModel
 import com.example.elog.ui.fangst.FangstViewModel
 
 class FangstViewModel : ViewModel() {
-    private val mText: MutableLiveData<String?>
-    val text: LiveData<String?>
-        get() = mText
 
-    init {
-        mText = MutableLiveData()
-        mText.value = "This is Fangst fragment"
-    }
+
 }

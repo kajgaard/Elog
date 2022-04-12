@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:background="@drawable/card_background">
+
+    <TextView
+        android:id="@+id/redskaboplysninger_overskrift"
+        android:theme="@style/overskrift_formular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:text="Redskaboplysninger"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fangstRedskabTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintStart_toStartOf="@id/redskaboplysninger_overskrift"
+        app:layout_constraintTop_toBottomOf="@id/redskaboplysninger_overskrift"
+        android:text="Fangstredskab"
+        android:layout_marginTop="15dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/redskaboplysninger_textInputLayout"
+        android:theme="@style/brodtekst_formular"
+        android:layout_width="200dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginStart="5dp"
+        android:paddingStart="5dp"
+        app:hintEnabled="false"
+        app:endIconMode="dropdown_menu"
+        app:layout_constraintTop_toTopOf="@id/fangstRedskabTV"
+        app:layout_constraintBottom_toBottomOf="@id/fangstRedskabTV"
+        app:layout_constraintStart_toEndOf="@id/fangstRedskabTV"
+        app:boxStrokeWidth="0dp"
+        android:backgroundTint="@color/transparent"
+        app:boxBackgroundColor="@color/transparent"
+        android:background="@null">
+
+        <AutoCompleteTextView
+            android:id="@+id/redskaboplysninger_autoCompleteTextView"
+            android:theme="@style/brodtekst_formular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:padding="5dp"
+            android:maxLines="1"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/redskabFejlTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintStart_toEndOf="@id/redskaboplysninger_textInputLayout"
+        app:layout_constraintTop_toTopOf="@id/fangstRedskabTV"
+        android:text="Redskabsfejl"
+        android:layout_marginStart="150dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/redskabfejl_textInputLayout"
+        android:theme="@style/brodtekst_formular"
+        android:layout_width="200dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginStart="5dp"
+        android:paddingStart="5dp"
+        app:hintEnabled="false"
+        app:endIconMode="dropdown_menu"
+        app:layout_constraintTop_toTopOf="@id/redskabFejlTV"
+        app:layout_constraintBottom_toBottomOf="@id/redskabFejlTV"
+        app:layout_constraintStart_toEndOf="@id/redskabFejlTV"
+        app:boxStrokeWidth="0dp"
+        android:backgroundTint="@color/transparent"
+        app:boxBackgroundColor="@color/transparent"
+        android:background="@null">
+
+        <AutoCompleteTextView
+            android:id="@+id/redskabfejl_autoCompleteTextView"
+            android:theme="@style/brodtekst_formular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:padding="5dp"
+            android:maxLines="1"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

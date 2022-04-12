@@ -19,6 +19,41 @@
     <string name="ingen_fangst"> <b>Ingen</b> ombordværende fangst fra forrige fangstrejse</string>
 
 
+    <string-array name="redskaber">
+        <item>Trawl</item>
+        <item>Torskenet</item>
+        <item>Store Åleruser</item>
+        <item>Små krabbetejner</item>
+        <item>Net</item>
+        <item>Hummertejner</item>
+    </string-array>
+
+    <string-array name="redskabsFejl">
+        <item>Ingen fejl</item>
+        <item>Ingen fangst</item>
+        <item>Ødelagt/revnet net</item>
+        <item>Redskab itu</item>
+        <item>Masker beskadiget i fangstposen</item>
+        <item>Tabte redskaber</item>
+        <item>Andet</item>
+    </string-array>
+
+
+
+    <string-array name="fartojsforer">
+        <item>Maria</item>
+        <item>Alfred</item>
+        <item>Erik</item>
+        <item>Christina</item>
+    </string-array>
+
+    <string-array name="makkerliste">
+        <item>HM96 - JANNI</item>
+        <item>L549 – FRIDA AMALIE</item>
+        <item>E100 – ELLA SOFIE</item>
+        <item>HM64 – WALTER</item>
+        <item>FN 156 – BITTEN</item>
+    </string-array>
 
     <string-array name="afrejsehavne">
         <item>ÅBENRÅ (DKAAB)</item>
@@ -616,20 +651,6 @@
 
     </string-array>
 
-    <string-array name="fartojsforer">
-        <item>Maria</item>
-        <item>Alfred</item>
-        <item>Erik</item>
-        <item>Christina</item>
-    </string-array>
-
-    <string-array name="makkerliste">
-        <item>HM96 - JANNI</item>
-        <item>L549 – FRIDA AMALIE</item>
-        <item>E100 – ELLA SOFIE</item>
-        <item>HM64 – WALTER</item>
-        <item>FN 156 – BITTEN</item>
-    </string-array>
 
 
 

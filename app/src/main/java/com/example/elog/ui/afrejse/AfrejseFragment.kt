@@ -83,8 +83,10 @@ class AfrejseFragment : Fragment() {
             findNavController().navigate(R.id.nav_oversigt)
         }
 
+
         afrejseSendBtn.setOnClickListener{
                findNavController().navigate(R.id.nav_oversigt)
+
        }
 
         super.onViewCreated(view, savedInstanceState)
