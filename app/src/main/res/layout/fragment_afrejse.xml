@@ -11,5 +11,6 @@
     <include layout="@layout/afrejse_fartojsidentifikation"/>
     <include layout="@layout/afrejse_forventetaktivitet"/>
     <include layout="@layout/afrejse_makkerfiskeri"/>
+    <include layout="@layout/afrejse_ombordvaerende_fangst"/>
 
 </LinearLayout>

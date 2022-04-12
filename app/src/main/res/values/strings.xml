@@ -16,6 +16,9 @@
     <string name="menu_makkerskift">Makkerskift</string>
     <string name="menu_indstillinger">Indstillinger</string>
     <string name="menu_ankomst">Ankomst</string>
+    <string name="ingen_fangst"> <b>Ingen</b> ombordværende fangst fra forrige fangstrejse</string>
+
+
 
     <string-array name="afrejsehavne">
         <item>ÅBENRÅ (DKAAB)</item>
@@ -627,6 +630,7 @@
         <item>HM64 – WALTER</item>
         <item>FN 156 – BITTEN</item>
     </string-array>
+
 
 
 </resources>

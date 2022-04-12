@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/card_background"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/ombord_fangst_overskrift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:text="Ombordværende fangst"
+        android:theme="@style/overskrift_formular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ombord_fangst_overskrift"
+        app:layout_constraintStart_toStartOf="parent">
+
+    <RadioButton
+        android:id="@+id/jaFangstOmbordCB"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Ombordværende fangst fra forrige fangstrejse"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ombord_fangst_overskrift"/>
+
+    <RadioButton
+        android:id="@+id/nejFangstOmbordCB"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/ingen_fangst"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/jaFangstOmbordCB"/>
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
