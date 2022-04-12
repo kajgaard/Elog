@@ -9,5 +9,6 @@
 
     <include layout="@layout/fangst_redskaber"/>
     <include layout="@layout/fangst_standardbesked"/>
+    <include layout="@layout/fangst_udsaetning"/>
 
 </LinearLayout>

@@ -23,6 +23,7 @@ import kotlinx.android.synthetic.main.afrejse_afrejseoplysninger.*
 import kotlinx.android.synthetic.main.afrejse_fartojsidentifikation.*
 import kotlinx.android.synthetic.main.fangst_redskaber.*
 import kotlinx.android.synthetic.main.fangst_standardbesked.*
+import kotlinx.android.synthetic.main.fangst_udsaetning.*
 
 class FangstFragment : Fragment() {
     private var binding: FragmentFangstBinding? = null
@@ -52,6 +53,15 @@ class FangstFragment : Fragment() {
         standardbesked_help.setOnClickListener{
             Toast.makeText(requireContext(), "Forlægning til anden havn, vagttjeneste ved boreplatforme, transportrejser til fangstområder hvor sejlads tager mere end 24 timer etc.", Toast.LENGTH_LONG).show();
         }
+
+        val longitudeList = resources.getStringArray(R.array.longitude)
+        val adapterLon = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, longitudeList)
+        udPosLonAuto.setAdapter(adapterLon)
+
+        val lattitudeList = resources.getStringArray(R.array.lattitude)
+        val adapterLat = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, lattitudeList)
+        udPosLatAuto.setAdapter(adapterLat)
+
 
 
         super.onViewCreated(view, savedInstanceState)

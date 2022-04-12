@@ -16,14 +16,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_weight="1"
-        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_overskrift"
-        app:layout_constraintStart_toEndOf="@+id/standardbesked_overskrift"
-        app:layout_constraintTop_toTopOf="@+id/standardbesked_overskrift"
+        app:layout_constraintBottom_toBottomOf="@+id/udsaetning_overskrift"
+        app:layout_constraintStart_toEndOf="@+id/udsaetning_overskrift"
+        app:layout_constraintTop_toTopOf="@+id/udsaetning_overskrift"
         app:srcCompat="@drawable/help"
         app:tint="@color/moerkblaa" />
 
     <TextView
-        android:id="@+id/standardbesked_overskrift"
+        android:id="@+id/udsaetning_overskrift"
         android:theme="@style/overskrift_formular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,12 +35,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/beskedTV"
+        android:id="@+id/udPosLonTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:theme="@style/brodtekst_formular"
-        app:layout_constraintStart_toStartOf="@id/standardbesked_overskrift"
-        app:layout_constraintTop_toBottomOf="@id/standardbesked_overskrift"
+        app:layout_constraintStart_toStartOf="@id/udsaetning_overskrift"
+        app:layout_constraintTop_toBottomOf="@id/udsaetning_overskrift"
         android:text="Besked"
         android:layout_marginTop="15dp"/>
 
@@ -53,9 +53,9 @@
         android:paddingStart="5dp"
         app:hintEnabled="false"
         app:endIconMode="dropdown_menu"
-        app:layout_constraintTop_toTopOf="@id/beskedTV"
-        app:layout_constraintBottom_toBottomOf="@id/beskedTV"
-        app:layout_constraintStart_toEndOf="@id/beskedTV"
+        app:layout_constraintTop_toTopOf="@id/udPosLonTV"
+        app:layout_constraintBottom_toBottomOf="@id/udPosLonTV"
+        app:layout_constraintStart_toEndOf="@id/udPosLonTV"
         app:boxStrokeWidth="0dp"
         android:backgroundTint="@color/transparent"
         app:boxBackgroundColor="@color/transparent"
@@ -76,17 +76,17 @@
 
 
     <TextView
-        android:id="@+id/standardbesked_dato_tv"
+        android:id="@+id/udDatoTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:text="Dato"
         android:theme="@style/brodtekst_formular"
         app:layout_constraintStart_toEndOf="@+id/beskeder_textInputLayout"
-        app:layout_constraintTop_toTopOf="@+id/beskedTV" />
+        app:layout_constraintTop_toTopOf="@+id/udPosLonTV" />
 
     <EditText
-        android:id="@+id/standardbesked_dagDatoET"
+        android:id="@+id/udDatoDagET"
         android:layout_width="30dp"
         android:layout_height="@dimen/hojde_tekstfelter"
         android:layout_marginStart="10dp"
@@ -95,25 +95,25 @@
         android:maxLength="2"
         android:textAlignment="center"
         android:theme="@style/edittext_formular"
-        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_dato_tv"
-        app:layout_constraintStart_toEndOf="@+id/standardbesked_dato_tv"
-        app:layout_constraintTop_toTopOf="@+id/standardbesked_dato_tv"
+        app:layout_constraintBottom_toBottomOf="@+id/udDatoTV"
+        app:layout_constraintStart_toEndOf="@+id/udDatoTV"
+        app:layout_constraintTop_toTopOf="@+id/udDatoTV"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/standardbesked_slash"
+        android:id="@+id/udDatoSlash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:text="/"
         android:textSize="@dimen/seperators"
         android:theme="@style/brodtekst_formular"
-        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_dagDatoET"
-        app:layout_constraintStart_toEndOf="@+id/standardbesked_dagDatoET"
-        app:layout_constraintTop_toTopOf="@+id/standardbesked_dagDatoET"/>
+        app:layout_constraintBottom_toBottomOf="@+id/udDatoDagET"
+        app:layout_constraintStart_toEndOf="@+id/udDatoDagET"
+        app:layout_constraintTop_toTopOf="@+id/udDatoDagET"/>
 
     <EditText
-        android:id="@+id/standardbesked_monedDato"
+        android:id="@+id/udDatoMonth"
         android:layout_width="30dp"
         android:layout_height="@dimen/hojde_tekstfelter"
         android:layout_marginStart="5dp"
@@ -122,24 +122,24 @@
         android:maxLength="2"
         android:textAlignment="center"
         android:theme="@style/edittext_formular"
-        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_dato_tv"
-        app:layout_constraintStart_toEndOf="@+id/standardbesked_slash"
-        app:layout_constraintTop_toTopOf="@+id/standardbesked_dato_tv" />
+        app:layout_constraintBottom_toBottomOf="@+id/udDatoTV"
+        app:layout_constraintStart_toEndOf="@+id/udDatoSlash"
+        app:layout_constraintTop_toTopOf="@+id/udDatoTV" />
 
     <TextView
-        android:id="@+id/standardbesked_binde"
+        android:id="@+id/udDato_binde"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:text="-"
         android:textSize="@dimen/seperators"
         android:theme="@style/brodtekst_formular"
-        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_dato_tv"
-        app:layout_constraintStart_toEndOf="@+id/standardbesked_monedDato"
-        app:layout_constraintTop_toTopOf="@+id/standardbesked_dato_tv" />
+        app:layout_constraintBottom_toBottomOf="@+id/udDatoTV"
+        app:layout_constraintStart_toEndOf="@+id/udDatoMonth"
+        app:layout_constraintTop_toTopOf="@+id/udDatoTV" />
 
     <EditText
-        android:id="@+id/standardbesked_aar"
+        android:id="@+id/udDato_aar"
         android:layout_width="50dp"
         android:layout_height="@dimen/hojde_tekstfelter"
         android:layout_marginStart="5dp"
@@ -148,22 +148,22 @@
         android:maxLength="4"
         android:textAlignment="center"
         android:theme="@style/edittext_formular"
-        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_monedDato"
-        app:layout_constraintStart_toEndOf="@+id/standardbesked_binde"
-        app:layout_constraintTop_toTopOf="@+id/standardbesked_monedDato" />
+        app:layout_constraintBottom_toBottomOf="@+id/udDatoMonth"
+        app:layout_constraintStart_toEndOf="@+id/udDato_binde"
+        app:layout_constraintTop_toTopOf="@+id/udDatoMonth" />
 
     <TextView
-        android:id="@+id/standardbesked_tidTV"
+        android:id="@+id/udsatning_tidTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:text="Tid"
         android:theme="@style/brodtekst_formular"
-        app:layout_constraintStart_toEndOf="@+id/standardbesked_aar"
-        app:layout_constraintTop_toTopOf="@+id/standardbesked_dato_tv" />
+        app:layout_constraintStart_toEndOf="@+id/udDato_aar"
+        app:layout_constraintTop_toTopOf="@+id/udDatoTV" />
 
     <EditText
-        android:id="@+id/standardbesked_timeET"
+        android:id="@+id/udsatning_timeET"
         android:layout_width="30dp"
         android:layout_height="@dimen/hojde_tekstfelter"
         android:layout_marginStart="10dp"
@@ -172,24 +172,24 @@
         android:maxLength="2"
         android:textAlignment="center"
         android:theme="@style/edittext_formular"
-        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_tidTV"
-        app:layout_constraintStart_toEndOf="@+id/standardbesked_tidTV"
-        app:layout_constraintTop_toTopOf="@+id/standardbesked_tidTV"
+        app:layout_constraintBottom_toBottomOf="@+id/udsatning_tidTV"
+        app:layout_constraintStart_toEndOf="@+id/udsatning_tidTV"
+        app:layout_constraintTop_toTopOf="@+id/udsatning_tidTV"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/standardbesked_semikolon"
+        android:id="@+id/udsatning_semikolon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:text=":"
         android:textSize="@dimen/seperators"
         android:theme="@style/brodtekst_formular"
-        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_timeET"
-        app:layout_constraintStart_toEndOf="@+id/standardbesked_timeET" />
+        app:layout_constraintBottom_toBottomOf="@+id/udsatning_timeET"
+        app:layout_constraintStart_toEndOf="@+id/udsatning_timeET" />
 
     <EditText
-        android:id="@+id/standardbesked_minutET"
+        android:id="@+id/udsatning_minutET"
         android:layout_width="30dp"
         android:layout_height="@dimen/hojde_tekstfelter"
         android:layout_marginStart="5dp"
@@ -198,9 +198,9 @@
         android:maxLength="2"
         android:textAlignment="center"
         android:theme="@style/edittext_formular"
-        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_tidTV"
-        app:layout_constraintStart_toEndOf="@+id/standardbesked_semikolon"
-        app:layout_constraintTop_toTopOf="@+id/standardbesked_tidTV"
+        app:layout_constraintBottom_toBottomOf="@+id/udsatning_tidTV"
+        app:layout_constraintStart_toEndOf="@+id/udsatning_semikolon"
+        app:layout_constraintTop_toTopOf="@+id/udsatning_tidTV"
         app:layout_constraintVertical_bias="1.0" />
 
 
