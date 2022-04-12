@@ -10,6 +10,18 @@
     android:background="@drawable/card_background">
 
 
+    <ImageView
+        android:id="@+id/standardbesked_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="@+id/standardbesked_overskrift"
+        app:layout_constraintStart_toEndOf="@+id/standardbesked_overskrift"
+        app:layout_constraintTop_toTopOf="@+id/standardbesked_overskrift"
+        app:srcCompat="@drawable/help"
+        app:tint="@color/moerkblaa" />
+
     <TextView
         android:id="@+id/standardbesked_overskrift"
         android:theme="@style/overskrift_formular"

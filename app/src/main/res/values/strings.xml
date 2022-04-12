@@ -19,6 +19,8 @@
     <string name="ingen_fangst"> <b>Ingen</b> ombordværende fangst fra forrige fangstrejse</string>
 
 
+   <string name="standardbesked_help">Forlægning til anden havn, vagttjeneste ved boreplatforme, transportrejser til fangstområder hvor sejlads tager mere end 24 timer etc.</string>
+
     <string-array name="redskaber">
         <item>Trawl</item>
         <item>Torskenet</item>

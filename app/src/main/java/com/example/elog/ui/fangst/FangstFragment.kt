@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter
 import com.example.elog.ui.oversigt.OversigtViewModel
 import androidx.lifecycle.ViewModelProvider
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.MutableLiveData
@@ -18,6 +19,7 @@ import com.example.elog.databinding.FragmentFangstBinding
 import com.example.elog.ui.melding.MeldingViewModel
 import com.example.elog.ui.landing.LandingViewModel
 import com.example.elog.ui.fangst.FangstViewModel
+import kotlinx.android.synthetic.main.afrejse_afrejseoplysninger.*
 import kotlinx.android.synthetic.main.afrejse_fartojsidentifikation.*
 import kotlinx.android.synthetic.main.fangst_redskaber.*
 import kotlinx.android.synthetic.main.fangst_standardbesked.*
@@ -47,6 +49,9 @@ class FangstFragment : Fragment() {
         beskeder_autoCompleteTextView.setAdapter(adapterBeskeder)
 
 
+        standardbesked_help.setOnClickListener{
+            Toast.makeText(requireContext(), "Forlægning til anden havn, vagttjeneste ved boreplatforme, transportrejser til fangstområder hvor sejlads tager mere end 24 timer etc.", Toast.LENGTH_LONG).show();
+        }
 
 
         super.onViewCreated(view, savedInstanceState)
