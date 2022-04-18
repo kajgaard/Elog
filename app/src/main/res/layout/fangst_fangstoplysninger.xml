@@ -482,16 +482,297 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <LinearLayout
+        android:id="@+id/fangstdetaljer_overskrifter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ingenFangstCB"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/brodtekst_formular"
+            android:textSize="14sp"
+            android:text="Art"
+            android:layout_marginStart="60dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/brodtekst_formular"
+            android:textSize="14sp"
+            android:text="Mængde"
+            android:layout_marginStart="67dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/brodtekst_formular"
+            android:textSize="14sp"
+            android:text="Enhed"
+            android:layout_marginStart="17dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/brodtekst_formular"
+            android:textSize="14sp"
+            android:text="BMS"
+            android:layout_marginStart="22dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/brodtekst_formular"
+            android:textSize="14sp"
+            android:text="Genudsæt art"
+            android:layout_marginStart="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/brodtekst_formular"
+            android:textSize="14sp"
+            android:text="Mængde"
+            android:layout_marginStart="28dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/brodtekst_formular"
+            android:textSize="14sp"
+            android:text="Enhed"
+            android:layout_marginStart="17dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/brodtekst_formular"
+            android:textSize="14sp"
+            android:text="DIM"
+            android:layout_marginStart="23dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/brodtekst_formular"
+            android:textSize="14sp"
+            android:text="Art"
+            android:layout_marginStart="80dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/brodtekst_formular"
+            android:textSize="14sp"
+            android:text="Dagstotal"
+            android:layout_marginStart="63dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/brodtekst_formular"
+            android:textSize="14sp"
+            android:text="Total"
+            android:layout_marginStart="20dp"/>
+
+
+    </LinearLayout>
+
+    <!-- %%%%%%%%%%%
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/fangstdetaljer_overskrifter"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/artTextInput"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/hojde_tekstfelter"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:backgroundTint="@color/transparent"
+            android:gravity="center_vertical"
+            android:theme="@style/brodtekst_formular"
+            app:boxBackgroundColor="@color/transparent"
+            app:boxStrokeWidth="0dp"
+            app:endIconMode="dropdown_menu"
+            app:hintEnabled="false">
+
+            <AutoCompleteTextView
+                android:id="@+id/artAuto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edittext_border"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingStart="5dp"
+                android:gravity="center_vertical"
+                android:theme="@style/brodtekst_formular" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/maengdeFangstET"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/hojde_tekstfelter"
+            android:background="@drawable/edittext_border"
+            android:paddingHorizontal="5dp"
+            android:textAlignment="viewEnd"
+            android:layout_gravity="center_vertical"
+            android:theme="@style/edittext_formular"
+            tools:ignore="RtlCompat" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enhedTextInput"
+            android:layout_width="80dp"
+            android:layout_height="@dimen/hojde_tekstfelter"
+            android:background="@null"
+            android:backgroundTint="@color/transparent"
+            android:theme="@style/brodtekst_formular"
+            app:boxBackgroundColor="@color/transparent"
+            app:boxStrokeWidth="0dp"
+            app:endIconMode="dropdown_menu"
+            app:hintEnabled="false">
+
+            <AutoCompleteTextView
+                android:id="@+id/enhedAuto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edittext_border"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingStart="5dp"
+                android:theme="@style/brodtekst_formular" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/bmsCB"
+            android:layout_width="@dimen/hojde_tekstfelter"
+            android:layout_height="@dimen/hojde_tekstfelter"
+            android:background="@drawable/edittext_border"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/artUDTextInput"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/hojde_tekstfelter"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:backgroundTint="#F8A8A8"
+            android:gravity="center_vertical"
+            android:theme="@style/brodtekst_formular"
+            app:boxBackgroundColor="@color/transparent"
+            app:boxStrokeWidth="0dp"
+            android:layout_marginStart="15dp"
+            app:endIconMode="dropdown_menu"
+            app:hintEnabled="false">
+
+            <AutoCompleteTextView
+                android:id="@+id/artUDAuto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edittext_ud_border"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingStart="5dp"
+                android:gravity="center_vertical"
+                android:theme="@style/brodtekst_formular" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/maengdeUDFangstET"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/hojde_tekstfelter"
+            android:background="@drawable/edittext_ud_border"
+            android:paddingHorizontal="5dp"
+            android:textAlignment="viewEnd"
+            android:layout_gravity="center_vertical"
+            android:theme="@style/edittext_formular"
+            tools:ignore="RtlCompat" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enhedUDTextInput"
+            android:layout_width="80dp"
+            android:layout_height="@dimen/hojde_tekstfelter"
+            android:background="@null"
+            android:backgroundTint="@color/transparent"
+            android:theme="@style/brodtekst_formular"
+            app:boxBackgroundColor="@color/transparent"
+            app:boxStrokeWidth="0dp"
+            app:endIconMode="dropdown_menu"
+            app:hintEnabled="false">
+
+            <AutoCompleteTextView
+                android:id="@+id/enhedUDAuto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edittext_ud_border"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingStart="5dp"
+                android:theme="@style/brodtekst_formular" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/dimCB"
+            android:background="@drawable/edittext_ud_border"
+            android:layout_width="@dimen/hojde_tekstfelter"
+            android:layout_height="@dimen/hojde_tekstfelter"
+            />
+
+
+
+        <EditText
+            android:id="@+id/ialtArt"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/hojde_tekstfelter"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/edittext_total_border" />
+
+        <EditText
+            android:id="@+id/dagstotalMaengde"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/hojde_tekstfelter"
+            android:background="@drawable/edittext_total_border"/>
+
+        <EditText
+            android:id="@+id/totalIaltMaengde"
+            android:layout_width="80dp"
+            android:layout_height="@dimen/hojde_tekstfelter"
+            android:background="@drawable/edittext_total_border"/>
+
+
+
+        <ImageView
+            android:id="@+id/sletRowIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/close_icon"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+%%%%%%%%%%%%%%%%%%%% -->
 
 
     <LinearLayout
         android:id="@+id/fangst_layout_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/ingenFangstCB"
+        app:layout_constraintTop_toBottomOf="@id/fangstdetaljer_overskrifter"
         app:layout_constraintStart_toStartOf="parent"
         android:orientation="vertical"
-        android:layout_marginTop="15dp">
+        android:layout_marginTop="5dp">
     </LinearLayout>
 
     <Button
