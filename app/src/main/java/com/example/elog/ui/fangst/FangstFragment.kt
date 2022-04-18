@@ -12,6 +12,7 @@ import androidx.core.view.iterator
 import androidx.core.view.size
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import com.example.elog.R
 import com.example.elog.databinding.FragmentFangstBinding
 import kotlinx.android.synthetic.main.fangst_fangstoplysninger.*
@@ -19,6 +20,7 @@ import kotlinx.android.synthetic.main.fangst_redskaber.*
 import kotlinx.android.synthetic.main.fangst_standardbesked.*
 import kotlinx.android.synthetic.main.fangst_tagesop.*
 import kotlinx.android.synthetic.main.fangst_udsaetning.*
+import kotlinx.android.synthetic.main.fragment_afrejse.*
 import kotlinx.android.synthetic.main.fragment_fangst.*
 import kotlinx.android.synthetic.main.tilfoj_row.*
 import kotlinx.android.synthetic.main.tilfoj_row.view.*
@@ -106,6 +108,17 @@ class FangstFragment : Fragment() {
                 tilfojLinjeBtn.isEnabled = true
                 tilfojLinjeBtn.setTextColor(resources.getColor(R.color.black))
             }
+        }
+
+
+        fangstAnullerBtn.setOnClickListener{
+            findNavController().navigate(R.id.nav_oversigt)
+        }
+
+
+        fangstSendBtn.setOnClickListener{
+            findNavController().navigate(R.id.nav_oversigt)
+
         }
 
         super.onViewCreated(view, savedInstanceState)

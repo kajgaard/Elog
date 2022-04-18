@@ -7,24 +7,27 @@
     >
 
     <ScrollView
+        android:id="@+id/fangstScrollview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/fangstScrollview">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:id="@+id/fangst_LinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:context=".ui.fangst.FangstFragment"
             android:orientation="vertical"
             android:paddingBottom="15dp"
-            >
+            tools:context=".ui.fangst.FangstFragment">
 
-            <include layout="@layout/fangst_redskaber"/>
-            <include layout="@layout/fangst_standardbesked"/>
-            <include layout="@layout/fangst_udsaetning"/>
-            <include layout="@layout/fangst_tagesop"/>
-            <include layout="@layout/fangst_fangstoplysninger"/>
+            <include layout="@layout/fangst_redskaber" />
+
+            <include layout="@layout/fangst_standardbesked" />
+
+            <include layout="@layout/fangst_udsaetning" />
+
+            <include layout="@layout/fangst_tagesop" />
+
+            <include layout="@layout/fangst_fangstoplysninger" />
 
         </LinearLayout>
 
@@ -32,11 +35,12 @@
 
     <RelativeLayout
         android:id="@+id/bundenFangst"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center_vertical"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
         android:gravity="bottom|end"
-        android:orientation="horizontal">
+        android:layout_gravity="bottom|end"
+        android:orientation="horizontal"
+        android:background="@drawable/edittext_inactive_border">
 
         <Button
             android:id="@+id/fangstAnullerBtn"
