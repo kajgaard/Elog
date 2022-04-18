@@ -5,10 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.fangst.FangstFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
     <include layout="@layout/fangst_redskaber"/>
     <include layout="@layout/fangst_standardbesked"/>
     <include layout="@layout/fangst_udsaetning"/>
+    <include layout="@layout/fangst_tagesop"/>
 
 </LinearLayout>
