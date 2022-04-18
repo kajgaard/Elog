@@ -7,11 +7,11 @@
 
     <LinearLayout
         android:id="@+id/fangst_LinearLayout"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".ui.fangst.FangstFragment"
-    android:orientation="vertical"
-        android:paddingBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.fangst.FangstFragment"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
     >
 
     <include layout="@layout/fangst_redskaber"/>

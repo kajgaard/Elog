@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import androidx.core.view.isVisible
+import androidx.core.view.iterator
 import androidx.core.view.size
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -94,6 +95,18 @@ class FangstFragment : Fragment() {
             addView()
         }
 
+        ingenFangstCB.setOnClickListener {
+            if(ingenFangstCB.isChecked){
+               fangst_layout_list.removeAllViews()
+                fangstdetaljer_overskrifter.visibility = View.GONE
+                tilfojLinjeBtn.isEnabled = false
+                tilfojLinjeBtn.setTextColor(resources.getColor(R.color.inaktiv_tekst_grey))
+                tilfojLinjeBtn.text = "Tilføj fangst"
+            }else{
+                tilfojLinjeBtn.isEnabled = true
+                tilfojLinjeBtn.setTextColor(resources.getColor(R.color.black))
+            }
+        }
 
         super.onViewCreated(view, savedInstanceState)
     }
