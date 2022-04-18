@@ -78,6 +78,238 @@
         <item>Nej</item>
     </string-array>
 
+    <string-array name="enheder">
+        <item>kg</item>
+        <item>stk</item>
+    </string-array>
+
+    <string-array name="arter">
+        <item>AAS;KREBS (AAS/KBS)</item>
+        <item>ABK;FLIRE (ABK/ABK)</item>
+        <item>ACC;HORK (ACC/HOR)</item>
+        <item>ACH;FJELDØRRED (ACH/FJE)</item>
+        <item>AES;REJEKONGE (AES/AES)</item>
+        <item>AFT;PANSERULK (AFT/PLK)</item>
+        <item>AJQ;VANDMAND (AJQ/AJQ)</item>
+        <item>ALB;HVID TUN (ALB/ALB)</item>
+        <item>ALF;BERYXARTER (ALF/ALF)</item>
+        <item>ALK;ALASKASEJ (ALK/ASJ)</item>
+        <item>ALV;RÆVEHAJ (ALV/RHJ)</item>
+        <item>ANE;ANSJOS (ANE/ANS)</item>
+        <item>APU;STØR (APU/STR)</item>
+        <item>ARG;STRØMSILDARTER (ARG/ARG)</item>
+        <item>ARU;GULDLAKS (ARU/GUK)</item>
+        <item>ARY;STRØMSILD (ARY/ARY)</item>
+        <item>BFT;BLÅFINNET TUN (BFT/TUN)</item>
+        <item>BIB;SKÆGTORSK (BIB/SKT)</item>
+        <item>BLI;BYRKELANGE (BLÅLNG.) (BLI/BYL)</item>
+        <item>BLL;SLETHVARRE (BLL/SLH)</item>
+        <item>BON;ATLANTISK BONITO (BON/BON)</item>
+        <item>BOR;HAVGALT (BOR/HAG)</item>
+        <item>BRB;ALM. HAVRUDE (BRB/BRB)</item>
+        <item>BSF;SORT SABELFISK (BSF/SSF)</item>
+        <item>BSH;BLÅHAJ (BSH/BLJ)</item>
+        <item>BSK;BRUGDE (BSK/BRU)</item>
+        <item>BSS;BARS (BSS/BAR)</item>
+        <item>BWD;HVIDNÆSE (BWD/BWD)</item>
+        <item>BXD;NORDISK BERYX (BXD/BXD)</item>
+        <item>CAA;ATLANTISK HAVKAT (CAA/CAA)</item>
+        <item>CAP;LODDE (CAP/LOD)</item>
+        <item>CAS;HAVKAT, PLETTET (CAS/CAS)</item>
+        <item>CAT;HAVKAT (CAT/HAK)</item>
+        <item>CEP;BLÆKSPRUTTE (CEP/BSP)</item>
+        <item>CHR;BRØDDING (CHR/BRD)</item>
+        <item>CLQ;MOLBOØSTERS (CLQ/MOE)</item>
+        <item>CLV;VENUSMUSLING (CLV/VEM)</item>
+        <item>CMO;HAVMUS (CMO/HAM)</item>
+        <item>COC--HMX-;HJERTEMUSLING BRUTTO (COC--HMX-/HMX)</item>
+        <item>COD;TORSK (COD/TOR)</item>
+        <item>COE;ALMINDELIG HAVÅL (COE/COE)</item>
+        <item>CPR;ALM.REJER (CPR/ARJ)</item>
+        <item>CRE;TASKEKRABBE (CRE/TAK)</item>
+        <item>CRG;STRANDKRABBE (CRG/CRG)</item>
+        <item>CRQ;ARKTISK KRABBE (CRQ/CRQ)</item>
+        <item>CSH;HESTEREJE (CSH/HRJ)</item>
+        <item>CTB;TOBÅNDET HAVRUDE (CTB/CTB)</item>
+        <item>CTC;SEPIABLÆKSPRUTTE (CTC/CTC)</item>
+        <item>CUX;SØPØLSE (CUX/CUX)</item>
+        <item>DAB;ISING (DAB/ISG)</item>
+        <item>DBO;ØRESVIN (DBO/DBO)</item>
+        <item>DCO;DELFIN, ALMINDELIG (DCO/DCO)</item>
+        <item>DEC;TANDBRASEN (DEC/DEC)</item>
+        <item>DEX;DENTEXARTER (DEX/DEX)</item>
+        <item>DGS;PIGHAJ (DGS/PHJ)</item>
+        <item>EGF;EDDERFUGL (EGF/EGF)</item>
+        <item>ELE---BLK;BLANKE ÅL (ELE---BLK/BLL)</item>
+        <item>ELE---GUL;GULE ÅL (ELE---GUL/GLL)</item>
+        <item>ELP;ÅLEKVABBE (ELP/EBR)</item>
+        <item>ENC;FIRTRÅDET HAVKVABBE (ENC/FHK)</item>
+        <item>ENQ;SNIPPE (ENQ/SNP)</item>
+        <item>EOI;ELEDONEBLÆKSPRUTTE (EOI/EOI)</item>
+        <item>EPI;TELESKOPKARDINALFISK (EPI/TKA)</item>
+        <item>ETX;SORTHAJ (ETX/SOH)</item>
+        <item>FAC;GLASREJE (FAC/FAC)</item>
+        <item>FBM;BRASEN (FBM/BRA)</item>
+        <item>FBU;KNUDE (FBU/KND)</item>
+        <item>FCC;KARUSSE (FCC/KRS)</item>
+        <item>FCP;KARPE (FCP/KRP)</item>
+        <item>FLE;SKRUBBE (FLE/SKR)</item>
+        <item>FNO;MALLEMUK (FNO/FNO)</item>
+        <item>FPE;ABORRE (FPE/ABR)</item>
+        <item>FPI;GEDDE (FPI/GED)</item>
+        <item>FPP;SANDART (FPP/SAN)</item>
+        <item>FRI;AUXIDE (FRI/FRI)</item>
+        <item>FRO;SKALLER (FRO/SKL)</item>
+        <item>FTE;SUDER (FTE/SUD)</item>
+        <item>FVE;HELTLING (FVE/FVE)</item>
+        <item>GAG;GRÅHAJ (GAG/GHJ)</item>
+        <item>GAR;HORNFISK (GAR/HOF)</item>
+        <item>GCZ;HAVLIT (GCZ/GCZ)</item>
+        <item>GDG;SØLVTORSK (GDG/SVT)</item>
+        <item>GFB;SKÆLBROSME (GFB/GFB)</item>
+        <item>GHL;HELLEFISK (GHL/HEL)</item>
+        <item>GIP;BARRAMUNDI (GIP/BRM)</item>
+        <item>GPA;KUTLING (GPA/KTL)</item>
+        <item>GRB;STORØJET GRYNEFISK (GRB/GRB)</item>
+        <item>GSS;TANGSNARRE (GSS/GSS)</item>
+        <item>GTA;HUNDESTEJLE, TREPIGGET (GTA/GTA)</item>
+        <item>GUG;KNURHANE, GRÅ (GUG/KNH)</item>
+        <item>GUU;KNURHANE, RØD (GUU/KNR)</item>
+        <item>HAD;KULLER (HAD/KUL)</item>
+        <item>HAF;SØLVØKSEFAMILIEN (HAF/HAF)</item>
+        <item>HAL;HELLEFLYNDER (HAL/HLF)</item>
+        <item>HBW;ALK (HBW/HBW)</item>
+        <item>HER;SILD (HER/SIL)</item>
+        <item>HKE;KULMULE (HKE/KLM)</item>
+        <item>HMZ;CUENE-HESTEMAKREL (HMZ/HMZ)</item>
+        <item>HOM;HESTEMAKREL (HOM/HMK)</item>
+        <item>HOU;SNÆBEL (HOU/SNB)</item>
+        <item>INV;HVIRVELLØSE (INV/INV)</item>
+        <item>ISY;SKARV (ISY/ISY)</item>
+        <item>JAD;SORTBUGET ROKKE (JAD/JAD)</item>
+        <item>JAX;HESTEMAKRELARTER (JAX/JAX)</item>
+        <item>JOD;SANKT PETERSFISK (JOD/SPF)</item>
+        <item>KCS;KONGE KRABBE (KCS/KCS)</item>
+        <item>KCT;TROLDKRABBE (KCT/TKR)</item>
+        <item>LAU;HAVLAMPRET (LAU/LAU)</item>
+        <item>LBE;ALM.HUMMER (LBE/AHM)</item>
+        <item>LEE;STOR GAFFELMAKREL (LEE/LEE)</item>
+        <item>LEM;RØDTUNGE (LEM/RTG)</item>
+        <item>LIN;LANGE (LIN/LNG)</item>
+        <item>LQX;SUKKERTANG (LQX/SUT)</item>
+        <item>LTA;THUNNIN (LTA/LTA)</item>
+        <item>LUM-F--;KULSO (LUM-F--/KSO)</item>
+        <item>LUM-M--;STENBIDER (LUM-M--/STB)</item>
+        <item>LVD;KVABBE (LVD/KVB)</item>
+        <item>LXX;PRIKFISK (LXX/LXX)</item>
+        <item>LYY;STRIBET FLØJFISK (LYY/SFF)</item>
+        <item>MAC;MAKREL (MAC/MAK)</item>
+        <item>MAS;SPANSK MAKREL (MAS/MAS)</item>
+        <item>MAV;LAKSESILD (MAV/LSS)</item>
+        <item>MEG;GLASHVARRE (MEG/GHV)</item>
+        <item>MON;HAVTASKE (MON/HAT)</item>
+        <item>MOO;PLETTET MÅNEFISK (MOO/VGM)</item>
+        <item>MOX;KLUMPFISK (MOX/MOX)</item>
+        <item>MSF;TUNGEHVARRE (MSF/TUV)</item>
+        <item>MUL;MULTE (MUL/MLT)</item>
+        <item>MUR;MULLE, STRIBET (MUR/MUL)</item>
+        <item>MUS--BMX-;BLÅMUSLINGER, BRUTTO (MUS--BMX-/BMX)</item>
+        <item>MXV;ULK (MXV/ULK)</item>
+        <item>MYG;SLIMÅL (MYG/SLI)</item>
+        <item>NBU;KUTLING, SORTMUNDET (NBU/NBU)</item>
+        <item>NEP;JOMFRUHUMMER (NEP/DVH)</item>
+        <item>NKR;KRILL (NKR/KRI)</item>
+        <item>NOP;SPERLING (NOP/SPE)</item>
+        <item>ONA;GULDØRRED (ONA/GLO)</item>
+        <item>OOA;SLANGEKRABBE (OOA/SLB)</item>
+        <item>OPH;PLETTET FLØJFISK (OPH/PFF)</item>
+        <item>ORY;ORANGE SAVBUG (ORY/OSB)</item>
+        <item>OYF;ØSTERS (OYF/OES)</item>
+        <item>OYG;STILLEHAVSØSTERS (OYG/SHO)</item>
+        <item>PER;STRANDSNEGLE (PER/SSN)</item>
+        <item>PHR;MARSVIN (PHR/MSV)</item>
+        <item>PIL;SARDIN (PIL/PIL)</item>
+        <item>PKV;OLIVENGRYNTEFISK (PKV/PKV)</item>
+        <item>PLA;HÅISING (PLA/HSG)</item>
+        <item>PLE;RØDSPÆTTE (PLE/RSP)</item>
+        <item>PLN;HELT (PLN/HLT)</item>
+        <item>POA;HAVBRASEN (POA/HBR)</item>
+        <item>POC;POLAR TORSK (POC/PLT)</item>
+        <item>POD;GLYSE (POD/GLY)</item>
+        <item>POK;MØRKSEJ (POK/MSJ)</item>
+        <item>POL;LYSSEJ (POL/LSJ)</item>
+        <item>POR;SILDEHAJ (POR/SHJ)</item>
+        <item>PRA;DYBVANDSREJER (PRA/DVR)</item>
+        <item>REB;LILLE RØDFISK (REB/REB)</item>
+        <item>REG;STOR RØDFISK (REG/RDF)</item>
+        <item>RJA;SPIDSROKKE (RJA/RJA)</item>
+        <item>RJB;SKADE (RJB/SKD)</item>
+        <item>RJC;SØMROKKE (RJC/SMR)</item>
+        <item>RJE;SMÅØJET ROKKE (RJE/RJE)</item>
+        <item>RJF;GØGEROKKE (RJF/RJF)</item>
+        <item>RJH;BLOND ROKKE (RJH/BLR)</item>
+        <item>RJK;HVIDROKKE (RJK/RJK)</item>
+        <item>RJM;STORPLETTET ROKKE (RJM/SOR)</item>
+        <item>RJN;PLETROKKE (RJN/PLR)</item>
+        <item>RJO;PLOVJERNSROKKE (RJO/RJO)</item>
+        <item>RJR;TÆRBE (RJR/TRB)</item>
+        <item>RNG;SKOLÆST (RNG/SKO)</item>
+        <item>SAA;RUND SARDINEL (SAA/SAA)</item>
+        <item>SAE;MADEIRA-SARDINEL (SAE/SAE)</item>
+        <item>SAL;LAKS (SAL/LKS)</item>
+        <item>SAN;TOBISARTER (SAN/TBS)</item>
+        <item>SBA;AKARNAISK BLANKESTEN (SBA/SBA)</item>
+        <item>SBG;GULDBRASEN (SBG/GBR)</item>
+        <item>SBR;SPIDSTANDET BLANKEST (SBR/SBS)</item>
+        <item>SBX;HAVRUDEARTER (SBX/SBX)</item>
+        <item>SCL;RØDHAJARTER (SCL/SCL)</item>
+        <item>SCX;KAMMUSLING (SCX/KMS)</item>
+        <item>SEC;SÆL, SPÆTTET (SEC/SEC)</item>
+        <item>SEG;GRÅSÆL (SEG/SEG)</item>
+        <item>SFS;STRØMPEBÅNDSFISK (SFS/SFS)</item>
+        <item>SHO;RINGHAJ (SHO/RIH)</item>
+        <item>SKB;HUNDESTEJLE (SKB/HST)</item>
+        <item>SMD;ALM. GLATHAJ (SMD/SMD)</item>
+        <item>SME;SMELT (SME/SML)</item>
+        <item>SOL;TUNGE (SOL/TNG)</item>
+        <item>SOM;MALLE (SOM/MAL)</item>
+        <item>SPR;BRISLING (SPR/BRS)</item>
+        <item>SRA;ATLANTISKE KNURHANER (SRA/KNA)</item>
+        <item>STH;ALMINDELIG SØSTJERNE (STH/STJ)</item>
+        <item>SVF;KILDEØRRED (SVF/KIL)</item>
+        <item>SVY;DYBHAVSÅL (FAMILIE) (SVY/SVY)</item>
+        <item>SWA;SORTHALE (SWA/SWA)</item>
+        <item>SWO;SVÆRDFISK (SWO/SVF)</item>
+        <item>SYC;SMÅPLETTET RØDHAJ (SYC/SRH)</item>
+        <item>TGQ;HORNULK (TGQ/TGQ)</item>
+        <item>TIG;TIGER HAJ (TIG/TIG)</item>
+        <item>TOZ;LILLE FJÆSING (TOZ/TOZ)</item>
+        <item>TRR;REGNBUEØRRED (TRR/RBO)</item>
+        <item>TRS--FAR-;BÆKØRRED (TRS--FAR-/BKO)</item>
+        <item>TRS--LAC-;SØØRRED (TRS--LAC-/LAC)</item>
+        <item>TRS--TRU-;HAVØRRED (TRS--TRU-/ORD)</item>
+        <item>TSD;STAVSILD (TSD/SSI)</item>
+        <item>TUR;PIGHVARRE (TUR/PGH)</item>
+        <item>ULO;TRUGMUSLING (ULO/TRU)</item>
+        <item>UQT;LOMVIE (UQT/UQT)</item>
+        <item>URS;SØPINDSVIN (URS/SPN)</item>
+        <item>USB;BERGGYLT (USB/USB)</item>
+        <item>USI;BLÅSTAK/RØDNÆB (USI/USI)</item>
+        <item>USK;BROSME (USK/BRO)</item>
+        <item>UVU;SØSALAT (UVU/UVU)</item>
+        <item>WEG;FJÆSING, ALMINDELIG (WEG/FJS)</item>
+        <item>WHB;BLÅHVILLING (WHB/BLH)</item>
+        <item>WHE;KONKSNEGL (WHE/KNK)</item>
+        <item>WHG;HVILLING (WHG/HVL)</item>
+        <item>WIT;SKÆRISING (WIT/SKI)</item>
+        <item>WOW;FLØJLSAND (WOW/WOW)</item>
+        <item>WOY;SORTAND (WOY/WOY)</item>
+        <item>WRF;VRAGFISK (WRF/WRF)</item>
+        <item>YEZ;TOBISKONGE (YEZ/TBK)</item>
+        <item>ZGP;HÅRHVARRE (ZGP/ZGP)</item>
+        <item>ZGS;NØGENTOBIS (ZGS/NTB)</item>
+    </string-array>
+
     <string-array name="okozoner">
         <item>ABW </item>
         <item>AFG </item>

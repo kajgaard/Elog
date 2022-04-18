@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
+import android.widget.LinearLayout
+import android.widget.ScrollView
 import androidx.lifecycle.ViewModelProvider
 import android.widget.Toast
 import androidx.fragment.app.Fragment
@@ -17,9 +19,12 @@ import kotlinx.android.synthetic.main.fangst_standardbesked.*
 import kotlinx.android.synthetic.main.fangst_tagesop.*
 import kotlinx.android.synthetic.main.fangst_udsaetning.udPosLatAuto
 import kotlinx.android.synthetic.main.fangst_udsaetning.udPosLonAuto
+import kotlinx.android.synthetic.main.fragment_fangst.*
+import kotlinx.android.synthetic.main.tilfoj_row.*
 
 class FangstFragment : Fragment() {
     private var binding: FragmentFangstBinding? = null
+
     override fun onCreateView(inflater: LayoutInflater,
                               container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val fangstViewModel = ViewModelProvider(this).get(FangstViewModel::class.java)
@@ -76,9 +81,44 @@ class FangstFragment : Fragment() {
         val adapterLat = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, lattitudeList)
         udPosLatAuto.setAdapter(adapterLat)
 
+        tilfojLinjeBtn.setOnClickListener{
+            addView()
+        }
 
 
         super.onViewCreated(view, savedInstanceState)
+    }
+
+    fun addView(){
+        val fangstLinjeView = layoutInflater.inflate(R.layout.tilfoj_row,null, false)
+
+        fangst_layout_list.addView(fangstLinjeView)
+
+        fun ScrollView.scrollToBottom() {
+            val lastChild = getChildAt(childCount - 1)
+            val bottom = lastChild.bottom + paddingBottom
+            val delta = bottom - (scrollY+ height)
+            smoothScrollBy(0, fangstScrollview.bottom)
+        }
+
+        fangstScrollview.scrollToBottom()
+
+        val artListe = resources.getStringArray(R.array.arter)
+        val adapterArter = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, artListe)
+        artAuto.setAdapter(adapterArter)
+
+        val enhedsListe = resources.getStringArray(R.array.enheder)
+        val adapterEnheder = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, enhedsListe)
+        enhedAuto.setAdapter(adapterEnheder)
+
+        sletRowIV.setOnClickListener {
+            removeView(fangstLinjeView)
+        }
+
+    }
+
+    fun removeView(view: View){
+        fangst_layout_list.removeView(view)
     }
     override fun onDestroyView() {
         super.onDestroyView()

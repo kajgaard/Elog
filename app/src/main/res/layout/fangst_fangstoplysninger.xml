@@ -14,7 +14,6 @@
         android:id="@+id/udsaetning_overskrift"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:focusable="true"
         android:text="Fangsttid- og sted"
         android:theme="@style/overskrift_formular"
         app:layout_constraintStart_toStartOf="parent"
@@ -443,8 +442,6 @@
         android:layout_marginStart="30dp"
         />
 
-
-
     <TextView
         android:id="@+id/naturaTV"
         android:layout_width="wrap_content"
@@ -487,5 +484,33 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
+
+
+    <LinearLayout
+        android:id="@+id/fangst_layout_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ingenFangstCB"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tilfojLinjeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:backgroundTint="@color/posBtnColor"
+        android:letterSpacing="0"
+        android:rotationY="0"
+        android:text="Tilføj række"
+        android:textAllCaps="false"
+        android:textColor="@color/moerkblaa"
+        android:theme="@style/posbtn_formular"
+        android:drawableEnd="@drawable/add_icon"
+        app:layout_constraintTop_toBottomOf="@id/fangst_layout_list"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="5dp"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

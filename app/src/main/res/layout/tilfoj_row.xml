@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/artTextInput"
+        android:layout_width="90dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:background="@null"
+        android:backgroundTint="@color/transparent"
+        android:paddingStart="5dp"
+        android:theme="@style/brodtekst_formular"
+        app:boxBackgroundColor="@color/transparent"
+        app:boxStrokeWidth="0dp"
+        app:endIconMode="dropdown_menu"
+        app:hintEnabled="false"
+        android:layout_gravity="center_vertical"
+        >
+        <AutoCompleteTextView
+            android:id="@+id/artAuto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:theme="@style/brodtekst_formular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/maengdeFangstET"
+        android:layout_width="100dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:background="@drawable/edittext_border"
+        android:layout_gravity="center_vertical"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/enhedTextInput"
+        android:layout_width="60dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:background="@null"
+        android:backgroundTint="@color/transparent"
+        android:theme="@style/brodtekst_formular"
+        app:boxBackgroundColor="@color/transparent"
+        app:boxStrokeWidth="0dp"
+        app:endIconMode="dropdown_menu"
+        app:hintEnabled="false"
+        android:layout_gravity="center_vertical"
+        >
+        <AutoCompleteTextView
+            android:id="@+id/enhedAuto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:theme="@style/brodtekst_formular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/bmsCB"
+        android:layout_width="@dimen/hojde_tekstfelter"
+        android:layout_height="@dimen/hojde_tekstfelter"/>
+
+    <ImageView
+        android:id="@+id/sletRowIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/close_icon"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="30dp"/>
+
+
+
+
+
+
+</LinearLayout>
