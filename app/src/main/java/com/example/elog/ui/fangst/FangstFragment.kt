@@ -89,7 +89,6 @@ class FangstFragment : Fragment() {
 
 
         tilfojLinjeBtn.setOnClickListener{
-            Log.i("BUT", "add new btn clicked")
             tilfojLinjeBtn.text = "Tilføj række"
             fangstdetaljer_overskrifter.isVisible = true
             addView()
@@ -113,8 +112,6 @@ class FangstFragment : Fragment() {
         fangstLinjeView.enhedAuto.setAdapter(adapterEnheder)
 
         fangstLinjeView.sletRowIV.setOnClickListener {
-            print("Remove btn clicked")
-            Log.i("BUT", "remove btn clicked")
             removeView(fangstLinjeView)
         }
 
@@ -123,9 +120,9 @@ class FangstFragment : Fragment() {
 
     fun removeView(view: View){
         fangst_layout_list.removeView(view)
-        Log.i("BUT", "removed")
         if(fangst_layout_list.size == 0){
             fangstdetaljer_overskrifter.visibility = View.GONE
+            tilfojLinjeBtn.text = "Tilføj fangst"
         }
     }
     override fun onDestroyView() {
