@@ -1,28 +1,27 @@
 package com.example.elog.ui.fangst
 
 //import androidx.lifecycle.ViewModelProvider.get
-import android.content.Context
-import android.view.LayoutInflater
-import android.view.ViewGroup
 import android.os.Bundle
 import android.util.Log
-import android.util.Log.INFO
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.*
-import androidx.lifecycle.ViewModelProvider
+import androidx.core.view.isVisible
+import androidx.core.view.size
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import com.example.elog.R
 import com.example.elog.databinding.FragmentFangstBinding
 import kotlinx.android.synthetic.main.fangst_fangstoplysninger.*
 import kotlinx.android.synthetic.main.fangst_redskaber.*
 import kotlinx.android.synthetic.main.fangst_standardbesked.*
 import kotlinx.android.synthetic.main.fangst_tagesop.*
-import kotlinx.android.synthetic.main.fangst_udsaetning.udPosLatAuto
-import kotlinx.android.synthetic.main.fangst_udsaetning.udPosLonAuto
+import kotlinx.android.synthetic.main.fangst_udsaetning.*
 import kotlinx.android.synthetic.main.fragment_fangst.*
 import kotlinx.android.synthetic.main.tilfoj_row.*
 import kotlinx.android.synthetic.main.tilfoj_row.view.*
-import java.util.logging.Level.INFO
+
 
 class FangstFragment : Fragment() {
     private var binding: FragmentFangstBinding? = null
@@ -91,6 +90,8 @@ class FangstFragment : Fragment() {
 
         tilfojLinjeBtn.setOnClickListener{
             Log.i("BUT", "add new btn clicked")
+            tilfojLinjeBtn.text = "Tilføj række"
+            fangstdetaljer_overskrifter.isVisible = true
             addView()
         }
 
@@ -101,16 +102,7 @@ class FangstFragment : Fragment() {
     fun addView(){
         val fangstLinjeView = layoutInflater.inflate(R.layout.tilfoj_row,null, false)
 
-        val hej = fangstLinjeView.artAuto
-
-        fun ScrollView.scrollToBottom() {
-            val lastChild = getChildAt(childCount - 1)
-            val bottom = lastChild.bottom + lastChild.paddingBottom
-            val delta = bottom - (scrollY+ height)
-            smoothScrollBy(0, bottom)
-        }
-
-        fangstScrollview.scrollToBottom()
+        fangstScrollview.post {fangstScrollview.fullScroll(ScrollView.FOCUS_DOWN)}
 
         val artListe = resources.getStringArray(R.array.arter)
         val adapterArter = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, artListe)
@@ -132,6 +124,9 @@ class FangstFragment : Fragment() {
     fun removeView(view: View){
         fangst_layout_list.removeView(view)
         Log.i("BUT", "removed")
+        if(fangst_layout_list.size == 0){
+            fangstdetaljer_overskrifter.visibility = View.GONE
+        }
     }
     override fun onDestroyView() {
         super.onDestroyView()

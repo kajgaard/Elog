@@ -489,7 +489,9 @@
         app:layout_constraintTop_toBottomOf="@id/ingenFangstCB"
         app:layout_constraintStart_toStartOf="parent"
         android:orientation="horizontal"
-        android:layout_marginTop="15dp">
+        android:layout_marginTop="15dp"
+        android:visibility="gone"
+        >
 
         <TextView
             android:layout_width="wrap_content"
@@ -782,7 +784,7 @@
         android:backgroundTint="@color/posBtnColor"
         android:letterSpacing="0"
         android:rotationY="0"
-        android:text="Tilføj række"
+        android:text="Tilføj fangst"
         android:textAllCaps="false"
         android:textColor="@color/moerkblaa"
         android:theme="@style/posbtn_formular"
