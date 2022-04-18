@@ -9,11 +9,12 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="mediumblaa">#98ACB9</color>
+    <color name="lightblaa">#C1D0DA</color>
     <color name="moerkblaa">#2C404B</color>
     <color name="lysblaa">#CAD5DC</color>
     <color name="bgmenu">#F6F6F6</color>
     <color name="bgformular">#EBEFEE</color>
-    <color name="txtnav">#4A4A4A</color>
+    <color name="txtnav">#5E5E5E</color>
     <color name="transparent">#0000ffff</color>
     <color name="inaktiv_grey">#F2F2F2</color>
     <color name="inaktiv_tekst_grey">#7E7E7E</color>

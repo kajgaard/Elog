@@ -7,7 +7,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_oversigt">Oversigt</string>
+    <string name="menu_oversigt">Se logbog</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_afrejse">Afrejse</string>
     <string name="menu_fangst">Fangst</string>
