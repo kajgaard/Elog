@@ -45,7 +45,16 @@ class FangstFragment : Fragment() {
         val farvandListe = resources.getStringArray(R.array.farvandskoder)
         val adapterFarvande = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, farvandListe)
         farvandAuto.setAdapter(adapterFarvande)
+        //TODO evt lave farvandsnavne om til koder
 
+        val okoListe = resources.getStringArray(R.array.okozoner)
+        val adapterOkozoner = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, okoListe)
+        okozoneAuto.setAdapter(adapterOkozoner)
+        //TODO evt lave økozonenavne om til koder
+
+        val naturaListe = resources.getStringArray(R.array.natura2000)
+        val adapterNatura = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, naturaListe)
+        naturaAuto.setAdapter(adapterNatura)
 
         standardbesked_help.setOnClickListener{
             Toast.makeText(requireContext(), "Forlægning til anden havn, vagttjeneste ved boreplatforme, transportrejser til fangstområder hvor sejlads tager mere end 24 timer etc.", Toast.LENGTH_LONG).show();
