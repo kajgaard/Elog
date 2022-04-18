@@ -29,7 +29,7 @@
         <item name="itemBackground">?attr/drawableNavigationItemBackground</item>
         <item name="android:textSize">18sp</item>
         <item name="selectorSize">100dp</item>
-        <item name="fontFamily">@font/robotomedium</item>
+        <item name="fontFamily">@font/robotoregular</item>
     </style>
 
 
