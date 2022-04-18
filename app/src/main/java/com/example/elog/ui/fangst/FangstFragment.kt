@@ -96,9 +96,9 @@ class FangstFragment : Fragment() {
 
         fun ScrollView.scrollToBottom() {
             val lastChild = getChildAt(childCount - 1)
-            val bottom = lastChild.bottom + paddingBottom
+            val bottom = lastChild.bottom + lastChild.paddingBottom
             val delta = bottom - (scrollY+ height)
-            smoothScrollBy(0, fangstScrollview.bottom)
+            smoothScrollBy(0, bottom)
         }
 
         fangstScrollview.scrollToBottom()
