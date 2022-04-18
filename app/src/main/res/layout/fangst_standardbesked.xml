@@ -50,7 +50,7 @@
         android:layout_width="300dp"
         android:layout_height="@dimen/hojde_tekstfelter"
         android:layout_marginStart="5dp"
-        android:paddingStart="5dp"
+
         app:hintEnabled="false"
         app:endIconMode="dropdown_menu"
         app:layout_constraintTop_toTopOf="@id/udPosLonTV"
@@ -67,9 +67,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/edittext_border"
-            android:padding="5dp"
             android:maxLines="1"
             android:inputType="text"
+            android:paddingStart="5dp"
             />
 
     </com.google.android.material.textfield.TextInputLayout>

@@ -78,10 +78,16 @@ class FangstFragment : Fragment() {
         val longitudeList = resources.getStringArray(R.array.longitude)
         val adapterLon = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, longitudeList)
         udPosLonAuto.setAdapter(adapterLon)
+        indPosLonAuto.setAdapter(adapterLon)
+        fangstPosLonAuto.setAdapter(adapterLon)
 
         val lattitudeList = resources.getStringArray(R.array.lattitude)
         val adapterLat = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, lattitudeList)
         udPosLatAuto.setAdapter(adapterLat)
+        indPosLatAuto.setAdapter(adapterLat)
+        fangstPosLatAuto.setAdapter(adapterLat)
+
+
 
         tilfojLinjeBtn.setOnClickListener{
             Log.i("BUT", "add new btn clicked")
