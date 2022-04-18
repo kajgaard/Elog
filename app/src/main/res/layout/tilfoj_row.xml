@@ -36,7 +36,7 @@
 
     <EditText
         android:id="@+id/maengdeFangstET"
-        android:layout_width="80dp"
+        android:layout_width="50dp"
         android:layout_height="@dimen/hojde_tekstfelter"
         android:background="@drawable/edittext_border"
         android:paddingHorizontal="5dp"
@@ -88,7 +88,7 @@
         android:theme="@style/brodtekst_formular"
         app:boxBackgroundColor="@color/transparent"
         app:boxStrokeWidth="0dp"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="15dp"
         app:endIconMode="dropdown_menu"
         app:hintEnabled="false">
 
@@ -107,7 +107,7 @@
 
     <EditText
         android:id="@+id/maengdeUDFangstET"
-        android:layout_width="80dp"
+        android:layout_width="50dp"
         android:layout_height="@dimen/hojde_tekstfelter"
         android:background="@drawable/edittext_ud_border"
         android:paddingHorizontal="5dp"
@@ -155,12 +155,12 @@
         android:id="@+id/ialtArt"
         android:layout_width="150dp"
         android:layout_height="@dimen/hojde_tekstfelter"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="15dp"
         android:background="@drawable/edittext_total_border" />
 
     <EditText
         android:id="@+id/dagstotalMaengde"
-        android:layout_width="80dp"
+        android:layout_width="50dp"
         android:layout_height="@dimen/hojde_tekstfelter"
         android:background="@drawable/edittext_total_border"/>
 
