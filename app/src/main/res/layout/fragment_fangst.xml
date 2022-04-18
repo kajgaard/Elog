@@ -12,5 +12,6 @@
     <include layout="@layout/fangst_standardbesked"/>
     <include layout="@layout/fangst_udsaetning"/>
     <include layout="@layout/fangst_tagesop"/>
+    <include layout="@layout/fangst_fangstoplysninger"/>
 
 </LinearLayout>

@@ -75,6 +75,895 @@
         <item>FN 156 – BITTEN</item>
     </string-array>
 
+    <string-array name="farvandskoder">
+
+
+        <item>!NA1A</item>
+        <item>!NA1B</item>
+        <item>!NA1C</item>
+        <item>!NA1D</item>
+        <item>!NA3K</item>
+        <item>!NA3L</item>
+        <item>!NA3M</item>
+        <item>!NA3N</item>
+        <item>!NA3O</item>
+        <item>!NA3P</item>
+        <item>!NA4R</item>
+        <item>!1 </item>
+        <item>!10</item>
+        <item>!12</item>
+        <item>!14</item>
+        <item>14A </item>
+        <item>!14B </item>
+        <item>2A</item>
+        <item>!2B</item>
+        <item>3AI </item>
+        <item>3AN </item>
+        <item>3AS </item>
+        <item>!3B</item>
+        <item>!3C</item>
+        <item>!3D</item>
+        <item>3D24</item>
+        <item>!3D25</item>
+        <item>4A</item>
+        <item>4B</item>
+        <item>4C</item>
+        <item>4L</item>
+        <item>4N</item>
+        <item>4R</item>
+        <item>!5A</item>
+        <item>5B</item>
+        <item>!5B1 </item>
+        <item>!5B1 </item>
+        <item>5B2 </item>
+        <item>!6A</item>
+        <item>6B</item>
+        <item>7A</item>
+        <item>7B</item>
+        <item>!7C</item>
+        <item>7D</item>
+        <item>7E</item>
+        <item>7F</item>
+        <item>!7G</item>
+        <item>!7H</item>
+        <item>7J</item>
+        <item>!7K</item>
+        <item>!8A</item>
+        <item>!8B</item>
+        <item>!8C</item>
+        <item>8D</item>
+        <item>!8E</item>
+        <item>!9A</item>
+        <item>!9B</item>
+        <item>M001</item>
+        <item>M002</item>
+        <item>M003</item>
+        <item>M004</item>
+        <item>M005</item>
+        <item>M006</item>
+        <item>M007</item>
+        <item>M008</item>
+        <item>!M009</item>
+        <item>M010</item>
+        <item>M011</item>
+        <item>M012</item>
+        <item>M013</item>
+        <item>M014</item>
+        <item>M015</item>
+        <item>M016</item>
+        <item>M017</item>
+        <item>M018</item>
+        <item>M019</item>
+        <item>M020</item>
+        <item>M021</item>
+        <item>M022</item>
+        <item>M023</item>
+        <item>M024</item>
+        <item>M025</item>
+        <item>M026</item>
+        <item>M027</item>
+        <item>!M028</item>
+        <item>M029</item>
+        <item>!M030</item>
+        <item>M031</item>
+        <item>M033</item>
+        <item>M034</item>
+        <item>M035</item>
+        <item>M036</item>
+        <item>M037</item>
+        <item>M038</item>
+        <item>M039</item>
+        <item>M040</item>
+        <item>M065</item>
+        <item>M066</item>
+        <item>M067</item>
+        <item>M068</item>
+        <item>M072</item>
+        <item>M073</item>
+        <item>M074</item>
+        <item>M075</item>
+        <item>M076</item>
+        <item>M078</item>
+        <item>M079</item>
+        <item>M080</item>
+        <item>M082</item>
+        <item>M083</item>
+        <item>M032</item>
+        <item>M041</item>
+        <item>M042</item>
+        <item>M050</item>
+        <item>M051</item>
+        <item>M052</item>
+        <item>M053</item>
+        <item>M054</item>
+        <item>M055</item>
+        <item>M056</item>
+        <item>M057</item>
+        <item>M058</item>
+        <item>M060</item>
+        <item>M061</item>
+        <item>M062</item>
+        <item>M063</item>
+        <item>M064</item>
+        <item>M069</item>
+        <item>M070</item>
+        <item>M071</item>
+        <item>M077</item>
+        <item>M081</item>
+        <item>M084</item>
+        <item>M085</item>
+        <item>M086</item>
+        <item>M087</item>
+        <item>M088</item>
+        <item>M100</item>
+        <item>M101</item>
+        <item>M102</item>
+        <item>M103</item>
+        <item>M104</item>
+        <item>M105</item>
+        <item>M106</item>
+        <item>M107</item>
+        <item>M108</item>
+        <item>M110</item>
+        <item>M111</item>
+        <item>M112</item>
+        <item>M113</item>
+        <item>M114</item>
+        <item>M115</item>
+        <item>M116</item>
+        <item>M117</item>
+        <item>M118</item>
+        <item>M119</item>
+        <item>M120</item>
+        <item>M129</item>
+        <item>M130</item>
+        <item>M131</item>
+        <item>M132</item>
+        <item>M133</item>
+        <item>M134</item>
+        <item>!M135</item>
+        <item>M136</item>
+        <item>M137</item>
+        <item>M138</item>
+        <item>M139</item>
+        <item>M140</item>
+        <item>M141</item>
+        <item>M142</item>
+        <item>M143</item>
+        <item>M144</item>
+        <item>M145</item>
+        <item>M146</item>
+        <item>M147</item>
+        <item>M148</item>
+        <item>M149</item>
+        <item>M150</item>
+        <item>M151</item>
+        <item>M152</item>
+        <item>M153</item>
+        <item>M175</item>
+        <item>M176</item>
+        <item>M177</item>
+        <item>M178</item>
+        <item>M179</item>
+        <item>M180</item>
+        <item>M181</item>
+        <item>M182</item>
+        <item>M183</item>
+        <item>M184</item>
+        <item>M185</item>
+        <item>M186</item>
+        <item>M187</item>
+        <item>M188</item>
+        <item>M189</item>
+        <item>M190</item>
+        <item>3D26</item>
+        <item>3D27</item>
+        <item>!3D28</item>
+        <item>3D29</item>
+        <item>3D30</item>
+        <item>3D31</item>
+        <item>3D32</item>
+        <item>M009</item>
+        <item>M028</item>
+        <item>M030</item>
+        <item>!M806</item>
+        <item>!M809</item>
+        <item>!M828</item>
+        <item>!M830</item>
+        <item>!M916</item>
+        <item>!M917</item>
+        <item>!M918</item>
+        <item>!M930</item>
+        <item>!M932</item>
+        <item>!M933</item>
+        <item>!M934</item>
+        <item>!M935</item>
+        <item>!M936</item>
+        <item>!M937</item>
+        <item>F010</item>
+        <item>F020</item>
+        <item>F021</item>
+        <item>F022</item>
+        <item>F023</item>
+        <item>!F024</item>
+        <item>F025</item>
+        <item>F026</item>
+        <item>F027</item>
+        <item>F028</item>
+        <item>F029</item>
+        <item>F030</item>
+        <item>F031</item>
+        <item>F042</item>
+        <item>F043</item>
+        <item>F110</item>
+        <item>F202</item>
+        <item>F203</item>
+        <item>F204</item>
+        <item>F252</item>
+        <item>F262</item>
+        <item>F272</item>
+        <item>F281</item>
+        <item>F282</item>
+        <item>F283</item>
+        <item>F291</item>
+        <item>F301</item>
+        <item>F302</item>
+        <item>F311</item>
+        <item>F321</item>
+        <item>F322</item>
+        <item>F332</item>
+        <item>F342</item>
+        <item>F352</item>
+        <item>F361</item>
+        <item>F370</item>
+        <item>F402</item>
+        <item>F403</item>
+        <item>F412</item>
+        <item>F422</item>
+        <item>F432</item>
+        <item>F510</item>
+        <item>F521</item>
+        <item>F522</item>
+        <item>F523</item>
+        <item>F532</item>
+        <item>F612</item>
+        <item>F613</item>
+        <item>F614</item>
+        <item>F622</item>
+        <item>F623</item>
+        <item>F652</item>
+        <item>F682</item>
+        <item>F702</item>
+        <item>F703</item>
+        <item>F712</item>
+        <item>F722</item>
+        <item>F732</item>
+        <item>F733</item>
+        <item>F742</item>
+        <item>F752</item>
+        <item>F812</item>
+        <item>F822</item>
+        <item>F832</item>
+        <item>F833</item>
+        <item>F843</item>
+        <item>F900</item>
+        <item>F902</item>
+        <item>F912</item>
+        <item>F940</item>
+        <item>NA0A</item>
+        <item>NA0B</item>
+        <item>NA1A</item>
+        <item>NA1B</item>
+        <item>NA1C</item>
+        <item>NA1D</item>
+        <item>NA1E</item>
+        <item>NA1F</item>
+        <item>NA2G</item>
+        <item>NA2H</item>
+        <item>NA2J</item>
+        <item>NA3K</item>
+        <item>NA3L</item>
+        <item>NA3M</item>
+        <item>NA3N</item>
+        <item>NA3O</item>
+        <item>NA3PN </item>
+        <item>NA3PS </item>
+        <item>NA4R</item>
+        <item>NA4S</item>
+        <item>NA4T</item>
+        <item>NA4VN </item>
+        <item>NA4VS </item>
+        <item>NA4W</item>
+        <item>NA4X</item>
+        <item>NA5Y</item>
+        <item>NA5ZC </item>
+        <item>NA5ZE </item>
+        <item>NA5ZU </item>
+        <item>NA5ZW </item>
+        <item>NA6A</item>
+        <item>NA6B</item>
+        <item>NA6C</item>
+        <item>NA6D</item>
+        <item>NA6E</item>
+        <item>NA6F</item>
+        <item>NA6G</item>
+        <item>NA6H</item>
+        <item>1A</item>
+        <item>1B</item>
+        <item>!10A </item>
+        <item>10B </item>
+        <item>12A1</item>
+        <item>12A2</item>
+        <item>12A3</item>
+        <item>12A4</item>
+        <item>12B </item>
+        <item>12C </item>
+        <item>3B23</item>
+        <item>3C22</item>
+        <item>!3C24</item>
+        <item>3D25</item>
+        <item>3D281 </item>
+        <item>3D282 </item>
+        <item>5A1 </item>
+        <item>5A2 </item>
+        <item>!5B1 </item>
+        <item>6A</item>
+        <item>7G</item>
+        <item>7H</item>
+        <item>!7J</item>
+        <item>!7K</item>
+        <item>8A</item>
+        <item>8B</item>
+        <item>8C</item>
+        <item>!8D</item>
+        <item>!8E</item>
+        <item>9A</item>
+        <item>!9B</item>
+        <item>F024</item>
+        <item>F380</item>
+        <item>F381</item>
+        <item>M281</item>
+        <item>M282</item>
+        <item>341</item>
+        <item>34111</item>
+        <item>34112</item>
+        <item>34113</item>
+        <item>3412</item>
+        <item>3413</item>
+        <item>34131</item>
+        <item>34132</item>
+        <item>342</item>
+        <item>M092</item>
+        <item>M093</item>
+        <item>M094</item>
+        <item>M095</item>
+        <item>M096</item>
+        <item>M097</item>
+        <item>M109</item>
+        <item>M191</item>
+        <item>M192</item>
+        <item>M193</item>
+        <item>M201</item>
+        <item>M202</item>
+        <item>M203</item>
+        <item>M204</item>
+        <item>M205</item>
+        <item>M206</item>
+        <item>M207</item>
+        <item>M208</item>
+        <item>M209</item>
+        <item>M170</item>
+        <item>M171</item>
+        <item>M172</item>
+        <item>M173</item>
+        <item>M210</item>
+        <item>M211</item>
+        <item>M212</item>
+        <item>M213</item>
+        <item>M214</item>
+        <item>M215</item>
+        <item>M089</item>
+        <item>M090</item>
+        <item>M091</item>
+        <item>M216</item>
+        <item>M135</item>
+        <item>5B1A</item>
+        <item>5B1B</item>
+        <item>M217</item>
+        <item>M218</item>
+        <item>M219</item>
+        <item>10A1</item>
+        <item>10A2</item>
+        <item>14B1</item>
+        <item>14B2</item>
+        <item>2A1 </item>
+        <item>2A2 </item>
+        <item>2B1 </item>
+        <item>2B2 </item>
+        <item>5B2B</item>
+        <item>6B1 </item>
+        <item>6B2 </item>
+        <item>7C1 </item>
+        <item>7C2 </item>
+        <item>7J1 </item>
+        <item>7J1 </item>
+        <item>7J2 </item>
+        <item>7K1 </item>
+        <item>7K2 </item>
+        <item>8D1 </item>
+        <item>8D1 </item>
+        <item>8D2 </item>
+        <item>80</item>
+        <item>800</item>
+        <item>9B1 </item>
+        <item>9B2 </item>
+
+
+
+    </string-array>
+
+    <string-array name="farvande">
+        <item> NORD FOR GRØNLAND</item>
+        <item> SYD FOR GRØNLAND </item>
+        <item> ØST FOR GRØNLAND </item>
+        <item> VEST FOR GRØNLAND </item>
+        <item> NORD FOR NEWFOUNDLAND</item>
+        <item> ØST FOR NEWFOUNDLAND</item>
+        <item> UD FOR NEWFOUNDLAND, FLEMISH CAP</item>
+        <item> SØ FOR NEWFOUNDLAND, 51W-46,30W</item>
+        <item> SSØ FOR NEWFOUNDLAND, 54,30W-51W</item>
+        <item> SYD FOR NEW FOUNDLAND</item>
+        <item> VEST FOR NEWFOUNDLAND</item>
+        <item> BARENTSHAVET</item>
+        <item> AZORERNES FARVANDE</item>
+        <item> NORD FOR AZORERNE</item>
+        <item> ØSTGRØNLANDSKE FARVANDE</item>
+        <item> NORDØST FOR GRØNLAND</item>
+        <item> SYDØST FOR GRØNLAND</item>
+        <item> NORSKE HAVET</item>
+        <item> SVALBARD OG BJØRNEØEN</item>
+        <item> ISEFJORDEN</item>
+        <item> SKAGERRAK</item>
+        <item> KATTEGAT</item>
+        <item> ØRESUND</item>
+        <item> BÆLTHAVET OG VESTLIGE ØSTERSØ</item>
+        <item> ØSTLIGE ØSTERSØ</item>
+        <item> ØSTERSØEN, UNDEROMRÅDE 24 I 3D</item>
+        <item> ØSTERSØEN, UNDEROMRÅDE 25 I 3D</item>
+        <item> NORDLIGE NORDSØ</item>
+        <item> CENTRALE NORDSØ</item>
+        <item> SYDLIGE NORDSØ</item>
+        <item> LIMFJORDEN</item>
+        <item> NISSUM FJORD</item>
+        <item> RINGKØBING FJORD</item>
+        <item> ISLANDSKE FARVANDE</item>
+        <item> FÆRØSKE FARVANDE</item>
+        <item> FÆRØSKE PLATEAU</item>
+        <item> INTERNATIONAL DEL AF 5B1</item>
+        <item> FÆRØSKE BANKE</item>
+        <item> NORDVEST FOR SKOTLAND OG NORD FOR IRLAND</item>
+        <item> ROCKALL</item>
+        <item> IRSKE HAV</item>
+        <item> VEST FOR IRLAND</item>
+        <item> PORCUPINE BANK</item>
+        <item> ØSTLIGE ENGELSKE KANAL</item>
+        <item> VESTLIGE ENGELSKE KANAL</item>
+        <item> BRISTOL KANAL</item>
+        <item> SYDØST FOR IRLAND</item>
+        <item> VEST OG NORDVEST FOR BRETAGNE</item>
+        <item> SYDVEST FOR IRLAND</item>
+        <item> SYD FOR PORCUPINE BANK</item>
+        <item> BRETAGNE,SYD</item>
+        <item> GASCOGNE,SYD</item>
+        <item> SPANIEN, NORD OG NORDVEST</item>
+        <item> GASCOGNE, MIDT</item>
+        <item> GASCOGNE, VEST</item>
+        <item> DEN PORTUGISISKE KYST</item>
+        <item> VEST FOR PORTUGAL</item>
+        <item> MUSLINGEOMRÅDE 1: NISSUM BREDNING, SYDVEST</item>
+        <item> MUSLINGEOMRÅDE 2: NISSUM BREDNING, NORDVEST</item>
+        <item> MUSLINGEOMRÅDE 3: NISSUM BREDNING, SYDØST</item>
+        <item> MUSLINGEOMRÅDE 4: NISSUM BREDNING, NORDØST</item>
+        <item> MUSLINGEOMRÅDE 5: VENØ SUND, LAVBJERG, SYD</item>
+        <item> MUSLINGEOMRÅDE 6: VENØ SUND, LAVBJERG, NORD</item>
+        <item> MUSLINGEOMRÅDE 7: VENØ BUGT, NORD</item>
+        <item> MUSLINGEOMRÅDE 8: VENØ BUGT, SYD</item>
+        <item> MUSLINGEOMRÅDE 9: KÅS BREDNING, VEST</item>
+        <item> MUSLINGEOMRÅDE 10: KÅS BREDNING, ØST</item>
+        <item> MUSLINGEOMRÅDE 11: SALLING SUND, SYD</item>
+        <item> MUSLINGEOMRÅDE 12: LYSEN BREDNING</item>
+        <item> MUSLINGEOMRÅDE 13: SALLING SUND, NORD</item>
+        <item> MUSLINGEOMRÅDE 14: DRÅBY VIG</item>
+        <item> MUSLINGEOMRÅDE 15: SØNDER BREDNING</item>
+        <item> MUSLINGEOMRÅDE 16:ØSTER BREDNING</item>
+        <item> MUSLINGEOMRÅDE 17: RISGÅRDE BREDNING, NORD</item>
+        <item> MUSLINGEOMRÅDE 18: RISGÅRDE BREDNING, SYD</item>
+        <item> MUSLINGEOMRÅDE 19: HVALPSUND</item>
+        <item> MUSLINGEOMRÅDE 20: LOVENS BREDNING, VEST</item>
+        <item> MUSLINGEOMRÅDE 21: LOVENS BREDNING, ØST</item>
+        <item> MUSLINGEOMRÅDE 22: SKIVE FJORD</item>
+        <item> MUSLINGEOMRÅDE 23: MORS, VEST</item>
+        <item> MUSLINGEOMRÅDE 24: NEES SUND</item>
+        <item> MUSLINGEOMRÅDE 25: VISBY BREDNING</item>
+        <item> MUSLINGEOMRÅDE 26: DRAGSTRUP VIG</item>
+        <item> MUSLINGEOMRÅDE 27: VILSUND</item>
+        <item> MUSLINGEOMRÅDE 28: THISTED BREDNING, SYDVEST</item>
+        <item> MUSLINGEOMRÅDE 29: THISTED BREDNING, NORDVEST</item>
+        <item> MUSLINGEOMRÅDE 30: THISTED BREDNING, SYDØST</item>
+        <item> MUSLINGEOMRÅDE 31: THESTED BREDNING, NORDØST</item>
+        <item> MUSLINGEOMRÅDE 33: LØGSTØR BREDNING, VEST</item>
+        <item> MUSLINGEOMRÅDE 34: LØGSTØR BREDNING</item>
+        <item> MUSLINGEOMRÅDE 35: LIVØ BREDNING, VEST</item>
+        <item> MUSLINGEOMRÅDE 36: LIVØ BREDNING, ØST</item>
+        <item> MUSLINGEOMRÅDE 37: BJØRNSHOLM BUGT</item>
+        <item> MUSLINGEOMRÅDE 38: LØGSTØR BREDNING, ØST</item>
+        <item> MUSLINGEOMRÅDE 39: LØGSTØR GRUNDE</item>
+        <item> MUSLINGEOMRÅDE 40: NIBE BREDNING/GJØL BREDNING</item>
+        <item> MUSLINGEOMRÅDE 65: VEST FOR ENDELAVE, ØSTLIGE DEL</item>
+        <item> MUSLINGEOMRÅDE 66: VEST FOR ENDELAVE, VESTLIGE DEL</item>
+        <item> MUSLINGEOMRÅDE 67: HORSENS FJORD, YDERST</item>
+        <item> MUSLINGEOMRÅDE 68: HORSENS FJORD, INDERST</item>
+        <item> MUSLINGEOMRÅDE 72: VEJLE FJORD, YDERST</item>
+        <item> MUSLINGEOMRÅDE 73: VEJLE FJORD, INDERST</item>
+        <item> MUSLINGEOMRÅDE 74: LILLEBÆLT, NORD</item>
+        <item> MUSLINGEOMRÅDE 75: KOLDING FJORD</item>
+        <item> MUSLINGEOMRÅDE 76: LILLEBÆLT SYD</item>
+        <item> MUSLINGEOMRÅDE 78: BARSØ</item>
+        <item> MUSLINGEOMRÅDE 79: ÅBENRÅ FJORD</item>
+        <item> MUSLINGEOMRÅDE 80: ALS FJORD</item>
+        <item> MUSLINGEOMRÅDE 82: FLENSBORG FJORD, YDERST</item>
+        <item> MUSLINGEOMRÅDE 83: FLENSBORG FJORD, INDERSTE</item>
+        <item> MUSLIGNEOMRÅDE 32: FEGGESUND/HOVSØR HAVN</item>
+        <item> VEST FOR ÅLBORG</item>
+        <item> LANGERAK</item>
+        <item> MARIAGER FJORD, YDERST</item>
+        <item> MARIAGER FJORD, MIDT</item>
+        <item> MARIAGER FJORD, INDERST</item>
+        <item> ÅLBÆK BUGT</item>
+        <item> LÆSØ NORD</item>
+        <item> LÆSØ NORDVEST</item>
+        <item> LÆSØ NORDØST</item>
+        <item> LÆSØ SYDVEST</item>
+        <item> LÆSØ SYDØST</item>
+        <item> KALØ VIG</item>
+        <item> ÅRHUS BUGT, V. ÅRHUS</item>
+        <item> BEGTRUP VIG</item>
+        <item> VEST FOR TUNØ</item>
+        <item> VEST FOR SAMSØ</item>
+        <item> VEST FOR FYNS HOVED</item>
+        <item> ÆBELØ</item>
+        <item> BÅRING VIG</item>
+        <item> VEST FOR HELNÆS</item>
+        <item> SØNDERBORG BUGT</item>
+        <item> HELNÆS BUGT</item>
+        <item> ØST FOR ALS</item>
+        <item> OMKRING AVERNAKØ</item>
+        <item> ØST FOR ÆRØ</item>
+        <item> MELLEM FYN OG LANGELAND</item>
+        <item> AGERSØ</item>
+        <item> HALSSKOV</item>
+        <item> MUSHOLM BUGT</item>
+        <item> JAMMERLAND BUGT</item>
+        <item> KALUNDBORG FJORD</item>
+        <item> SEJERØ BUGT, SYD</item>
+        <item> SEJERØ BUGT, NORD</item>
+        <item> HESSELØ BUGT, VEST</item>
+        <item> HESSELØ BUGT, ØST</item>
+        <item> INDER BREDNING/HOLBÆK FJORD</item>
+        <item> LAMMEFJORDEN</item>
+        <item> ISEFJORD SYDVEST</item>
+        <item> JÆGERSPRIS BUGT</item>
+        <item> NYKØBING BUGT</item>
+        <item> ISEFJORD NORDØST</item>
+        <item> TØRREGRUND</item>
+        <item> ROSKILDE FJORD,V. ØKSENHOLM</item>
+        <item> SYD FOR FREDERIKSSUND</item>
+        <item> ROSKILDE FJORD V. ROSKILDE</item>
+        <item> LEJRE VIG</item>
+        <item> HO BUGT VEST/GRÅDYB</item>
+        <item> HO BUGT V. HJERTING</item>
+        <item> ØST FOR FANØ, NORD</item>
+        <item> ØST FOR FANØ, SYD</item>
+        <item> NORD FOR MANDØ</item>
+        <item> VADEHAVET MELL. MANDØ OG RØMØ</item>
+        <item> SYD FOR RØMØ DÆMNING</item>
+        <item> VEST FOR RØMØ, ØSTLIGE DEL</item>
+        <item> VEST FOR RØMØ, VESTLIGE DEL</item>
+        <item> VEST FOR MANDØ, ØSTLIGE DEL</item>
+        <item> VEST FOR MANDØ, VESTLIGE DEL</item>
+        <item> VEST FOR FANØ, ØSTLIGE DEL</item>
+        <item> VEST FOR FANØ, VESTLIGE DEL</item>
+        <item> HORNS REV, V. BLÅVANDSHUK</item>
+        <item> HORNS REV, V. MUNK</item>
+        <item> HORNS REV, VEST</item>
+        <item> NORD FOR HORNS REV, ØST</item>
+        <item> NORD FOR HORNS REV, V. VEJRS</item>
+        <item> NORD FOR HORNS REV, VEST</item>
+        <item> VEST FOR BLÅBJERG KLITPLANTAGE</item>
+        <item> VEST FOR RINGKØBING FJORD, SYD</item>
+        <item> VEST FOR RINGKØBING FJORD, NORD</item>
+        <item> VEST FOR HUSBY KLIT</item>
+        <item> VEST FOR NISSUM FJORD</item>
+        <item> VEST FOR BOVBJERG FYR</item>
+        <item> LANGELANDSBÆLT, SYD</item>
+        <item> LANGELANDSBÆLT, NORD</item>
+        <item> OMØ</item>
+        <item> OMØ STÅLGRUND</item>
+        <item> GLÆNØ</item>
+        <item> FEJØ</item>
+        <item> KARREBÆKSMINDE BUGT</item>
+        <item> GULDBORGSUND, NORD</item>
+        <item> GULDBORGSUND, SYD</item>
+        <item> ØSTFALSTER</item>
+        <item> HJELM BUGT</item>
+        <item> BØGESTRØMMEN</item>
+        <item> SØHUNDEHAVN</item>
+        <item> FAKSE BUGT</item>
+        <item> STEVNS KLINT</item>
+        <item> KØGE BUGT</item>
+        <item> ØSTERSØEN, UNDEROMRÅDE 26</item>
+        <item> ØSTERSØEN, UNDEROMRÅDE 27</item>
+        <item> ØSTERSØEN, UNDEROMRÅDE 28</item>
+        <item> ØSTERSØEN, UNDEROMRÅDE 29</item>
+        <item> ØSTERSØEN, UNDEROMRÅDE 30</item>
+        <item> ØSTERSØEN, UNDEROMRÅDE 31</item>
+        <item> ØSTERSØEN, UNDEROMRÅDE 32</item>
+        <item> MUSLINGEOMRÅDE 9: KÅS BREDNING</item>
+        <item> MUSLINGEOMRÅDE 28: THISTED BREDNING, VEST</item>
+        <item> MUSLINGEOMRÅDE 30: THISTED BREDNING, ØST</item>
+        <item> Venø Sund, Lavbjerg, Nord</item>
+        <item> Kås Bredning,Vest</item>
+        <item> Thisted Bredning, Sydvest</item>
+        <item> Thisted Bredning, Sydøst</item>
+        <item> Øster Bredning</item>
+        <item> Risgårde Bredning, Nord</item>
+        <item> Risgårde Bredning, Syd</item>
+        <item> Thisted Bredning, Øst</item>
+        <item> Feggesund/Hovsør Havn</item>
+        <item> Løgstør Bredning. Vest</item>
+        <item> Løgstør Bredning</item>
+        <item> Livø Bredning, Vest</item>
+        <item> Livø Bredning, Øst</item>
+        <item> Bjørnsholm Bugt</item>
+        <item> GUDENÅ</item>
+        <item> TANGE SØ</item>
+        <item> JULSØ</item>
+        <item> SALTEN LANGSØ</item>
+        <item> BIRKSØ</item>
+        <item> Ukendt</item>
+        <item> KNUDSØ</item>
+        <item> SILKEBORG LANGSØ</item>
+        <item> SKANDERBORG SØ</item>
+        <item> MOSSØ</item>
+        <item> RODDENBJERG SØ</item>
+        <item> BOLLER SØ</item>
+        <item> OVESØ</item>
+        <item> HALD SØ</item>
+        <item> VIBORG SØ</item>
+        <item> SKJERN Å</item>
+        <item> TJELE LANGSØ</item>
+        <item> RØDSØ</item>
+        <item> GLENSTRUP SØ</item>
+        <item> STUBBE SØ</item>
+        <item> STILLING-SOLBJERG SØ</item>
+        <item> HUSBY SØ</item>
+        <item> KARUP Å</item>
+        <item> STUBBERGÅRD SØ</item>
+        <item> FLYNDERSØ</item>
+        <item> STORÅ</item>
+        <item> VEJLE Å</item>
+        <item> RANDS FJORD</item>
+        <item> RIBE Å</item>
+        <item> REJSBY Å</item>
+        <item> PAMHULE SØ</item>
+        <item> SNÆBUM SØ</item>
+        <item> ØRSLEVKLOSTER SØ</item>
+        <item> HADERSLEV DAM</item>
+        <item> VARDE Å</item>
+        <item> JYLLAND SYD FOR LIMFJORDEN, USPECIFICERET</item>
+        <item> FLADE SØ</item>
+        <item> ØRUM SØ</item>
+        <item> FØRBY SØ</item>
+        <item> VANDET SØ</item>
+        <item> NORS SØ</item>
+        <item> SUSÅ</item>
+        <item> TYSTRUP SØ</item>
+        <item> BAVELSE SØ</item>
+        <item> SORØ SØ</item>
+        <item> GYRSTINGE SØ</item>
+        <item> TISSØ</item>
+        <item> SKARRESØ</item>
+        <item> MADESØ</item>
+        <item> STORE KATTINGE SØ</item>
+        <item> SVOGERSLEV SØ</item>
+        <item> SALTBÆK VIG</item>
+        <item> ULSE SØ</item>
+        <item> ESRUM SØ</item>
+        <item> GURRE SØ</item>
+        <item> BURESØ</item>
+        <item> ARRESØ</item>
+        <item> FURESØ</item>
+        <item> BASTRUP SØ</item>
+        <item> SJÆLSØ</item>
+        <item> GUNDSØMAGLE SØ</item>
+        <item> ARRESKOV SØ</item>
+        <item> HVIDKILDE SØ (V. SVENDBORG)</item>
+        <item> BOVENSE MOSE (ØSTFYN)</item>
+        <item> FYN, USPECIFICEREDE FERSKE VANDE</item>
+        <item> RØNNINGE SØ  (V. ULLERSLEV PÅ FYN)</item>
+        <item> SJÆLLAND, USPECIFICEREDE FERSKE VANDE</item>
+        <item> SØNDERSØ (VED MARIBO)</item>
+        <item> VESTERBORG SØ</item>
+        <item> LOLLAND, USPECIFICEREDE FERSKE VANDE</item>
+        <item> DAVIS STRAIT, BAFFIN LAND</item>
+        <item> DAVIS STRAT</item>
+        <item> BAFFIN BUGT, MELVILLE BUGT, DISKOØEN</item>
+        <item> DAVIS STRAIT, CHRISTIANSHAAB, STORE HELLEFISKE BANKE</item>
+        <item> DAVIS STRAIT, UMANARSUGSSUAK, LILLE HELLEFISKE BANKE</item>
+        <item> FREDERIKSHAAB GLETSCHER, GODTHAAB, FYLLAS BANKE, FISKENAES BANKE, DANAS BANKE</item>
+        <item> KAP DESOLATION, FREDERIKSHAAB GLETSHCER, DANAS BANKE</item>
+        <item> KAP DESOLATION, KAP FARVEL</item>
+        <item> KAP MUGFORD</item>
+        <item> HOPEDALE, KAP MUGFORD</item>
+        <item> HOPEDALE, HAMILTON BANKE</item>
+        <item> KAP FREELS, KAP BAULD</item>
+        <item> KAP FREELS, KAP ST. MARYS, GRAND BANK, AVALON HALVØEN, ST. JOHNS</item>
+        <item> FLEMISH CAP</item>
+        <item> GRAND BANK</item>
+        <item> GRAND BANK</item>
+        <item> NORDVEST UNDEROMRÅDE, BURGEO ISLAND</item>
+        <item> SYDØST UNDEROMRÅDE, GRAND BANK, BURIN HALVØEN</item>
+        <item> GULF OF SAINT LAWRENCE, KAP BAULD, STRAIT OF BELLE ISLE, KAP RAY</item>
+        <item> GULF OF SAINT LAWRENCE, LABRADOR-QUEBEC GRÆNSE</item>
+        <item> GULF OF SAINT LAWRENCE, MAGDALEN ØERNE</item>
+        <item> NORDLIGE UNDEROMRÅDE, KAP BRETON, GLACE BUGT</item>
+        <item> SYDLIGE UNDEROMRÅDE</item>
+        <item> CANSO, CENTRAL SCOTIAN SHELF, SABLE ISLAND, HALIFAX</item>
+        <item> VESTLIGE SCOTIAN SHELF, FUNDY BUGT, ST. MARGARETS BUGT</item>
+        <item> GULF OF MAINE, BAR HARBOUR</item>
+        <item> CANADISKE FARVANDE, GEORGES BANKE</item>
+        <item> ØSTLIGE UNDEROMRÅDE, GEORGES BANKE</item>
+        <item> ØSTLIGE UNDEROMRÅDE </item>
+        <item> VESTLIGE UNDEROMRÅDE, GEORGES BANKE, NANTUCKET</item>
+        <item> RHODE ISLAND</item>
+        <item> KAP HENRY</item>
+        <item> KAP HATTERAS</item>
+        <item> RHODE ISLAND</item>
+        <item> RHODE ISLAND</item>
+        <item> RHODE ISLAND</item>
+        <item> RHODE ISLAND</item>
+        <item> RHODE ISLAND</item>
+        <item> BARENTSHAVET, NEAFC REGULERET</item>
+        <item> BARENTSHAVET</item>
+        <item> FARVANDET VED AZORERNE</item>
+        <item> NORDØSTATLANTEN SYD</item>
+        <item> SYDLIG MIDTATLANTISK HØJDERYG, A1</item>
+        <item> SYDLIG MIDTATLANTISK HØJDERYG, A2</item>
+        <item> NORD FOR AZORERNE</item>
+        <item> NORD FOR AZORERNE</item>
+        <item> VESTLIGE HATTON BANKE</item>
+        <item> CENTRAL NORDØSTATLANTEN SYD</item>
+        <item> ØRESUND</item>
+        <item> ØSTERSØEN, UNDEROMRÅDE 22</item>
+        <item> ØSTERSØEN, UNDEROMRÅDE 24 I 3C</item>
+        <item> ØSTERSØEN, UNDEROMRÅDE 25</item>
+        <item> ØSTERSØEN, UNDEROMRÅDE 28, RIGA BUGT</item>
+        <item> ØSTERSØEN, UNDEROMRÅDE 28</item>
+        <item> NORDLIGE REYKJANSKE HØJDERYG</item>
+        <item> ISLANDSKE HYLDE</item>
+        <item> FÆRØSK PLATEAU</item>
+        <item> NORDVEST FOR SKOTLAND OG IRLAND</item>
+        <item> KELTISK HAV NORD</item>
+        <item> KELTISK HAV SYD</item>
+        <item> SYDVEST FOR IRLAND - ØST</item>
+        <item> SYDVEST FOR IRLAND - VEST</item>
+        <item> BISCAYABUGTEN NORD</item>
+        <item> BISCAYABUGTEN CENTRAL</item>
+        <item> BISCAYABUGTEN SYD</item>
+        <item> BISCAYABUGTEN OFFSHORE</item>
+        <item> BISCAYABUGTEN VEST</item>
+        <item> PORTUGISISK FARVAND ØST</item>
+        <item> PORTUGISISK FARVAND VEST</item>
+        <item> UKENDT</item>
+        <item> VIDÅ</item>
+        <item> RUDBØL SØ</item>
+        <item> Dragerup Nord</item>
+        <item> Rønø/Vellerup</item>
+        <item> Atlantic, Eastern central - Northern coastal</item>
+        <item> Atlantic, Eastern central - Morocco coastal - North</item>
+        <item> Atlantic, Eastern central - Morocco coastal - Mid</item>
+        <item> Atlantic, Eastern central - Morocco coastal - South</item>
+        <item> Atlantic, Canaries/Madeira insular</item>
+        <item> Atlantic, Eastern central - Sahara coastal</item>
+        <item> Atlantic, Eastern central - Sahara coastal - North</item>
+        <item> Atlantic, Eastern central - Sahara coastal - South</item>
+        <item> Atlantic, Northern Oceanic</item>
+        <item> MUSLINGEOMRÅDE 92: Bolsaks</item>
+        <item> MUSLINGEOMRÅDE 93: Hatter Bar</item>
+        <item> MUSLINGEOMRÅDE 94: Samsø Flak</item>
+        <item> MUSLINGEOMRÅDE 95: Yder Flak</item>
+        <item> MUSLINGEOMRÅDE 96: Ebeltoft Vig</item>
+        <item> MUSLINGEOMRÅDE 97: Samsø Nord</item>
+        <item> MUSLINGEOMRÅDE 109: Agersø</item>
+        <item> MUSLINGEOMRÅDE 191: Øresund Syd</item>
+        <item> MUSLINGEOMRÅDE 192: Øresund Midt</item>
+        <item> MUSLINGEOMRÅDE 193: Øresund Nord</item>
+        <item> MUSLINGEOMRÅDE 201: Ålborg Bugt Nord</item>
+        <item> MUSLINGEOMRÅDE 202: Sanden Vest</item>
+        <item> MUSLINGEOMRÅDE 203: Sanden Øst</item>
+        <item> MUSLINGEOMRÅDE 204: Ålborg Bugt Syd</item>
+        <item> MUSLINGEOMRÅDE 205: Alholt Vest</item>
+        <item> MUSLINGEOMRÅDE 206: Alholt</item>
+        <item> MUSLINGEOMRÅDE 207: Djursland Nord</item>
+        <item> MUSLINGEOMRÅDE 208: Djursland Nordøst</item>
+        <item> MUSLINGEOMRÅDE 209: Anholt Syd</item>
+        <item> MUSLINGEOMRÅDE 170: BREDGRUND</item>
+        <item> MUSLINGEOMRÅDE 171: MARSTAL BUGT</item>
+        <item> MUSLINGEOMRÅDE 172: FEMERN BÆLT VEST</item>
+        <item> MUSLINGEOMRÅDE 173: FEMERN BÆLT</item>
+        <item> MUSLINGEOMRÅDE 210: DJURSLAND ØST </item>
+        <item> MUSLINGEOMRÅDE 211: BRIESELS FLAK</item>
+        <item> MUSLINGEOMRÅDE 212: LYSEGRUND NORD</item>
+        <item> MUSLINGEOMRÅDE 213: DJURSLAND SYD</item>
+        <item> MUSLINGEOMRÅDE 214: SJÆLLANDS REV</item>
+        <item> MUSLINGEOMRÅDE 215: HESSELØ</item>
+        <item> MUSLINGEOMRÅDE 89: STOREBÆLT SYD</item>
+        <item> MUSLINGEOMRÅDE 90: STOREBÆLT</item>
+        <item> MUSLINGEOMRÅDE 91: STOREBÆLT NORD</item>
+        <item> MUSLINGEOMRÅDE 216: AGGER TANGE</item>
+        <item> VADEHAVET SYD FOR RØMØ DÆMNING</item>
+        <item> FÆRØSK PLATEAU</item>
+        <item> FÆRØSK PLATEAU</item>
+        <item> MUSLINGEOMRÅDE 217: VEST FOR ØRHAGE</item>
+        <item> MUSLINGEOMRÅDE 218: VIGSØ BUGT</item>
+        <item> MUSLINGEOMRÅDE 219: JAMMERBUGT, SYD</item>
+        <item> FARVANDET VED AZORERNE</item>
+        <item> FARVANDET VED AZORERNE</item>
+        <item> SYDØST FOR GRØNLAND</item>
+        <item> SYDØST FOR GRØNLAND</item>
+        <item> NORSKE HAVET</item>
+        <item> NORSKE HAVET</item>
+        <item> SVALBARD OG BJØRNEØEN</item>
+        <item> SVALBARD OG BJØRNEØEN</item>
+        <item> FÆRØSKE BANKE</item>
+        <item> ROCKALL</item>
+        <item> ROCKALL</item>
+        <item> PORCUPINE BANK</item>
+        <item> PORCUPINE BANK</item>
+        <item> SYDVEST FOR IRLAND</item>
+        <item> SYDVEST FOR IRLAND - ØST</item>
+        <item> SYDVEST FOR IRLAND - ØST</item>
+        <item> SYDVEST FOR IRLAND - VEST</item>
+        <item> SYDVEST FOR IRLAND - VEST</item>
+        <item> BISCAYABUGTEN OFFSHORE</item>
+        <item> GASCOGNE, MIDT</item>
+        <item> BISCAYABUGTEN OFFSHORE</item>
+        <item> BISCAYABUGTEN VEST</item>
+        <item> BISCAYABUGTEN VEST</item>
+        <item> PORTUGISISK FARVAND VEST</item>
+        <item> PORTUGISISK FARVAND VEST</item>
+    </string-array>
+
     <string-array name="afrejsehavne">
         <item>ÅBENRÅ (DKAAB)</item>
         <item>ÅSTRUP (DKAAC)</item>

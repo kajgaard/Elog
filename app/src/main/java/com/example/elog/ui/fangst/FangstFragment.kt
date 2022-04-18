@@ -6,25 +6,15 @@ import android.view.ViewGroup
 import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
-import com.example.elog.ui.oversigt.OversigtViewModel
 import androidx.lifecycle.ViewModelProvider
-import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.LiveData
 import com.example.elog.R
 import com.example.elog.databinding.FragmentFangstBinding
-import com.example.elog.ui.melding.MeldingViewModel
-import com.example.elog.ui.landing.LandingViewModel
-import com.example.elog.ui.fangst.FangstViewModel
-import kotlinx.android.synthetic.main.afrejse_afrejseoplysninger.*
-import kotlinx.android.synthetic.main.afrejse_fartojsidentifikation.*
+import kotlinx.android.synthetic.main.fangst_fangstoplysninger.*
 import kotlinx.android.synthetic.main.fangst_redskaber.*
 import kotlinx.android.synthetic.main.fangst_standardbesked.*
 import kotlinx.android.synthetic.main.fangst_tagesop.*
-import kotlinx.android.synthetic.main.fangst_udsaetning.*
 import kotlinx.android.synthetic.main.fangst_udsaetning.udPosLatAuto
 import kotlinx.android.synthetic.main.fangst_udsaetning.udPosLonAuto
 
@@ -52,6 +42,10 @@ class FangstFragment : Fragment() {
         val adapterBeskeder = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, beskedListe)
         beskeder_autoCompleteTextView.setAdapter(adapterBeskeder)
 
+        val farvandListe = resources.getStringArray(R.array.farvandskoder)
+        val adapterFarvande = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_dropdown_item, farvandListe)
+        farvandAuto.setAdapter(adapterFarvande)
+
 
         standardbesked_help.setOnClickListener{
             Toast.makeText(requireContext(), "Forlægning til anden havn, vagttjeneste ved boreplatforme, transportrejser til fangstområder hvor sejlads tager mere end 24 timer etc.", Toast.LENGTH_LONG).show();
@@ -59,6 +53,10 @@ class FangstFragment : Fragment() {
 
         fangst_tagetop_help.setOnClickListener{
             Toast.makeText(requireContext(), "Tidspunkt og position for hvor trækket afsluttes", Toast.LENGTH_LONG).show();
+        }
+
+        fangst_fangstoplys_help.setOnClickListener{
+            Toast.makeText(requireContext(), "Position hvor den største andel fisk skønnes at være fanget", Toast.LENGTH_LONG).show();
         }
 
         val longitudeList = resources.getStringArray(R.array.longitude)

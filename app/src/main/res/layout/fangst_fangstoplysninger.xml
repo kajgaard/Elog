@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:background="@drawable/card_background">
+
+
+    <TextView
+        android:id="@+id/udsaetning_overskrift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:text="Fangsttid- og sted"
+        android:theme="@style/overskrift_formular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/fangst_fangstoplys_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="@+id/udsaetning_overskrift"
+        app:layout_constraintStart_toEndOf="@+id/udsaetning_overskrift"
+        app:layout_constraintTop_toTopOf="@+id/udsaetning_overskrift"
+        app:srcCompat="@drawable/help"
+        app:tint="@color/moerkblaa" />
+
+
+    <TextView
+        android:id="@+id/udPosLatTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bredde"
+        android:layout_marginEnd="5dp"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintEnd_toStartOf="@id/udLatPosGrader"
+        app:layout_constraintTop_toTopOf="@id/udPosLonTV"/>
+
+
+    <EditText
+        android:id="@+id/udLatPosGrader"
+        android:layout_width="30dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/edittext_border"
+        android:minWidth="48dp"
+        android:maxLength="2"
+        android:textAlignment="center"
+        android:theme="@style/edittext_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/udPosLatTV"
+        app:layout_constraintEnd_toStartOf="@id/udPosLatGradtegn"
+        app:layout_constraintTop_toTopOf="@+id/udPosLatTV"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/udPosLatGradtegn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="°"
+        android:textSize="@dimen/seperators"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/udLatPosGrader"
+       app:layout_constraintEnd_toStartOf="@+id/UdPosLatMin"
+        app:layout_constraintTop_toTopOf="@+id/udLatPosGrader"/>
+
+    <EditText
+        android:id="@+id/UdPosLatMin"
+        android:layout_width="30dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/edittext_border"
+        android:minWidth="48dp"
+        android:maxLength="2"
+        android:textAlignment="center"
+        android:theme="@style/edittext_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/udPosLatGradtegn"
+        app:layout_constraintEnd_toStartOf="@+id/udLatPosMintegn"
+        app:layout_constraintTop_toTopOf="@+id/udPosLatGradtegn" />
+
+    <TextView
+        android:id="@+id/udLatPosMintegn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text=","
+        android:textSize="@dimen/seperators"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/UdPosLatMin"
+        app:layout_constraintEnd_toStartOf="@+id/udLatPosDeci"
+        app:layout_constraintTop_toTopOf="@+id/UdPosLatMin" />
+
+    <EditText
+        android:id="@+id/udLatPosDeci"
+        android:layout_width="40dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/edittext_border"
+        android:minWidth="48dp"
+        android:maxLength="3"
+        android:textAlignment="center"
+        android:theme="@style/edittext_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/udLatPosMintegn"
+        app:layout_constraintEnd_toStartOf="@+id/udLatPosDecitegn"
+        app:layout_constraintTop_toTopOf="@+id/udLatPosMintegn" />
+
+
+    <TextView
+        android:id="@+id/udLatPosDecitegn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="'"
+        android:textSize="@dimen/seperators"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/udLatPosDeci"
+        app:layout_constraintEnd_toStartOf="@+id/udPosLatTextInput"
+        app:layout_constraintTop_toTopOf="@+id/udLatPosDeci" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/udPosLatTextInput"
+        android:layout_width="75dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:background="@null"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/transparent"
+        android:paddingStart="5dp"
+        android:theme="@style/brodtekst_formular"
+        app:boxBackgroundColor="@color/transparent"
+        app:boxStrokeWidth="0dp"
+        app:endIconMode="dropdown_menu"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/udLatPosDecitegn"
+        app:layout_constraintEnd_toStartOf="@id/udPosNuBtn"
+        app:layout_constraintTop_toTopOf="@+id/udLatPosDecitegn">
+
+        <AutoCompleteTextView
+            android:id="@+id/udPosLatAuto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:theme="@style/brodtekst_formular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/udPosLonTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Længde"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintStart_toStartOf="@+id/udsaetning_overskrift"
+        app:layout_constraintTop_toBottomOf="@+id/udsaetning_overskrift" />
+
+
+    <EditText
+        android:id="@+id/udLonPosGrader"
+        android:layout_width="30dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/edittext_border"
+        android:minWidth="48dp"
+        android:maxLength="2"
+        android:textAlignment="center"
+        android:theme="@style/edittext_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/udPosLonTV"
+        app:layout_constraintStart_toEndOf="@+id/udPosLonTV"
+        app:layout_constraintTop_toTopOf="@+id/udPosLonTV"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/udPosLonGradtegn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="°"
+        android:textSize="@dimen/seperators"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/udLonPosGrader"
+        app:layout_constraintStart_toEndOf="@+id/udLonPosGrader"
+        app:layout_constraintTop_toTopOf="@+id/udLonPosGrader"/>
+
+    <EditText
+        android:id="@+id/UdPosLonMin"
+        android:layout_width="30dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/edittext_border"
+        android:minWidth="48dp"
+        android:maxLength="2"
+        android:textAlignment="center"
+        android:theme="@style/edittext_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/udPosLonGradtegn"
+        app:layout_constraintStart_toEndOf="@+id/udPosLonGradtegn"
+        app:layout_constraintTop_toTopOf="@+id/udPosLonGradtegn" />
+
+    <TextView
+        android:id="@+id/udLonPosMintegn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text=","
+        android:textSize="@dimen/seperators"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/UdPosLonMin"
+        app:layout_constraintStart_toEndOf="@+id/UdPosLonMin"
+        app:layout_constraintTop_toTopOf="@+id/UdPosLonMin" />
+
+    <EditText
+        android:id="@+id/udLonPosDeci"
+        android:layout_width="40dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/edittext_border"
+        android:minWidth="48dp"
+        android:maxLength="3"
+        android:textAlignment="center"
+        android:theme="@style/edittext_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/udLonPosMintegn"
+        app:layout_constraintStart_toEndOf="@+id/udLonPosMintegn"
+        app:layout_constraintTop_toTopOf="@+id/udLonPosMintegn" />
+
+
+    <TextView
+        android:id="@+id/udLonPosDecitegn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="'"
+        android:textSize="@dimen/seperators"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/udLonPosDeci"
+        app:layout_constraintStart_toEndOf="@+id/udLonPosDeci"
+        app:layout_constraintTop_toTopOf="@+id/udLonPosDeci" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/udPosLonTextInput"
+        android:layout_width="75dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:background="@null"
+        android:backgroundTint="@color/transparent"
+        android:paddingStart="5dp"
+        android:theme="@style/brodtekst_formular"
+        app:boxBackgroundColor="@color/transparent"
+        app:boxStrokeWidth="0dp"
+        app:endIconMode="dropdown_menu"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/udLonPosDecitegn"
+        app:layout_constraintStart_toEndOf="@+id/udLonPosDecitegn"
+        app:layout_constraintTop_toTopOf="@+id/udLonPosDecitegn">
+
+        <AutoCompleteTextView
+            android:id="@+id/udPosLonAuto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:theme="@style/brodtekst_formular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/udPosNuBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:backgroundTint="@color/posBtnColor"
+        android:letterSpacing="0"
+        android:rotationY="0"
+        android:text="Nuværende position"
+        android:textAllCaps="false"
+        android:textColor="@color/moerkblaa"
+        android:theme="@style/posbtn_formular"
+        app:layout_constraintBottom_toBottomOf="@id/udPosLatTextInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/udPosLatTextInput" />
+
+
+    <TextView
+        android:id="@+id/statRektTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stat. rekt."
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintStart_toStartOf="@+id/udPosLonTV"
+        app:layout_constraintTop_toBottomOf="@id/udPosLonTV"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/statRektET"
+        android:layout_width="50dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/edittext_border"
+        android:minWidth="48dp"
+        android:maxLength="3"
+        android:textAlignment="center"
+        android:theme="@style/edittext_formular"
+        app:layout_constraintBottom_toBottomOf="@+id/statRektTV"
+        app:layout_constraintStart_toEndOf="@+id/statRektTV"
+        app:layout_constraintTop_toTopOf="@+id/statRektTV" />
+
+
+    <TextView
+        android:id="@+id/farvandTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Farvand"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintStart_toEndOf="@id/statRektET"
+        app:layout_constraintTop_toTopOf="@id/statRektET"
+        app:layout_constraintBottom_toBottomOf="@id/statRektET"
+        android:layout_marginStart="30dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/farvandTextInput"
+        android:layout_width="110dp"
+        android:layout_height="@dimen/hojde_tekstfelter"
+        android:background="@null"
+        android:backgroundTint="@color/transparent"
+        android:paddingStart="5dp"
+        android:theme="@style/brodtekst_formular"
+        app:boxBackgroundColor="@color/transparent"
+        app:boxStrokeWidth="0dp"
+        app:endIconMode="dropdown_menu"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/farvandTV"
+        app:layout_constraintStart_toEndOf="@+id/farvandTV"
+        app:layout_constraintTop_toTopOf="@+id/farvandTV">
+
+        <AutoCompleteTextView
+            android:id="@+id/farvandAuto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:theme="@style/brodtekst_formular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
