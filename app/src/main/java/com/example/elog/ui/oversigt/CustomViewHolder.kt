@@ -24,7 +24,9 @@ class CustomViewHolder(itemView: View) : TreeViewHolder(itemView) {
         fileName!!.text = fileNameStr
         val dotIndex = fileNameStr.indexOf('.')
         if (dotIndex == -1) {
-            fileTypeIcon!!.setImageResource(R.drawable.ic_folder)
+            val extension = fileNameStr.substring(dotIndex)
+            val extensionIcon = ExtensionTable.getExtensionIcon(extension)
+            fileTypeIcon!!.setImageResource(extensionIcon)
         } else {
             val extension = fileNameStr.substring(dotIndex)
             val extensionIcon = ExtensionTable.getExtensionIcon(extension)

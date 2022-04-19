@@ -50,13 +50,23 @@ class OversigtFragment : Fragment() {
         recycler_view.adapter = treeViewAdapter
 
 
-        val javaDirectory = TreeNode("Java", R.layout.list_item_file)
-        javaDirectory.addChild(TreeNode("FileJava1.java", R.layout.list_item_file))
-        javaDirectory.addChild(TreeNode("FileJava2.java", R.layout.list_item_file))
-        javaDirectory.addChild(TreeNode("FileJava3.java", R.layout.list_item_file))
+        val afrejseMelding = TreeNode("Afrejse: 14-03-2022 12:00, STRANBY (NORDJYLLAND) (DKSTD).gron", R.layout.list_item_file)
+        afrejseMelding.addChild(TreeNode("Kvitteret: 14-03-2022 12:50.gron", R.layout.list_item_file))
+        afrejseMelding.addChild(TreeNode("Havnekenningsnummer: FN123.gron", R.layout.list_item_file))
+        afrejseMelding.addChild(TreeNode("Fartøjsnavn: Ulla-Britta.gron", R.layout.list_item_file))
+        afrejseMelding.addChild(TreeNode("Radiokaldesignal: ABCDEFG.gron", R.layout.list_item_file))
+        afrejseMelding.addChild(TreeNode("Fartøjsfører: Maria K.gron", R.layout.list_item_file))
+        afrejseMelding.addChild(TreeNode("Fartøjsførers adresse: Gærtorvet 3, 1799 København.gron", R.layout.list_item_file))
+        afrejseMelding.addChild(TreeNode("Kvitteret: 14-03-2022 12:50.gron", R.layout.list_item_file))
+
+        val afrejseRedskab = TreeNode("Redskaber ombord:.gron", R.layout.list_item_file)
+        afrejseRedskab.addChild(TreeNode("TBB Bomtrawl, Størrelse 10mm, Dimension: 2, Antal 1.gron", R.layout.list_item_file))
+
+        afrejseMelding.addChild(afrejseRedskab)
+
 
         val fileRoots: MutableList<TreeNode> = ArrayList()
-        fileRoots.add(javaDirectory)
+        fileRoots.add(afrejseMelding)
 
         treeViewAdapter.updateTreeNodes(fileRoots)
 
