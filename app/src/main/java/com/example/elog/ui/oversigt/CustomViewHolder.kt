@@ -21,8 +21,9 @@ class CustomViewHolder(itemView: View) : TreeViewHolder(itemView) {
     override fun bindTreeNode(node: TreeNode) {
         super.bindTreeNode(node)
         val fileNameStr = node.value.toString()
-        fileName!!.text = fileNameStr
         val dotIndex = fileNameStr.indexOf('.')
+        fileName!!.text = fileNameStr.substring(0,dotIndex)
+
         if (dotIndex == -1) {
             val extension = fileNameStr.substring(dotIndex)
             val extensionIcon = ExtensionTable.getExtensionIcon(extension)
