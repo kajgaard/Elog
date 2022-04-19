@@ -15,12 +15,13 @@ import com.example.elog.ui.landing.LandingViewModel
 import com.example.elog.ui.fangst.FangstViewModel
 
 class OversigtViewModel : ViewModel() {
-    private val mText: MutableLiveData<String?>
-    val text: LiveData<String?>
-        get() = mText
+    //private val mText: MutableLiveData<String?>
+    //val text: LiveData<String?>
+       // get() = mText
+
 
     init {
-        mText = MutableLiveData()
-        mText.value = "This is oversigt fragment"
+      //  mText = MutableLiveData()
+       // mText.value = "This is oversigt fragment"
     }
 }
