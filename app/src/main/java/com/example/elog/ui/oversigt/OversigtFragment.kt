@@ -50,23 +50,49 @@ class OversigtFragment : Fragment() {
         recycler_view.adapter = treeViewAdapter
 
 
-        val afrejseMelding = TreeNode("Afrejse: 14-03-2022 12:00, STRANBY (NORDJYLLAND) (DKSTD).gron", R.layout.list_item_file)
-        afrejseMelding.addChild(TreeNode("Kvitteret: 14-03-2022 12:50.gron", R.layout.list_item_file))
-        afrejseMelding.addChild(TreeNode("Havnekenningsnummer: FN123.gron", R.layout.list_item_file))
-        afrejseMelding.addChild(TreeNode("Fartøjsnavn: Ulla-Britta.gron", R.layout.list_item_file))
-        afrejseMelding.addChild(TreeNode("Radiokaldesignal: ABCDEFG.gron", R.layout.list_item_file))
-        afrejseMelding.addChild(TreeNode("Fartøjsfører: Maria K.gron", R.layout.list_item_file))
-        afrejseMelding.addChild(TreeNode("Fartøjsførers adresse: Gærtorvet 3, 1799 København.gron", R.layout.list_item_file))
-        afrejseMelding.addChild(TreeNode("Kvitteret: 14-03-2022 12:50.gron", R.layout.list_item_file))
+        val afrejseMelding = TreeNode("Afrejse: 14-03-2022 12:00, STRANDBY (NORDJYLLAND) (DKSTD).gron", R.layout.list_item_root)
+        afrejseMelding.addChild(TreeNode("Kvitteret: 14-03-2022 12:50.gron", R.layout.list_item_child))
+        afrejseMelding.addChild(TreeNode("Havnekenningsnummer: FN123.gron", R.layout.list_item_child))
+        afrejseMelding.addChild(TreeNode("Fartøjsnavn: Ulla-Britta.gron", R.layout.list_item_child))
+        afrejseMelding.addChild(TreeNode("Radiokaldesignal: ABCDEFG.gron", R.layout.list_item_child))
+        afrejseMelding.addChild(TreeNode("Fartøjsfører: Maria K.gron", R.layout.list_item_child))
+        afrejseMelding.addChild(TreeNode("Fartøjsførers adresse: Gærtorvet 3, 1799 København.gron", R.layout.list_item_child))
+        afrejseMelding.addChild(TreeNode("Kvitteret: 14-03-2022 12:50.gron", R.layout.list_item_child))
 
-        val afrejseRedskab = TreeNode("Redskaber ombord:.gron", R.layout.list_item_file)
-        afrejseRedskab.addChild(TreeNode("TBB Bomtrawl, Størrelse 10mm, Dimension: 2, Antal 1.gron", R.layout.list_item_file))
+        val afrejseRedskab = TreeNode("Redskaber ombord:.gron", R.layout.list_item_child)
+        afrejseRedskab.addChild(TreeNode("TBB Bomtrawl, Størrelse 10mm, Dimension: 2, Antal 1.gron", R.layout.list_item_child))
 
         afrejseMelding.addChild(afrejseRedskab)
+
+        val danskMelding = TreeNode("Melding: Nyt lossetidspunkt.gul", R.layout.list_item_root)
+        danskMelding.addChild(TreeNode("Type: Nyt lossetidspunkt.gul", R.layout.list_item_child))
+        danskMelding.addChild(TreeNode("Fiskeri: Industri.gul", R.layout.list_item_child))
+        danskMelding.addChild(TreeNode("Dato:16-03-2022 10:00.gul", R.layout.list_item_child))
+        danskMelding.addChild(TreeNode("Sendes til: DNK.gul", R.layout.list_item_child))
+
+
+
+
+        val fangstMelding = TreeNode("Fangst: 14:00.rod", R.layout.list_item_root)
+        fangstMelding.addChild(TreeNode("Kladde: Nej.rod", R.layout.list_item_child))
+        fangstMelding.addChild(TreeNode("Udsætningsdato og -tid 14-03-2022 13:00.rod", R.layout.list_item_child))
+
+        val passiveFangstredskaber = TreeNode("Antal passive fangstredskaber: 1.rod", R.layout.list_item_child)
+        passiveFangstredskaber.addChild(TreeNode("HHV Hummertejner, Størrelse: 15mm, Dimension: 1, Antal: 12.rod",R.layout.list_item_child))
+
+        fangstMelding.addChild(passiveFangstredskaber)
+        fangstMelding.addChild(TreeNode("Udsætning br/lg 72°N 43,6’/14°V 33,9’.rod", R.layout.list_item_child))
+        fangstMelding.addChild(TreeNode("Statistisk rektangel 74D5.rod", R.layout.list_item_child))
+        fangstMelding.addChild(TreeNode("Farvand 14A (NORDØST FOR GRØNLAND).rod", R.layout.list_item_child))
+        fangstMelding.addChild(TreeNode("Økonomisk zone: GRL (GRØNLAND).rod", R.layout.list_item_child))
+
+
 
 
         val fileRoots: MutableList<TreeNode> = ArrayList()
         fileRoots.add(afrejseMelding)
+        fileRoots.add(danskMelding)
+        fileRoots.add(fangstMelding)
 
         treeViewAdapter.updateTreeNodes(fileRoots)
 
