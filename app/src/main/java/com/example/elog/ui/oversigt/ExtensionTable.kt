@@ -1,20 +1,17 @@
-package com.example.elog.ui.oversigt;
+package com.example.elog.ui.oversigt
 
+import com.amrdeveloper.treeview.TreeViewHolder
+import android.widget.TextView
+import com.example.elog.R
+import com.example.elog.ui.oversigt.ExtensionTable
 
-import com.example.elog.R;
-
-public class ExtensionTable {
-
-    public static int getExtensionIcon(String extension) {
-        switch (extension) {
-            case ".c": return R.drawable.ic_c;
-            case ".cpp": return R.drawable.ic_cpp;
-            case ".cs": return R.drawable.ic_cs;
-            case ".git": return R.drawable.ic_git;
-            case ".go": return R.drawable.ic_go;
-            case ".gradle": return R.drawable.ic_gradle;
-            case ".java": return R.drawable.ic_java;
-            default: return R.drawable.ic_file;
+object ExtensionTable {
+    fun getExtensionIcon(extension: String?): Int {
+        return when (extension) {
+            ".rod" -> R.drawable.rod
+            ".gul" -> R.drawable.gul
+            ".gron" -> R.drawable.groen
+            else -> R.drawable.ic_file
         }
     }
 }

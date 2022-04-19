@@ -1,54 +1,46 @@
-package com.example.elog.ui.oversigt;
+package com.example.elog.ui.oversigt
 
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
+import android.view.View
+import android.widget.ImageView
+import com.amrdeveloper.treeview.TreeViewHolder
+import android.widget.TextView
+import com.amrdeveloper.treeview.TreeNode
+import com.example.elog.R
+import com.example.elog.ui.oversigt.ExtensionTable
 
-import androidx.annotation.NonNull;
-
-import com.amrdeveloper.treeview.TreeNode;
-import com.amrdeveloper.treeview.TreeViewHolder;
-import com.example.elog.R;
-
-public class CustomViewHolder extends TreeViewHolder {
-
-    private TextView fileName;
-    private ImageView fileStateIcon;
-    private ImageView fileTypeIcon;
-
-    public CustomViewHolder(@NonNull View itemView) {
-        super(itemView);
-        initViews();
+class CustomViewHolder(itemView: View) : TreeViewHolder(itemView) {
+    private var fileName: TextView? = null
+    private var fileStateIcon: ImageView? = null
+    private var fileTypeIcon: ImageView? = null
+    private fun initViews() {
+        fileName = itemView.findViewById(R.id.file_name)
+        fileStateIcon = itemView.findViewById(R.id.file_state_icon)
+        fileTypeIcon = itemView.findViewById(R.id.file_type_icon)
     }
 
-    private void initViews() {
-        fileName = itemView.findViewById(R.id.file_name);
-        fileStateIcon = itemView.findViewById(R.id.file_state_icon);
-        fileTypeIcon = itemView.findViewById(R.id.file_type_icon);
-    }
-
-    @Override
-    public void bindTreeNode(TreeNode node) {
-        super.bindTreeNode(node);
-
-        String fileNameStr = node.getValue().toString();
-        fileName.setText(fileNameStr);
-
-        int dotIndex = fileNameStr.indexOf('.');
+    override fun bindTreeNode(node: TreeNode) {
+        super.bindTreeNode(node)
+        val fileNameStr = node.value.toString()
+        fileName!!.text = fileNameStr
+        val dotIndex = fileNameStr.indexOf('.')
         if (dotIndex == -1) {
-            fileTypeIcon.setImageResource(R.drawable.ic_folder);
+            fileTypeIcon!!.setImageResource(R.drawable.ic_folder)
         } else {
-            String extension = fileNameStr.substring(dotIndex);
-            int extensionIcon = ExtensionTable.getExtensionIcon(extension);
-            fileTypeIcon.setImageResource(extensionIcon);
+            val extension = fileNameStr.substring(dotIndex)
+            val extensionIcon = ExtensionTable.getExtensionIcon(extension)
+            fileTypeIcon!!.setImageResource(extensionIcon)
         }
+        if (node.children.isEmpty()) {
+            fileStateIcon!!.visibility = View.INVISIBLE
+        } else {
+            fileStateIcon!!.visibility = View.VISIBLE
+            val stateIcon =
+                if (node.isExpanded) R.drawable.ic_arrow_down else R.drawable.ic_arrow_right
+            fileStateIcon!!.setImageResource(stateIcon)
+        }
+    }
 
-        if (node.getChildren().isEmpty()) {
-            fileStateIcon.setVisibility(View.INVISIBLE);
-        } else {
-            fileStateIcon.setVisibility(View.VISIBLE);
-            int stateIcon = node.isExpanded() ? R.drawable.ic_arrow_down : R.drawable.ic_arrow_right;
-            fileStateIcon.setImageResource(stateIcon);
-        }
+    init {
+        initViews()
     }
 }
