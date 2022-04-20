@@ -7,17 +7,35 @@
     tools:context=".ui.oversigt.OversigtFragment">
 
     <HorizontalScrollView
-        android:fillViewport="true"
+        android:id="@+id/horizontalScrollView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_view"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:scrollbars="vertical"
-            android:background="@color/mediumblaa"/>
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30sp"
+            android:layout_marginEnd="250dp"
+            android:layout_marginBottom="50dp"
+            android:scrollbars="vertical" />
     </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/logbogSendBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/btnColor"
+        android:gravity="center|clip_vertical|center_vertical"
+        android:text="SEND"
+        android:theme="@style/overskrift_formular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/horizontalScrollView" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,6 +7,7 @@
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/drawable-v24/ic_arrow_right.xml" value="0.1" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/drawable-v24/ic_folder.xml" value="0.1" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.18" />
+        <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/drawable/add_icon.xml" value="0.187" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/drawable/card_background.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/drawable/edittext__inactive_border.xml" value="0.123" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/drawable/edittext_border.xml" value="0.146" />
@@ -21,6 +22,7 @@
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/drawable/ic_menu_camera.xml" value="0.18" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.18" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.18" />
+        <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/drawable/item_background.xml" value="0.187" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/drawable/menu_background_color_state.xml" value="0.1" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/drawable/nav_selector.xml" value="0.1635" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/drawable/side_nav_bar.xml" value="0.18" />
@@ -46,7 +48,7 @@
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/layout/fragment_home.xml" value="0.13632246376811594" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/layout/fragment_landing.xml" value="0.7333333333333334" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/layout/fragment_melding.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/layout/fragment_oversigt.xml" value="0.1" />
+        <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/layout/fragment_oversigt.xml" value="0.22" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/layout/fragment_slideshow.xml" value="0.13632246376811594" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/layout/list_item_child.xml" value="0.14749893116716545" />
         <entry key="..\:/Users/Maria/OneDrive - Danmarks Tekniske Universitet/Projekt/AndroidStudio/app/src/main/res/layout/list_item_file.xml" value="0.1" />
