@@ -15,13 +15,13 @@
             android:src="@drawable/ic_arrow_right"
             />
 
-        <ImageView
-            android:id="@+id/file_type_icon"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_centerVertical="true"
-            android:src="@drawable/groen"
-            android:layout_toRightOf="@+id/file_state_icon"/>
+    <ImageView
+        android:id="@+id/file_type_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/file_state_icon"
+        android:src="@drawable/groen" />
 
         <TextView
             android:id="@+id/file_name"

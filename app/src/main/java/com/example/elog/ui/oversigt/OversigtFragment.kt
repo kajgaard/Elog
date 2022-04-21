@@ -16,6 +16,7 @@ import com.amrdeveloper.treeview.TreeViewAdapter
 import com.amrdeveloper.treeview.TreeViewHolderFactory
 import com.example.elog.R
 import com.example.elog.databinding.FragmentOversigtBinding
+import kotlinx.android.synthetic.main.fangst_fangstoplysninger.*
 import kotlinx.android.synthetic.main.fragment_oversigt.*
 
 
@@ -24,6 +25,9 @@ import kotlinx.android.synthetic.main.fragment_oversigt.*
 
 class OversigtFragment : Fragment() {
     private var binding: FragmentOversigtBinding? = null
+    lateinit var treeViewAdapter: TreeViewAdapter
+    lateinit var fileRoots: MutableList<TreeNode>
+
     override fun onCreateView(inflater: LayoutInflater,
                               container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val oversigtViewModel = ViewModelProvider(this).get(OversigtViewModel::class.java)
@@ -32,22 +36,16 @@ class OversigtFragment : Fragment() {
         //val textView = binding!!.textOversigt
         //oversigtViewModel.text.observe(viewLifecycleOwner) { text: String? -> textView.text = text }
 
+        val rv = binding!!.recyclerView
+        rv.layoutManager = LinearLayoutManager(requireContext())
+        rv.isNestedScrollingEnabled = false
 
-
-
-        return root
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-
-        recycler_view.layoutManager = LinearLayoutManager(requireContext())
-        recycler_view.isNestedScrollingEnabled = false
 
         val factory =
             TreeViewHolderFactory { v: View, layout: Int -> CustomViewHolder(v) }
 
-        val treeViewAdapter = TreeViewAdapter(factory)
-        recycler_view.adapter = treeViewAdapter
+        treeViewAdapter = TreeViewAdapter(factory)
+        rv.adapter = treeViewAdapter
 
 
         val afrejseMelding = TreeNode("Afrejse: 14-03-2022 12:00, STRANDBY (NORDJYLLAND) (DKSTD).gron", R.layout.list_item_root)
@@ -70,9 +68,6 @@ class OversigtFragment : Fragment() {
         danskMelding.addChild(TreeNode("Dato:16-03-2022 10:00.gul", R.layout.list_item_child))
         danskMelding.addChild(TreeNode("Sendes til: DNK.gul", R.layout.list_item_child))
 
-
-
-
         val fangstMelding = TreeNode("Fangst: 14:00.rod", R.layout.list_item_root)
         fangstMelding.addChild(TreeNode("Kladde: Nej.rod", R.layout.list_item_child))
         fangstMelding.addChild(TreeNode("Udsætningsdato og -tid 14-03-2022 13:00.rod", R.layout.list_item_child))
@@ -87,14 +82,35 @@ class OversigtFragment : Fragment() {
         fangstMelding.addChild(TreeNode("Økonomisk zone: GRL (GRØNLAND).rod", R.layout.list_item_child))
 
 
-
-
-        val fileRoots: MutableList<TreeNode> = ArrayList()
+        //val fileRoots: MutableList<TreeNode> = ArrayList()
+        fileRoots = ArrayList()
         fileRoots.add(afrejseMelding)
         fileRoots.add(danskMelding)
         fileRoots.add(fangstMelding)
 
+
+
+        treeViewAdapter.expandAll()
+
+        binding!!.logbogSendBtn.setOnClickListener {
+
+            treeViewAdapter.expandNode(afrejseMelding)
+            treeViewAdapter.expandNode(fangstMelding)
+
+
+        }
+
         treeViewAdapter.updateTreeNodes(fileRoots)
+
+
+
+
+        return root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+
+        logbogSendBtn.performClick()
 
         super.onViewCreated(view, savedInstanceState)
     }
@@ -103,4 +119,6 @@ class OversigtFragment : Fragment() {
         super.onDestroyView()
         binding = null
     }
+
+
 }

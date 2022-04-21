@@ -18,17 +18,17 @@
             android:layout_height="match_parent"
             android:layout_marginStart="50dp"
             android:layout_marginTop="30sp"
-            android:layout_marginEnd="250dp"
+            android:layout_marginEnd="225dp"
             android:layout_marginBottom="50dp"
             android:scrollbars="vertical" />
     </HorizontalScrollView>
 
     <Button
         android:id="@+id/logbogSendBtn"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="50dp"
         android:backgroundTint="@color/btnColor"
         android:gravity="center|clip_vertical|center_vertical"
         android:text="SEND"
@@ -37,5 +37,24 @@
         app:layout_constraintEnd_toEndOf="@+id/horizontalScrollView" />
 
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Vis udskrift"
+        android:theme="@style/brodtekst_formular"
+        app:layout_constraintBottom_toTopOf="@+id/logbogSendBtn"
+        app:layout_constraintEnd_toEndOf="@+id/logbogSendBtn" />
 
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/pdf"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:tint="@color/moerkblaa" />
 </androidx.constraintlayout.widget.ConstraintLayout>
