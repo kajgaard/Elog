@@ -1,14 +1,16 @@
 package com.example.elog.ui.fangst
 
 //import androidx.lifecycle.ViewModelProvider.get
+import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.*
+import android.widget.ArrayAdapter
+import android.widget.ScrollView
+import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.core.view.isVisible
-import androidx.core.view.iterator
 import androidx.core.view.size
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -20,10 +22,14 @@ import kotlinx.android.synthetic.main.fangst_redskaber.*
 import kotlinx.android.synthetic.main.fangst_standardbesked.*
 import kotlinx.android.synthetic.main.fangst_tagesop.*
 import kotlinx.android.synthetic.main.fangst_udsaetning.*
-import kotlinx.android.synthetic.main.fragment_afrejse.*
 import kotlinx.android.synthetic.main.fragment_fangst.*
-import kotlinx.android.synthetic.main.tilfoj_row.*
 import kotlinx.android.synthetic.main.tilfoj_row.view.*
+import org.apache.commons.csv.CSVFormat
+import org.apache.commons.csv.CSVParser
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.nio.file.Files
+import java.nio.file.Paths
 
 
 class FangstFragment : Fragment() {
@@ -37,6 +43,7 @@ class FangstFragment : Fragment() {
         return root
     }
 
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
         val redskaberliste = resources.getStringArray(R.array.redskaber)
@@ -120,6 +127,24 @@ class FangstFragment : Fragment() {
             findNavController().navigate(R.id.nav_oversigt)
 
         }
+
+        //val CSV_File_Path = "C:\\Users\\Maria\\OneDrive - Danmarks Tekniske Universitet\\Projekt\\AndroidStudio\\app\\src\\main\\assets"
+
+        //val reader = Files.newBufferedReader(Paths.get(CSV_File_Path))
+        // parse the file into csv values
+        //val csvParser = CSVParser(reader, CSVFormat.DEFAULT)
+        //for (csvRecord in csvParser) {
+            // Accessing Values by Column Index
+         //   val id = csvRecord.get(0)
+        //    val navn = csvRecord.get(1)
+
+
+
+        //}
+
+
+
+
 
         super.onViewCreated(view, savedInstanceState)
     }
